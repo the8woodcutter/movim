@@ -1,0 +1,38 @@
+/* Menu */
+
+body > nav > ul:not(:first-child) li p:first-of-type {
+    height: 6rem;
+    line-height: 6rem;
+}
+
+body > nav > ul.list li {
+    padding-left: 0.5rem;
+}
+
+body > nav.color.dark > ul a {
+    color: white;
+}
+
+ul.oppose {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-height: 28rem) {
+    ul.oppose {
+        bottom: initial;
+    }
+}
+
+/* Navigation */
+
+ul.navigation li > span.primary > i {
+    transition: opacity 0.15s ease;
+    opacity: 0.5;
+}
+
+ul.navigation li.active > span.primary > i,
+ul.navigation li:not(.active):hover > span.primary > i {
+    opacity: 1;
+}

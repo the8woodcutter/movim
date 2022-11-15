@@ -1,0 +1,136 @@
+.flex {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
+}
+
+.flex.large {
+    padding: 0;
+}
+
+.flex.card {
+    gap: 0 1rem;
+}
+
+ul.flex li.block {
+    border-radius: 0.65rem;
+    transition: background 0.3s ease;
+}
+
+.flex .block:not(.subheader) {
+    overflow: hidden;
+}
+
+.flex.card .block:not(.subheader) {
+    min-height: 5rem;
+}
+
+.flex.stacked .block:not(.subheader) {
+    margin-bottom: 0;
+}
+
+.flex.third {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.flex.fourth {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.flex.fifth {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.flex .block.large,
+.flex.card .block.large {
+    grid-column: 1/-1;
+}
+
+.column {
+    column-count: 3;
+    margin: 1rem 0;
+    line-height: 0;
+}
+
+.column > * {
+    display: inline-block;
+    width: 100%;
+}
+
+@media screen and (min-width: 451px) and (max-width: 900px) {
+    .flex {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .flex.flex.third {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .flex.fourth {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .flex.flex.fifth {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .column {
+        column-count: 2;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .flex,
+    .flex.flex.third {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .flex.fourth {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .flex.flex.fifth {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .column {
+        column-count: 1;
+    }
+}
+
+/* Gallery */
+
+ul.flex.gallery li.block {
+    display: flex;
+    flex-direction: column;
+}
+
+ul.flex.gallery li.block p a.node,
+ul.flex.gallery li.block > img + span,
+ul.flex.gallery li.block > span.primary {
+    display: none;
+}
+
+ul.flex.gallery li.block div {
+    flex: initial;
+    margin-top: auto;
+    width: 100%;
+}
+
+ul.flex.gallery li.block img.main {
+    position: relative;
+    opacity: 1;
+    height: initial;
+    max-height: 35rem;
+    max-width: calc(100% + 3rem);
+    width: calc(100% + 3rem);
+    filter: none;
+    flex: 0 0 60%;
+    -webkit-mask-image: linear-gradient(to bottom, black calc(100% - 20rem), transparent);
+    mask-image: linear-gradient(to bottom, black calc(100% - 20rem), transparent);
+    margin-bottom: -10rem;
+}
+
+ul.flex.gallery li.block img.main:after {
+    content: attr(alt);
+}

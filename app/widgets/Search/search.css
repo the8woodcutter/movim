@@ -1,0 +1,29 @@
+#search ul#search_posts > li:not(.subheader) {
+    margin: 1rem;
+    margin-top: 0;
+}
+
+#search ul#search_posts > li:not(.subheader):last-child {
+    margin-bottom: 0;
+}
+
+#search form > div:not(.clear):not(.control) {
+    min-height: 8rem;
+}
+
+#search form > div > input:not([type="submit"]) {
+    padding-top: 3.7rem;
+    margin-bottom: 0;
+}
+
+#search form > div:not(.control) {
+    top: -1rem;
+}
+
+#search ul#roster li:not(.found) {
+    display: none;
+}
+
+#search ul#roster li.showall {
+    margin-top: 1rem;
+}

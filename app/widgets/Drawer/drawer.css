@@ -1,0 +1,65 @@
+.drawer {
+    position: fixed;
+    z-index: 3;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 7rem);
+    box-shadow: 0 2.5rem 5rem rgba(0,0,0,0.30), 0 2rem 1.5rem rgba(0,0,0,0.22);
+    transition: transform .25s ease-in-out, opacity .25s ease-in-out;
+}
+
+.drawer + .drawer_close.button.color {
+    position: absolute;
+    height: 5.5rem;
+    right: 0;
+    z-index: 1;
+    background-color: transparent;
+    transition: transform .25s var(--decelerate-easing);
+    box-shadow: none;
+}
+
+.drawer + .drawer_close.button.color i {
+    font-size: 3.5rem;
+    line-height: 5.5rem;
+}
+
+.drawer > section {
+    height: 100%;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch; /* Hack to have a non-blocking scrolling in iOS… */
+    position: relative;
+}
+
+.drawer > section > table,
+.drawer > section > ul.flex {
+    margin: 0 auto;
+}
+
+.drawer.empty {
+    transition-timing-function: ease-in-out;
+    transform: translateY(10%);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.drawer.empty + .drawer_close.button.color {
+    transition-timing-function: var(--accelerate-easing);
+    transform: translateY(-150%);
+}
+
+.drawer form.padded {
+    padding: 2rem;
+}
+
+@media screen and (min-width: 570px) {
+    .drawer {
+        border-radius: 0.75rem 0.75rem 0 0;
+        width: 70rem;
+        left: calc(50% - 35rem);
+    }
+
+    .drawer + .drawer_close.button.color {
+        right: calc(50% - 36rem);
+    }
+}

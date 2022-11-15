@@ -1,0 +1,556 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    list-style-type: none;
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+:focus {
+    outline: 0;
+}
+
+html {
+    font-size: 8.25px;
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+.clear.padded {
+    height: 2rem;
+}
+
+body > * {
+    display: block;
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+body > script {
+    display: none;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+/* Navigation bar */
+
+body > nav {
+    width: 7rem;
+    max-width: 95%;
+    z-index: 2;
+    position: absolute;
+    overflow-y: auto;
+    left: 0;
+    user-select: none;
+}
+
+body > nav.active {
+    width: 45rem;
+}
+
+body > div.drawer:not(.empty) ~ main,
+body > div.drawer:not(.empty) ~ nav,
+body > div.dialog:not(:empty) ~ main,
+body > div.dialog:not(:empty) ~ nav,
+body > nav.active ~ main {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+body > nav.active ~ main {
+    transform: translateX(6rem);
+}
+
+body > nav li { /* Little hack for the navbar */
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+    body > nav.active {
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    }
+
+    body > nav:not(.active) {
+        width: 45rem;
+        transform: translateX(-100%);
+    }
+
+    body > nav.moving {
+        transition: transform .25s var(--decelerate-easing);
+    }
+
+    body > nav.active.moving {
+        transition: transform .25s var(--accelerate-easing);
+        transform: translateX(0%);
+    }
+}
+
+@media screen and (min-width: 1680px) {
+    body > nav,
+    body > nav:hover {
+        width: 15%;
+    }
+
+    body > nav ~ main,
+    body > nav:hover ~ main {
+        width: 85%;
+    }
+}
+
+body > nav.active:before {
+    display: none;
+}
+
+/* Main */
+
+main {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: opacity 0.25s ease-in-out, transform 0.25s ease-in-out;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch; /* Hack to have a non-blocking scrolling in iOS… */
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+@media print {
+    main {
+        display: block;
+        height: auto;
+    }
+}
+
+nav ~ main {
+    width: calc(100% - 7rem);
+    border-radius: 1rem 0 0 1rem;
+}
+
+main > div {
+    width: 92rem;
+    max-width: 100%;
+}
+
+main > div > * {
+    max-width: 92rem;
+    margin: 0 auto;
+}
+
+main > div.large {
+    max-width: 130rem;
+    width: 100%;
+}
+
+main > div.large > * {
+    max-width: 100%;
+}
+
+main > aside {
+    width: 45rem;
+}
+
+main > aside + div {
+    width: 85rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+}
+
+body[dir="rtl"] main > aside + div {
+    padding-left: 1rem;
+    padding-right: 0;
+}
+
+/* Two blocks */
+main > div:first-child:nth-last-child(2) {
+    width: 70%;
+}
+
+main > div:first-child:nth-last-child(2) + div {
+    width: 30%;
+    overflow-y: auto;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 1024px) {
+    nav ~ main {
+        overflow-x: hidden;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    nav ~ main.slide {
+        display: block;
+    }
+
+    main.slide > div:first-child:nth-last-child(2),
+    main.slide > div:first-child:nth-last-child(2) + div {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    main.slide > div:first-child:nth-last-child(2) + div {
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    }
+
+    main.slide > div:first-child:nth-last-child(2) {
+        z-index: 1;
+        box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
+        transform: translateX(100%);
+    }
+
+    main.slide > div:first-child:nth-last-child(2).moving {
+        transition: transform .25s var(--decelerate-easing);
+        will-change: transform;
+    }
+
+    main.slide.enabled > div:first-child:nth-last-child(2) {
+        transform: translateX(0);
+    }
+
+    main.slide.enabled > div:first-child:nth-last-child(2).moving {
+        transition: transform .25s var(--accelerate-easing);
+        will-change: transform;
+    }
+
+    main.slide.enabled > div:first-child:nth-last-child(2) + div {
+        opacity: 0.3;
+        transform: translateX(-2rem);
+    }
+
+    main > aside + div {
+        padding-right: 0;
+    }
+
+    body[dir="rtl"] main > aside + div {
+        padding-left: 0;
+    }
+
+    main > aside {
+        display: none;
+    }
+}
+
+/* Actions bar */
+
+.actions {
+    padding-bottom: 7rem;
+}
+
+.actions > div:last-child {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: right;
+    bottom: 0;
+    padding: 0.5rem;
+    position: absolute;
+    border-top: 1px solid rgba(var(--movim-font), 0.12);
+}
+
+.actions > div.no_bar:last-child {
+    border-top: none;
+}
+
+.actions.fixed > div:last-child {
+    position: fixed;
+    min-height: 7rem;
+    max-width: calc(100% - 5rem);
+    width: 100%;
+    padding: 0;
+}
+
+.actions > div:last-child form > div {
+    min-height: 0;
+    top: -0.5rem;
+}
+
+.actions > div:last-child form > div input {
+    margin: 0;
+    padding-top: 1.5rem;
+}
+
+.drawer.actions > div:last-child ul.tabs {
+    margin-top: -0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 0;
+    overflow-x: auto;
+}
+
+.drawer.actions > div:last-child ul.tabs li {
+    height: 6.5rem;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-bottom-width: 0;
+    border-top-color: transparent;
+    border-radius: 0 0 1.25rem 1.25rem;
+}
+
+.drawer.actions > div:last-child ul.tabs li.active {
+    border-top-color: inherit;
+}
+
+.actions.scroll > section {
+    margin-bottom: 1rem;
+}
+
+.actions.scroll > section > article > section {
+    padding: 0;
+}
+
+.actions.fixed > div:last-child > * { /* Little hack to fake the 100% width that overflow the parent */
+    max-width: 92rem;
+    margin: 0 auto;
+}
+
+/* Hr */
+
+hr:not(.clear) {
+    border-bottom: 1px solid;
+    width: 100%;
+}
+
+hr.thick {
+    margin: 1rem 0;
+}
+
+/* Spin */
+
+.spin:empty {
+    background-image: url(../img/movim_cloud.svg);
+    background-repeat: no-repeat;
+    background-position: center 33%;
+    background-size: 9rem;
+    min-height: 30rem;
+}
+
+.spin:not(.list) {
+    min-height: 80%;
+}
+
+/* Avatar */
+
+img.avatar,
+span.avatar {
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    display: block;
+    max-width: 100%;
+    background-color: rgb(var(--movim-background-main));
+    animation: fadein 0.2s;
+    line-height: 100%;
+}
+
+span.avatar.icon {
+    height: 25rem;
+    width: 25rem;
+    line-height: 25rem;
+}
+
+img.avatar:not([src=""]) + .placeholder {
+    display: none;
+}
+
+/* Placeholder */
+
+.placeholder {
+    text-align: center;
+    font-size: 1.2em;
+    max-width: 55rem;
+    margin: 0 auto;
+    padding: 4rem;
+    box-sizing: border-box;
+}
+
+.placeholder > i:first-child {
+    font-size: 14rem;
+    opacity: 0.3;
+}
+
+.placeholder h1 {
+    color: #888;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.placeholder h4 {
+    color: #AAA;
+}
+
+.placeholder p {
+    text-align: center;
+}
+
+/* Padded */
+
+@media screen and (max-width: 800px) {
+    .padded {
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+
+    .padded_top_bottom {
+        padding: 0 1rem;
+        box-sizing: border-box;
+    }
+}
+
+/* Display/hide */
+
+.on_mobile {
+    display: none !important;
+}
+
+@media screen and (max-width: 1024px) {
+    .on_mobile {
+        display: inherit !important;
+    }
+
+    .on_mobile.material-icons {
+        display: inline !important;
+    }
+
+    .on_desktop {
+        display: none !important;
+    }
+}
+
+/* Tag */
+.tag {
+    font-size: 1.5rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.25rem;
+}
+
+/* Disabled */
+
+.faded > * {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+.recessed {
+    opacity: 0.9;
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+/* Fingerprint */
+.fingerprint {
+    font-family: monospace;
+    max-width: 44rem;
+    display: block;
+    line-height: 3rem;
+}
+
+.fingerprint.self {
+    font-weight: bold;
+}
+
+/* Spinner */
+
+div#spinner {
+    position: relative;
+    overflow: visible;
+    text-align: center;
+    margin: 50% 0;
+}
+
+.show {
+    display: inherit;
+}
+
+ul.list li.hide,
+.hide {
+    display: none;
+}
+
+/* Transparent images background */
+img.transparent {
+    background-color: #eee;
+    background-image: linear-gradient(45deg, #CCC 25%, transparent 25%, transparent 75%, #CCC 75%, #CCC),
+        linear-gradient(45deg, #CCC 25%, transparent 25%, transparent 75%, #CCC 75%, #CCC);
+    background-size: 30px 30px;
+    background-position: 0 0, 15px 15px;
+}
+
+/* Animations */
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes fadetext {
+    0%,100% { color: transparent; }
+    25%,75% { color: white; } /* Enforce white for now as inherit is not applied correctly */
+}
+
+@keyframes spin {
+    100% { transform:rotate(360deg); }
+}
+
+@keyframes zoom {
+    from { transform: scale(0.9); opacity: 0; }
+    to   { transform: scale(1); opacity: 1; }
+}
+
+@keyframes bottom-right {
+    from { transform: translate(10%, 20%); }
+    to   { transform: translate(0, 0); }
+}
+
+@keyframes loadingopacity {
+    from { opacity: 0.2; }
+    to { opacity: 1; }
+}
+
+@keyframes ripple {
+    from {
+        opacity: 0.5;
+        transform: scale(0.1);
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+
+body {
+    --standard-easing: cubic-bezier(0.4, 0.0, 0.2, 1);
+    --accelerate-easing: cubic-bezier(0.167, 0.167, 0, 1);
+    --decelerate-easing: cubic-bezier(1, 0, 0.833, 0.833);
+}

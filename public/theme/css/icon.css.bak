@@ -1,0 +1,202 @@
+/* Icon */
+
+span.icon {
+    font-size: 3rem;
+    line-height: 5rem;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    word-break: keep-all;
+}
+
+span.icon.spin,
+i.spin {
+    animation: spin 2s linear infinite;
+}
+
+span.icon img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+span.icon.top {
+    position: relative;
+    top: -1.5rem;
+    width: 100%;
+    height: 10rem;
+    line-height: 10rem;
+    display: block;
+    margin: 0;
+    left: 0;
+}
+
+span.icon.top.preview {
+    height: 25rem;
+}
+
+span.icon.primary.thumb,
+span.icon.control.thumb {
+    width: 7rem;
+    line-height: 7rem;
+    margin-right: -1.5rem;
+    margin-left: 0.5rem;
+    align-self: stretch;
+    height: auto;
+    text-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+}
+
+span.icon.primary.thumb {
+    margin-left: -1.5rem;
+    margin-right: 0.5rem;
+}
+
+span.primary.overflow {
+    margin-left: -4.5rem;
+    margin-right: 0;
+}
+
+ul.fill li span.icon.primary.thumb {
+    margin-left: 0;
+}
+
+ul.fill li span.icon.control.thumb {
+    margin-right: 0;
+}
+
+span.icon.bubble {
+    border-radius: 0.4rem;
+    font-size: 2.25rem;
+    user-select: none;
+    -moz-user-select: none;
+    height: 5rem;
+}
+
+span.icon.bubble img:not(.emoji) {
+    border-radius: 0.4rem;
+}
+
+span.icon.bubble > i,
+span.icon.bubble > a > i {
+    font-size: 3rem;
+    line-height: 5rem;
+}
+
+ul.list li span.icon.small {
+    height: 4rem;
+    line-height: 3.8rem;
+    font-size: 0; /* Only display the first letter */
+    flex: 0 0 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+ul.list li span.icon.small img.emoji {
+    width: 1.75rem;
+    height: 4rem;
+}
+
+ul.list li span.icon.small:not(.bubble) > i {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+span.icon.small.bubble:first-letter,
+span.icon.small.bubble > i,
+span.icon.small.bubble > a > i {
+    font-size: 2.25rem;
+    line-height: 4rem;
+}
+
+span.icon span.counter,
+span.icon.composing:after,
+span.icon.status:after {
+    content: '';
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    right: calc(50% - 2.75rem);
+    top: 3rem;
+    position: absolute;
+    transition: border-radius 0.15s ease-in-out;
+    border-radius: 2em;
+    background-color: #DDD;
+    box-shadow: -0.1rem -0.1rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+span.icon.status.location:after {
+    content: 'place';
+    font-family: 'Material Icons';
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+/* Weird bug */
+span.icon.small.status:after {
+    border-radius: 2rem;
+}
+
+span.icon.small span.counter,
+span.icon.small.composing:after,
+span.icon.small.status:after {
+    top: 2.25rem;
+}
+
+main ul li .control > i {
+    margin-left: 0;
+}
+
+/* Counter */
+
+span.icon span.counter:empty {
+    display: none;
+}
+
+span.icon.composing:after,
+span.icon span.counter {
+    z-index: 1;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    border-radius: 0.5rem;
+    width: auto;
+    min-width: 1.5rem;
+    padding: 0 0.25rem;
+    height: auto;
+}
+
+span.icon span.counter > i {
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+}
+
+/* Text icon */
+i.icon-text {
+    font-size: 2.5rem;
+    margin: 0 0.25rem;
+    line-height: 3rem;
+    vertical-align: middle;
+}
+
+/* Tiny icon */
+p span.icon.tiny {
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+/* Composing */
+
+span.icon.composing:after {
+    content: '…';
+    line-height: 1rem;
+    z-index: 1;
+    font-size: 2rem;
+    height: 2rem;
+    font-weight: bold;
+    animation: fadetext 1.5s infinite;
+}

@@ -1,0 +1,41 @@
+ul#chats_widget_list {
+    overflow: hidden;
+}
+
+ul#chats_widget_list ~ .placeholder {
+    display: none;
+}
+
+ul#chats_widget_list li {
+    transition: opacity 0.2s ease-in-out;
+    overflow: hidden;
+    box-sizing: border-box;
+    max-height: 8rem;
+}
+
+ul#chats_widget_list li.moving {
+    will-change: transform;
+    transition: transform 0.1s, max-height 0.2s ease-in-out 0.2s;
+}
+
+ul#chats_widget_list li.closing {
+    will-change: transform;
+    transition: transform 0.1s, max-height 0.2s ease-in-out 0.2s;
+    max-height: 0;
+}
+
+ul#chats_widget_list li.closing.to_left {
+    transform: translateX(-100%);
+}
+
+ul#chats_widget_list li.closing.to_right {
+    transform: translateX(100%);
+}
+
+ul#chats_widget_list li.close {
+    opacity: 0.5;
+}
+
+ul#chats_widget_list:empty ~ .placeholder {
+    display: block;
+}

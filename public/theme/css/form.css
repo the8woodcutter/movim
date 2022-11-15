@@ -1,0 +1,476 @@
+/* Form */
+
+input {
+    filter: none;
+}
+
+li > form {
+    display: block;
+}
+
+form > div:not(.clear):not(.control) {
+    min-height: 9rem;
+    position: relative;
+    box-sizing: border-box;
+}
+
+form > div.compact:not(.clear):not(.control) {
+    min-height: 0;
+}
+
+li > form > div:not(.control) { /* If we put the form in a list */
+    min-height: 0;
+    padding-top: 0rem;
+    top: -1.5rem;
+}
+
+form > div label {
+    position: absolute;
+    top: 1.5rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+    user-select: none;
+    /*left: 0;*/ /* We force the left align */
+}
+
+
+*[dir="rtl"] form > div label {
+    right: 0;
+}
+
+form > div.icon {
+    padding-left: 9rem;
+}
+
+form > div textarea,
+#hiddendiv {
+    border: none;
+    resize: none;
+    line-height: 3rem;
+    box-sizing: border-box;
+}
+
+form > div .select:not(.multi):after {
+    font-family: 'Material Icons';
+    content: "\e5c5";
+    display: block;
+    font-size: 4rem;
+    color: #999;
+    position: absolute;
+    right: 0rem;
+    bottom: 0rem;
+    pointer-events: none;
+}
+
+*[dir="rtl"] form > div .select::after {
+    left: 1.25rem;
+    right: auto;
+}
+
+form > div .select:hover:after {
+    color: #555;
+}
+
+form > div .select select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    background-color: rgb(var(--movim-background-main));
+    background-image: none;
+    padding-bottom: 1rem;
+}
+
+main > header form > div:not(.clear):not(.control) {
+    min-height: 0;
+}
+
+main > header li > form > div:not(.clear):not(.control) {
+    top: 1rem;
+}
+
+main > header form > div:not(.clear):not(.control) > input,
+main > header form > div:not(.clear):not(.control) > .select {
+    padding-top: 0;
+}
+
+main > header form > div:not(.clear):not(.control) > .select option {
+    background-color: white;
+    color: initial;
+}
+
+main > header form > div:not(.clear):not(.control) > input,
+main > header form > div:not(.clear):not(.control) > .select:after,
+main > header form > div:not(.clear):not(.control) > .select select {
+    color: white;
+}
+
+/* Placeholders to mimic FF */
+
+::-webkit-input-placeholder, /* WebKit browsers */
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #fff;
+    opacity: 0.5;
+}
+
+/* Webkit weird CSS, sic */
+
+form > div .select select,
+form > div input:not([type=submit]),
+form > div textarea {
+    outline-width: 0;
+}
+
+form > div .labeled,
+form > div .select,
+form > div input:not([type=submit]),
+form > div textarea {
+    display: block;
+    padding: 1rem 0;
+    padding-top: 4rem;
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 1rem;
+
+    -webkit-appearance: none; /* iOS */
+    border-radius: 0; /* iOS */
+    overflow: hidden; /* Fixme */
+}
+
+form > div .select,
+form > div input:not([type=submit]),
+form > div textarea {
+    box-shadow: 0px 1px 0px rgba(var(--movim-font), 0.12);
+}
+
+form > div > img,
+form > div > p {
+    padding-top: 1.5rem;
+}
+
+form > div .select {
+    position: relative;
+    padding-top: 4rem;
+    padding-bottom: 0;
+}
+
+form > div.compact > .select,
+form > div.compact > input:not([type=submit]),
+form > div.compact > textarea {
+    padding-top: 2.5rem;
+}
+
+/* Webkit hack */
+form > div input:not([type=submit]):-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 50px white inset;
+}
+form > div input:not([type=submit]):-webkit-autofill:focus {
+    box-shadow: 0;
+    -webkit-text-fill-color: #333;
+}
+
+/* File */
+
+input[type=file] {
+    max-width: 100%;
+    margin-top: 1rem;
+}
+
+/* Checkbox element */
+
+form > div .checkbox > input[type="checkbox"],
+form > div .radio > input[type="radio"] {
+    display: none;
+}
+
+form > div .checkbox {
+    position: relative;
+    width: 4.5rem;
+    height: 2.25rem;
+    margin-top: calc(50% - 0.9rem);
+    direction: ltr;
+}
+
+form > div .checkbox:before,
+form > div .checkbox:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+}
+
+form > div .checkbox:before {
+    border-radius: 2rem 0 0 2rem;
+}
+
+form > div .checkbox:after {
+    border-radius: 0 2rem 2rem 0;
+    background-color: rgba(var(--movim-font), 0.25);
+    right: 0;
+    top: 0;
+}
+
+form > div .checkbox > input[type="checkbox"] + label {
+    z-index: 1;
+    display: block;
+    background-color: #FAFAFA;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.5);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+    top: -0.4rem;
+    left: -0.2rem;
+    position: relative;
+    font-size: 2rem;
+    text-align: center;
+    line-height: normal;
+
+    transition: left 0.3s ease, box-shadow 0.1s ease;
+}
+
+form > div .checkbox > input[type="checkbox"] + label i {
+    vertical-align: middle;
+    color: #555;
+    line-height: 1.75em;
+}
+
+form > div .checkbox > input[type="checkbox"] + label:hover,
+form > div .checkbox > input[type="checkbox"]:checked + label:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0 1.75rem rgba(0, 0, 0, 0.05), 0 0.2rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+form > div .checkbox > input[type="checkbox"]:checked + label {
+    left: 0.8em;
+}
+
+form > div .checkbox > input[type="checkbox"]:checked + label i {
+    color: white;
+}
+
+/* Radio */
+
+form > div .radio > input[type="radio"] + label {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray;
+    transition: box-shadow 0.1s ease;
+    margin: 1.25rem;
+    margin-bottom: 0;
+}
+
+form > div .radio > input[type="radio"] + label:hover {
+    cursor: pointer;
+    background-color: rgba(var(--movim-font), 0.1);
+    box-shadow: 0 0 0 1.5rem rgba(var(--movim-font), 0.1);
+}
+
+form > div .radio > input[type="radio"]:checked + label {
+    background-color: blue;
+    background-color: #009688;
+    border-color: #009688;
+    box-shadow: inset 0 0 0 0.4rem rgb(var(--movim-background-main));
+
+}
+
+form > div .radio > input[type="radio"]:checked + label:hover {
+    box-shadow: inset 0 0 0rem 0.4rem rgb(var(--movim-background-main)), 0 0 0 1.5rem rgba(var(--movim-font), 0.1);
+}
+
+/* Disabled */
+
+form > div input:disabled,
+form > div input:disabled + label {
+    opacity: 0.5;
+}
+
+/* Readonly */
+
+form > div input[readonly] {
+    opacity: 0.75;
+}
+
+/* Button */
+
+.button.oppose {
+    float: right;
+}
+
+.button:disabled,
+.button.inactive {
+    opacity: 0.6;
+    pointer-events:none;
+}
+
+.button,
+input[type=button] {
+    -webkit-appearance:none; /* iOS */
+    min-width: 5rem;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    height: 4.5rem;
+    margin: 0.75rem 0.25rem;
+    border-radius: 3rem;
+    padding: 0 1.5rem;
+    border: 0;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+    background-image: none;
+    user-select: none;
+}
+
+p > .button,
+p> input[type=button] {
+    margin: 0.75rem 0;
+}
+
+.button.narrow {
+    padding: 0 1rem;
+}
+
+.button:not(.color),
+input[type=button]:not(.color) {
+    background-color: white;
+}
+
+.button:active {
+    box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.23), 0 0.5rem 1.25rem rgba(0, 0, 0, 0.16);
+}
+
+.button.flat,
+input[type=button].flat {
+    box-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+
+.button:hover,
+ul.list.actions > li:hover,
+input[type=button]:hover {
+    cursor: pointer;
+}
+
+.button.flat:hover,
+.button.flat.on,
+input[type=button].flat:hover {
+    background-color: rgba(var(--movim-element-action), 0.2);
+}
+
+.button:focus,
+input[type=button]:focus {
+    border: 0;
+}
+
+.button.flat:focus,
+input[type=button].flat:focus {
+    background-color: rgba(var(--movim-element-action), 0.4);
+}
+
+.button.action {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    min-height: 0rem;
+    min-width: 0rem;
+    line-height: 7rem;
+    height: 7rem;
+    width: 7rem;
+    z-index: 1;
+    font-size: 3.5rem;
+    animation: zoom 0.3s;
+    padding: 0;
+    border-radius: 10rem;
+}
+
+.button.action.small {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+}
+
+body > nav.active ~ main .button.action,
+body > div.dialog:not(:empty) ~ main .button.action,
+body > div.drawer:not(:empty):not(.empty) ~ main .button.action {
+    transform: scale(0.9);
+    opacity: 0;
+}
+
+.button.action,
+ul.list.actions > li > p {
+    box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.23), 0 0.5rem 1.25rem rgba(0, 0, 0, 0.16);
+}
+
+ul.list.actions > li:hover .button.action,
+ul.list.actions > li:hover p,
+.button.action:hover {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.1) 100%);
+}
+
+.button.action,
+.button.action > i {
+    transition: all 0.15s ease 0s;
+}
+
+.button.action.active > i {
+    transform: rotate(45deg);
+}
+
+li.action div.action .button {
+    margin: 0.5rem;
+    display: block;
+}
+
+.button:not(.action) i {
+    font-size: 2.5rem;
+    margin: 0 0.25rem;
+}
+
+@media screen and (min-width: 1025px) {
+    main > div:first-child:nth-last-child(2) + div .button.action {
+        right: calc(70% - 3rem);
+    }
+
+    /* Fix to prevent bad button position when the Websocket is not connected */
+    .snackbar#status_websocket:not(.hide) ~ main > div:first-child:nth-last-child(2) + div .button.action {
+        right: calc(70% + 2rem);
+    }
+
+    aside ~ * .button.action {
+        right: calc(50% - 20rem);
+    }
+}
+
+@media screen and (min-width: 1680px) {
+    main > div:first-child:nth-last-child(2) + div .button.action {
+        right: calc(59.5% + 2rem);
+    }
+
+    aside ~ * .button.action {
+        right: calc(42.5% - 16rem);
+    }
+}
+
+/* The textarea hidden div */
+
+#hiddendiv {
+    position: fixed;
+    display: block;
+    z-index: -1;
+    opacity: 0;
+    height: auto;
+    overflow: hidden;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word; /* future version of deprecated 'word-wrap' */
+}

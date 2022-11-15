@@ -1,0 +1,10 @@
+/vendor
+/log
+/users
+/cache
+/public/cache
+*~
+/config/db.inc.php
+/composer.phar
+/set-permissions.sh
+/public/files/upload.php

@@ -1,0 +1,3382 @@
+#
+# Translators:
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/About/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Account/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/AccountNext/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/AdHoc/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/AdminMain/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/AdminReported/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/AdminSessions/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/AdminTest/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Api/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Avatar/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Blocked/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Blog/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Chat/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/ChatOmemo/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Chats/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Communities/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/CommunitiesInteresting/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/CommunitiesServer/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/CommunitiesServers/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/CommunityAffiliations/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/CommunityConfig/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/CommunityData/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/CommunityHeader/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/CommunitySubscriptions/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Config/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Confirm/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/ContactActions/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/ContactData/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/ContactDataPublic/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Draw/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Help/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Login/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/LoginAnonymous/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Menu/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Notifications/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Onboarding/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Post/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Presence/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Preview/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Publish/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/PublishBrief/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/PublishHelp/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Rooms/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/RoomsExplore/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Search/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/SendTo/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Statistics/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Stickers/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Subscribe/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Syndication/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Upload/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Vcard4/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Visio/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/VisioConfig/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../locales/locales.ini
+msgid ""
+msgstr ""
+"Project-Id-Version: movim\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-07 14:14+0200\n"
+"PO-Revision-Date: 2022-02-17 07:57+0000\n"
+"Last-Translator: Jaussoin Timothée <edhelas@movim.eu>\n"
+"Language-Team: Esperanto (http://www.transifex.com/movim/movim/language/eo/)\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Translate Toolkit 3.4.1\n"
+
+#: [about]thanks
+msgid "Thanks"
+msgstr ""
+
+#: [about]developers
+msgid "Developers"
+msgstr ""
+
+#: [about]translators
+msgid "Translators"
+msgstr ""
+
+#: [about]translators_text
+msgid "Thanks to all the translators"
+msgstr ""
+
+#: [about]software
+msgid "Software"
+msgstr ""
+
+#: [about]resources
+msgid "Resources"
+msgstr ""
+
+#: [about]api [schema]api [api]title
+msgid "API"
+msgstr ""
+
+#: [about]info
+msgid "Movim is an XMPP-based communication platform. All the project, except the following software and resources, is under"
+msgstr ""
+
+#: [account]title [page]account
+msgid "Account"
+msgstr ""
+
+#: [account]password_change_title
+msgid "Change my password"
+msgstr ""
+
+#: [account]password [credentials]password [form]password [input]password
+msgid "Password"
+msgstr "Pasvorto"
+
+#: [account]password_confirmation
+msgid "Password confirmation"
+msgstr ""
+
+#: [account]password_changed
+msgid "The password has been updated"
+msgstr ""
+
+#: [account]password_not_valid
+msgid "Please provide a valid password (6 characters minimum)"
+msgstr ""
+
+#: [account]password_not_same
+msgid "The provided passwords are not the same"
+msgstr ""
+
+#: [account]delete
+msgid "Delete your account"
+msgstr ""
+
+#: [account]delete_text
+msgid "You will delete your XMPP account and all the relative information linked to it (profile, contacts and publications)."
+msgstr ""
+
+#: [account]delete_text_confirm
+msgid "Type your full username"
+msgstr ""
+
+#: [account]delete_text_error
+msgid "Please provide a valid username."
+msgstr ""
+
+#: [account]gateway_title
+msgid "Gateways"
+msgstr ""
+
+#: [account]clear
+msgid "Leave this instance"
+msgstr ""
+
+#: [account]clear_text
+msgid "You will delete all the relative information linked to your account on this Movim instance (profile, contacts and publications)."
+msgstr ""
+
+#: [account]clear_text_confirm
+msgid "This action will not delete your account but will disconnect you from this instance."
+msgstr ""
+
+#: [account]delete_bundle_title
+msgid "OMEMO Key deletion"
+msgstr ""
+
+#: [account]delete_bundle_text
+msgid "Your are going to destroy the following OMEMO key. Your contacts will not be able to encrypt messages using that key anymore. This action cannot be reverted. Are you sure?"
+msgstr ""
+
+#: [create]title [subscribe]title
+msgid "Create a new account"
+msgstr ""
+
+#: [create]notfound
+msgid "No account creation form found on the server"
+msgstr ""
+
+#: [create]server_on
+msgid "on"
+msgstr ""
+
+#: [create]successfull
+msgid "Your acccount has been successfully registered"
+msgstr ""
+
+#: [create]loading
+msgid "Loading"
+msgstr ""
+
+#: [create]placeholder
+msgid "…and start playing"
+msgstr ""
+
+#: [error]not_acceptable
+msgid "Not Acceptable"
+msgstr ""
+
+#: [error]service_unavailable
+msgid "The registration system of this server is currently unavailable"
+msgstr ""
+
+#: [error]forbidden
+msgid "Registration forbidden"
+msgstr ""
+
+#: [adhoc]title
+msgid "Actions"
+msgstr ""
+
+#: [adhoc]completed
+msgid "Action completed"
+msgstr ""
+
+#: [admin]general
+msgid "General Settings"
+msgstr ""
+
+#: [general]theme
+msgid "Theme"
+msgstr ""
+
+#: [general]language
+msgid "Default language"
+msgstr ""
+
+#: [general]log_verbosity
+msgid "Log verbosity"
+msgstr ""
+
+#: [restrictsuggestions]title
+msgid "Restrict suggestions"
+msgstr ""
+
+#: [restrictsuggestions]text
+msgid "Only suggest chatrooms, Communities and other contents that are available on the user XMPP server and related services"
+msgstr ""
+
+#: [chatonly]title
+msgid "Chat only"
+msgstr ""
+
+#: [chatonly]text
+msgid "Disable all the social feature (Communities, Blog…) and keep only the chat ones"
+msgstr ""
+
+#: [credentials]title
+msgid "Administration Credential"
+msgstr ""
+
+#: [credentials]username [input]username
+msgid "Username"
+msgstr ""
+
+#: [credentials]re_password
+msgid "Retype password"
+msgstr ""
+
+#: [disableregistration]title
+msgid "Disable the XMPP registration feature"
+msgstr ""
+
+#: [disableregistration]text
+msgid "Remove the XMPP registration flow and buttons from the interface"
+msgstr ""
+
+#: [whitelist]title
+msgid "Whitelisted XMPP Servers"
+msgstr ""
+
+#: [whitelist]info1
+msgid "If you want to specify a list of authorized XMPP servers on your Movim pod and forbid the connection on all the others please put their domain name here, with comma (ex: movim.eu,jabber.fr)"
+msgstr ""
+
+#: [whitelist]info2
+msgid "Leave this field blank if you allow the access to all the XMPP accounts."
+msgstr ""
+
+#: [whitelist]label
+msgid "List of whitelisted XMPP servers"
+msgstr ""
+
+#: [information]title
+msgctxt "[information]title"
+msgid "Information Message"
+msgstr ""
+
+#: [information]description [communityconfig]description
+msgid "Description"
+msgstr ""
+
+#: [information]description_placeholder
+msgid "General description of the instance"
+msgstr ""
+
+#: [information]banner
+msgid "Main banner"
+msgstr ""
+
+#: [information]banner_info
+msgid "Ensure that the picture is not too large and can be reached from any webpages"
+msgstr ""
+
+#: [information]info1
+msgid "This message will be displayed on the login page. It can be used to link the Terms and Conditions of your Movim instance for example."
+msgstr ""
+
+#: [information]info2
+msgid "Leave this field blank if you don’t want to show any message."
+msgstr ""
+
+#: [information]label
+msgctxt "[information]label"
+msgid "Information Message"
+msgstr ""
+
+#: [xmpp]title
+msgid "Default XMPP server"
+msgstr ""
+
+#: [xmpp]domain
+msgid "Main XMPP server domain"
+msgstr ""
+
+#: [xmpp]description
+msgid "Main XMPP server description"
+msgstr ""
+
+#: [xmpp]country
+msgid "Main XMPP server country"
+msgstr ""
+
+#: [xmpp]country_pick
+msgid "Pick a country in the list"
+msgstr ""
+
+#: [tenor]title
+msgid "Tenor integration"
+msgstr ""
+
+#: [tenor]label
+msgid "Your Tenor API Key"
+msgstr ""
+
+#: [tenor]info1
+msgid "Movim integrates the Tenor API to allow GIF search and publication in Chat"
+msgstr ""
+
+#: [tenor]info2
+msgid "Access Tenor and get your API key"
+msgstr ""
+
+#: [twitter]title
+msgid "Twitter integration"
+msgstr ""
+
+#: [twitter]label
+msgid "Your Twitter Token"
+msgstr ""
+
+#: [twitter]info1
+msgid "The Twitter integration allow Movim to embed and extract the Tweets shared on the instance"
+msgstr ""
+
+#: [twitter]info2
+msgid "Generate your Token on the Developer Twitter website"
+msgstr ""
+
+#: [log]empty
+msgid "Empty"
+msgstr ""
+
+#: [log]syslog
+msgid "Syslog"
+msgstr ""
+
+#: [log]syslog_files
+msgid "Syslog and files"
+msgstr ""
+
+#: [adminreported]reported_by
+msgid "Reported by %s users"
+msgstr ""
+
+#: [adminreported]info
+msgid "Those accounts were reported by some Movim users"
+msgstr ""
+
+#: [adminreported]info2
+msgid "You can choose to block them for all the other users"
+msgstr ""
+
+#: [adminsessions]title
+msgid "Sessions"
+msgstr ""
+
+#: [adminsessions]text
+msgid "Currently connected users on the pod"
+msgstr ""
+
+#: [admin]compatibility
+msgid "General Overview"
+msgstr ""
+
+#: [compatibility]rights
+msgid "Read and write rights for the webserver in Movim’s %s directory"
+msgstr ""
+
+#: [compatibility]websocket
+msgid "WebSocket connection error, check if the Movim Daemon is running and is reachable"
+msgstr ""
+
+#: [schema]browser
+msgid "Browser"
+msgstr ""
+
+#: [schema]movim
+msgid "Movim Core"
+msgstr ""
+
+#: [schema]daemon
+msgid "Movim Daemon"
+msgstr ""
+
+#: [schema]database
+msgid "Database"
+msgstr ""
+
+#: [schema]xmpp
+msgid "XMPP"
+msgstr ""
+
+#: [api]info
+msgid "Here you can register your pod on the official %sMovim API%s"
+msgstr ""
+
+#: [api]register
+msgid "Your pod is not registered on the API"
+msgstr ""
+
+#: [api]registered
+msgid "Your pod is registered on the API"
+msgstr ""
+
+#: [api]wait
+msgid "Your pod is not yet validated"
+msgstr ""
+
+#: [api]validated
+msgid "Your pod is validated"
+msgstr ""
+
+#: [api]unregister
+msgid "You asked to be removed from the API, this request will be processed in a couple of hours"
+msgstr ""
+
+#: [api]conf_updated [config]updated
+msgid "Configuration updated"
+msgstr ""
+
+#: [avatar]file
+msgid "File"
+msgstr ""
+
+#: [avatar]use_it
+msgid "Use it"
+msgstr ""
+
+#: [avatar]webcam
+msgid "Webcam"
+msgstr ""
+
+#: [avatar]cheese
+msgid "Cheese!"
+msgstr ""
+
+#: [avatar]snapshot
+msgid "Take a webcam snapshot"
+msgstr ""
+
+#: [avatar]updated
+msgid "Avatar Updated"
+msgstr ""
+
+#: [avatar]not_updated
+msgid "Avatar Not Updated"
+msgstr ""
+
+#: [avatar]missing
+msgid "No avatar defined yet"
+msgstr ""
+
+#: [avatar]change
+msgid "Change my avatar"
+msgstr ""
+
+#: [avatar]upload_new
+msgid "Upload a new picture"
+msgstr ""
+
+#: [blocked]title
+msgid "Blocked"
+msgstr ""
+
+#: [blocked]block_account
+msgid "Block the account"
+msgstr ""
+
+#: [blocked]unblock_account
+msgid "Unblock the account"
+msgstr ""
+
+#: [blocked]account_blocked
+msgid "Account blocked"
+msgstr ""
+
+#: [blocked]account_unblocked
+msgid "Account unblocked"
+msgstr ""
+
+#: [blocked]placeholder
+msgid "You will find here the users you have blocked"
+msgstr ""
+
+#: [blocked]info
+msgid "The following users are blocked by Movim and cannot contact you anymore"
+msgstr ""
+
+#: [blocked]info2
+msgid "The administrator is also aware of this list and can therefore block those users system wide"
+msgstr ""
+
+#: [blog]title [feed]title
+msgid "%s’s feed"
+msgstr ""
+
+#: [blog]private
+msgid "This content is private, please login to see it"
+msgstr ""
+
+#: [message]published
+msgid "Message Published"
+msgstr ""
+
+#: [message]react
+msgid "Add a reaction"
+msgstr ""
+
+#: [message]retract
+msgid "Retract"
+msgstr ""
+
+#: [message]error
+msgid "Your message could not be sent, please try again later"
+msgstr ""
+
+#: [message]encrypted [omemo]encrypted
+msgid "Encrypted message"
+msgstr ""
+
+#: [message]retracted
+msgid "Retracted message"
+msgstr ""
+
+#: [message]composing
+msgid "Composing…"
+msgstr ""
+
+#: [message]invitation
+#, fuzzy
+msgid "Invitation"
+msgstr "Agordaĵoj"
+
+#: [message]paused
+msgid "Paused…"
+msgstr ""
+
+#: [message]gone
+msgid "Contact gone"
+msgstr ""
+
+#: [message]history
+msgid "%s messages retrieved"
+msgstr ""
+
+#: [message]edit_help
+msgid "↑ to edit your previous message"
+msgstr ""
+
+#: [message]emoji_help
+msgid ":shortcut: to insert an emoji"
+msgstr ""
+
+#: [message]visitor_help
+msgid "You are not allowed to send messages in this conference"
+msgstr ""
+
+#: [chat]attention
+msgid "%s needs your attention"
+msgstr ""
+
+#: [chat]placeholder
+msgid "Your message here…"
+msgstr ""
+
+#: [chat]smileys
+msgid "Smileys"
+msgstr ""
+
+#: [chat]frequent
+msgid "Frequent contacts"
+msgstr ""
+
+#: [chat]new_title
+msgid "Nothing here yet…"
+msgstr ""
+
+#: [chat]new_text
+msgid "Don’t be shy, send a first message to start the discussion"
+msgstr ""
+
+#: [chat]invitation
+msgid "You received an invitation to join a chatroom"
+msgstr ""
+
+#: [chat]invitation_self
+msgid "You sent an invitation to join a chatroom"
+msgstr ""
+
+#: [chat]invitation_join
+msgid "Join %s"
+msgstr ""
+
+#: [chat]profile
+msgid "See the profile"
+msgstr ""
+
+#: [chat]clear
+msgctxt "[chat]clear"
+msgid "Clear the history"
+msgstr ""
+
+#: [chat]edit_previous
+msgid "Edit last message"
+msgstr ""
+
+#: [chat]report_abuse
+msgid "Report abuse"
+msgstr ""
+
+#: [chat]jingle_start
+msgid "Call started"
+msgstr ""
+
+#: [chat]jingle_end
+msgid "Call ended"
+msgstr ""
+
+#: [chat]publish_error
+msgid "An error occured when sending the message"
+msgstr ""
+
+#: [chat]mam_retrieval
+msgid "Synchronizing the history, please wait…"
+msgstr ""
+
+#: [chat]clear_history
+msgctxt "[chat]clear_history"
+msgid "Clear the history"
+msgstr ""
+
+#: [chat]clear_history_text
+msgid "You are going to delete %s messages, are you sure?"
+msgstr ""
+
+#: [chat]action_impossible_encrypted
+msgid "Action impossible in encrypted chats"
+msgstr ""
+
+#: [chatroom]members
+msgid "Members"
+msgstr ""
+
+#: [chatroom]connected [chatrooms]connected
+msgid "Connected to the chatroom"
+msgstr ""
+
+#: [chatroom]disconnected [chatrooms]disconnected
+msgid "Disconnected from the chatroom"
+msgstr ""
+
+#: [chatroom]config [communityaffiliation]configuration [page]configuration
+msgid "Configuration"
+msgstr "Agordaĵoj"
+
+#: [chatroom]config_saved [communityaffiliation]config_saved
+msgid "Configuration saved"
+msgstr ""
+
+#: [chatroom]subject
+msgid "Subject"
+msgstr ""
+
+#: [chatroom]subject_changed
+msgid "Subject changed"
+msgstr ""
+
+#: [chatroom]administration [page]administration
+msgid "Administration"
+msgstr ""
+
+#: [omemo]fingerprints_title
+msgid "Fingerprints"
+msgstr ""
+
+#: [omemo]fingerprints
+msgid "OMEMO Fingerprints"
+msgstr ""
+
+#: [omemo]generating_bundle
+msgid "Generating the encryption keys, please wait…"
+msgstr ""
+
+#: [omemo]generated_bundle
+msgid "Encryption keys generated"
+msgstr ""
+
+#: [omemo]resolving_devices
+msgid "Resolving OMEMO devices"
+msgstr ""
+
+#: [omemo]building_sessions
+msgid "Building encryption sessions"
+msgstr ""
+
+#: [omemo]building_own_sessions
+msgid "Building own encryption sessions"
+msgstr ""
+
+#: [omemo]encrypted_disabled
+msgid "Encryption disabled"
+msgstr ""
+
+#: [omemo]encrypted_loading
+msgid "Send a message to build the encrypted session"
+msgstr ""
+
+#: [omemo]enable_contact
+msgid "Enabling encryption for the contact"
+msgstr ""
+
+#: [omemo]disable_contact
+msgid "Disabling encryption for the contact"
+msgstr ""
+
+#: [omemo]last_activity
+msgid "Last activity"
+msgstr ""
+
+#: [omemo]sessions_built
+msgid "%s sessions built"
+msgstr ""
+
+#: [chats]empty_title
+msgid "No chats yet…"
+msgstr ""
+
+#: [chats]empty
+msgid "Start a new conversation by clicking on the %s button."
+msgstr ""
+
+#: [chats]add
+msgid "Chat with a contact"
+msgstr ""
+
+#: [chats]me
+msgid "Me"
+msgstr ""
+
+#: [chats]picture
+msgid "Picture"
+msgstr ""
+
+#: [chats]video
+msgid "Video"
+msgstr ""
+
+#: [button]chat
+msgid "Chat"
+msgstr "Tujmesaĝilo"
+
+#: [button]new
+msgid "New conversation"
+msgstr ""
+
+#: [communities]empty_text
+msgid "Discover, follow and share"
+msgstr ""
+
+#: [communities]counter
+msgid "%s communities"
+msgstr ""
+
+#: [communities]search_server
+msgid "Search for a new server"
+msgstr ""
+
+#: [communities]servers
+msgid "Communities servers"
+msgstr ""
+
+#: [communities]servers_text
+msgid "Discover the Communities by servers"
+msgstr ""
+
+#: [communities]disco
+msgid "Communities server discovered"
+msgstr ""
+
+#: [communities]disco_error
+msgid "This server doesn’t exists"
+msgstr ""
+
+#: [communitiesinteresting]about
+msgid "Communities you might like"
+msgstr ""
+
+#: [communitiesserver]created
+msgid "Community created successfully"
+msgstr ""
+
+#: [communitiesserver]empty_server
+msgid "There is no Communities yet on this server."
+msgstr ""
+
+#: [communitiesserver]add
+msgid "Create a new community on %s"
+msgstr ""
+
+#: [communitiesserver]name
+msgid "Community name"
+msgstr ""
+
+#: [communitiesserver]name_example
+msgid "My Little Pony - Fan Club"
+msgstr ""
+
+#: [communitiesserver]name_error
+msgid "Please provide a valid community name (4 characters minimum)"
+msgstr ""
+
+#: [communitiesserver]no_creation
+msgid "You cannot create a new community on this server"
+msgstr ""
+
+#: [communitiesservers]empty_title
+msgid "No Communities Servers yet…"
+msgstr ""
+
+#: [communitiesservers]empty_text
+msgid "It seems that we can't find any communities for the moment"
+msgstr ""
+
+#: [communityaffiliation]subscriptions
+msgid "Subscriptions"
+msgstr ""
+
+#: [communityaffiliation]public_subscriptions
+msgid "Public subscriptions"
+msgstr ""
+
+#: [communityaffiliation]subscriptions_text
+msgid "My Communities subscriptions"
+msgstr ""
+
+#: [communityaffiliation]deleted
+msgid "Community deleted successfully"
+msgstr ""
+
+#: [communityaffiliation]delete_title
+msgid "Delete the community"
+msgstr ""
+
+#: [communityaffiliation]delete_text
+msgid "You are going to delete the following community. Please confirm your action."
+msgstr ""
+
+#: [communityaffiliation]delete_clean_text
+msgid "It seems that this community doesn’t exists anymore. Do you want to remove it from your subscriptions?"
+msgstr ""
+
+#: [communityaffiliation]config_error
+msgid "Error during the application of the node configuration"
+msgstr ""
+
+#: [communityaffiliation]owners
+msgid "Owners"
+msgstr ""
+
+#: [communityaffiliation]publishers
+#: [communityconfig]publish_model_publishers_title
+msgid "Publishers"
+msgstr ""
+
+#: [communityaffiliation]roles
+msgid "Roles"
+msgstr ""
+
+#: [communityaffiliation]role_set
+msgid "Role correctly set"
+msgstr ""
+
+#: [communityconfig]publication
+msgid "Publication"
+msgstr ""
+
+#: [communityconfig]publish_model_open_title [room]public_muc
+msgid "Public"
+msgstr ""
+
+#: [communityconfig]publish_model_open_text
+msgid "Everyone can publish"
+msgstr ""
+
+#: [communityconfig]publish_model_publishers_text
+msgid "The publishers can publish"
+msgstr ""
+
+#: [communityconfig]publish_model_subscribers_title
+msgid "Subscribers"
+msgstr ""
+
+#: [communityconfig]publish_model_subscribers_text
+msgid "The subscribers can publish"
+msgstr ""
+
+#: [communitydata]sub
+msgid "%s subscribers"
+msgstr ""
+
+#: [communitydata]num
+msgid "%s posts"
+msgstr ""
+
+#: [communitydata]public
+msgid "Public page"
+msgstr ""
+
+#: [communitydata]publishmodel_publishers
+msgid "Only publishers can publish"
+msgstr ""
+
+#: [communitydata]publishmodel_subscribers
+msgid "Only subscribers can publish"
+msgstr ""
+
+#: [communityheader]subscribe
+msgid "Subscribe"
+msgstr ""
+
+#: [communityheader]unsubscribe
+msgid "Unsubscribe"
+msgstr ""
+
+#: [communityheader]subscribed
+msgid "Subscribed"
+msgstr ""
+
+#: [communityheader]unsubscribed
+msgid "Unsubscribed"
+msgstr ""
+
+#: [communityheader]subscription_unsupported
+msgid "The subscriptions are disabled for this community"
+msgstr ""
+
+#: [communityheader]label_label
+msgid "Give a label for this community"
+msgstr ""
+
+#: [communityheader]label_placeholder
+msgid "My Community Name"
+msgstr ""
+
+#: [communityheader]share_subscription
+msgid "Share this subscription publicly"
+msgstr ""
+
+#: [communityheader]share_subscription_text
+msgid "It will appear on your profile"
+msgstr ""
+
+#: [communityheader]unsubscribe_text
+msgid "You are going to unsubscribe from this community"
+msgstr ""
+
+#: [communityheader]sure [delete]title
+msgid "Are you sure?"
+msgstr ""
+
+#: [communitysubscriptions]subscriptions
+msgid "My Subscriptions"
+msgstr ""
+
+#: [communitysubscriptions]empty_title
+msgid "Hello"
+msgstr ""
+
+#: [communitysubscriptions]empty_text1
+msgid "Here you will be able to manage all your subscriptions."
+msgstr ""
+
+#: [communitysubscriptions]empty_text2
+msgid "You don’t have any community subscriptions yet."
+msgstr ""
+
+#: [config]general
+msgid "General"
+msgstr ""
+
+#: [config]language
+msgid "Language"
+msgstr "Lingvo"
+
+#: [config]roster
+msgid "Roster display"
+msgstr ""
+
+#: [config]roster_show
+msgid "Show the offline contacts"
+msgstr ""
+
+#: [config]roster_hide
+msgid "Hide the offline contacts"
+msgstr ""
+
+#: [config]appearence
+msgid "Appearence"
+msgstr ""
+
+#: [config]not_valid
+msgid "Configuration invalid"
+msgstr ""
+
+#: [config]advanced
+msgid "Advanced Configuration"
+msgstr ""
+
+#: [config]nsfw
+msgid "Display adult content"
+msgstr ""
+
+#: [config]nsfw_text
+msgid "Will allow you to read the posts tagged with the #nsfw tag"
+msgstr ""
+
+#: [config]night_mode
+msgid "Night Mode"
+msgstr ""
+
+#: [config]night_mode_text
+msgid "Use dark colors to rest your eyes"
+msgstr ""
+
+#: [config]chatmain
+msgid "Main chat page"
+msgstr ""
+
+#: [config]chatmain_text
+msgid "Make the chat page as the default one"
+msgstr ""
+
+#: [config]mam
+msgid "Archiving preferences"
+msgstr ""
+
+#: [config]mam_text
+msgid "Server-side archiving preferences"
+msgstr ""
+
+#: [config]mam_always
+msgid "Always"
+msgstr ""
+
+#: [config]mam_never
+msgid "Never"
+msgstr ""
+
+#: [config]mam_saved
+msgid "Archiving preferences saved"
+msgstr ""
+
+#: [config]notification_title
+msgid "Audio notifications"
+msgstr ""
+
+#: [config]notification_call
+msgid "Incoming call"
+msgstr ""
+
+#: [config]notification_chat
+msgid "Incoming message"
+msgstr ""
+
+#: [confirm]title
+msgid "Confirmation of authentication"
+msgstr ""
+
+#: [confirm]description
+msgid "The following platform would like your confirmation to authentify this account"
+msgstr ""
+
+#: [confirm]code
+msgid "Authentication code"
+msgstr ""
+
+#: [roster]add_title
+msgid "Add a contact"
+msgstr ""
+
+#: [roster]add_contact_info1
+msgid "Enter the Jabber ID of your contact."
+msgstr ""
+
+#: [roster]add_contact_info2
+msgid "Press enter to validate."
+msgstr ""
+
+#: [roster]added
+msgid "Contact added"
+msgstr ""
+
+#: [roster]updated
+msgid "Contact updated"
+msgstr ""
+
+#: [roster]deleted
+msgid "Contact deleted"
+msgstr ""
+
+#: [general]legend
+msgid "General Information"
+msgstr ""
+
+#: [general]name [chatrooms]name
+msgid "Name"
+msgstr "Nomo"
+
+#: [general]nickname [chatrooms]nickname
+msgid "Nickname"
+msgstr "Kromnomo"
+
+#: [general]date_of_birth
+msgid "Date of Birth"
+msgstr "Naskiĝdato"
+
+#: [general]gender
+msgid "Gender"
+msgstr ""
+
+#: [general]marital
+msgid "Marital Status"
+msgstr ""
+
+#: [general]email
+msgid "Email"
+msgstr ""
+
+#: [general]website
+msgid "Website"
+msgstr "Retpaĝaro"
+
+#: [general]about
+msgid "About Me"
+msgstr ""
+
+#: [general]accounts
+msgid "Other Accounts"
+msgstr ""
+
+#: [general]tune
+msgid "Is Listening"
+msgstr ""
+
+#: [general]pictures
+msgid "Pictures"
+msgstr ""
+
+#: [general]links
+msgid "Links"
+msgstr ""
+
+#: [position]legend
+msgid "Geographic Position"
+msgstr ""
+
+#: [position]locality
+msgid "Locality"
+msgstr ""
+
+#: [position]country
+msgid "Country"
+msgstr ""
+
+#: [mood]title
+msgid "Mood"
+msgstr ""
+
+#: [mood]im
+msgid "I’m "
+msgstr ""
+
+#: [listen]title
+msgid "Listening"
+msgstr ""
+
+#: [last]title
+msgid "Last seen"
+msgstr ""
+
+#: [clients]title
+msgid "Clients"
+msgstr ""
+
+#: [clients]title_full
+msgid "Clients information"
+msgstr ""
+
+#: [explore]last_registered
+msgid "Last registered"
+msgstr ""
+
+#: [explore]explore
+msgid "Find some new contacts"
+msgstr ""
+
+#: [edit]title [button]edit
+msgid "Edit"
+msgstr ""
+
+#: [edit]alias
+msgid "Alias"
+msgstr "Kromnomo"
+
+#: [edit]group
+msgid "Group"
+msgstr ""
+
+#: [delete]text
+msgid "You are going to delete one of your contacts, please confirm your action"
+msgstr ""
+
+#: [age]years
+msgid "%s years"
+msgstr ""
+
+#: [blog]last
+msgid "Last public post"
+msgstr ""
+
+#: [blog]visit
+msgid "Visit the blog to see all the public posts"
+msgstr ""
+
+#: [subscription]to
+msgid "You can see this contact status"
+msgstr ""
+
+#: [subscription]to_button
+msgid "Share my status"
+msgstr ""
+
+#: [subscription]to_text
+msgid "But this contact cannot see yours"
+msgstr ""
+
+#: [subscription]from
+msgid "You are not subscribed to this contact"
+msgstr ""
+
+#: [subscription]from_button
+msgid "Ask to subscribe"
+msgstr ""
+
+#: [subscription]from_text
+msgid "But this contact can still see if you are online"
+msgstr ""
+
+#: [subscription]nil
+msgid "No subscriptions"
+msgstr ""
+
+#: [subscription]nil_button [button]invite
+msgid "Invite"
+msgstr ""
+
+#: [subscription]nil_text
+msgid "This contact is in your contact list but there is no subscription between the two accounts"
+msgstr ""
+
+#: [contactdatapublic]no_data
+msgid "No public data found"
+msgstr ""
+
+#: [draw]title
+msgid "Draw"
+msgstr ""
+
+#: [faq]title
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: [faq]permission_title
+msgid "What does the permission setting do?"
+msgstr ""
+
+#: [faq]permission_text
+msgid "By default the content is only available to your contacts. You can make your profile and publications public by enabling the related setting."
+msgstr ""
+
+#: [faq]permission_community_title
+msgid "How does it applies on Communities posts?"
+msgstr ""
+
+#: [faq]permission_community_text
+msgid "Similary to your blog publications except that, by default, the posts are only available to the members or subscribers of the Community (except if you explicitly open all the Community content)"
+msgstr ""
+
+#: [faq]chatrooms_title
+msgid "Where can I find a list of chatrooms?"
+msgstr ""
+
+#: [faq]find_contacts_title
+msgid "Where can I find my contacts?"
+msgstr ""
+
+#: [faq]find_contacts_text
+msgid "By opening the search panel."
+msgstr ""
+
+#: [apps]title
+msgid "Applications"
+msgstr ""
+
+#: [apps]install
+msgid "Movim App"
+msgstr ""
+
+#: [apps]install_text
+msgid "Install Movim on your device"
+msgstr ""
+
+#: [apps]recommend
+msgid "We also recommend"
+msgstr ""
+
+#: [contact]title
+msgid "Administrators & Contact"
+msgstr ""
+
+#: [chatroom]question
+msgid "Chat with the Movim team?"
+msgstr ""
+
+#: [chatroom]button
+msgid "Add the chatroom"
+msgstr ""
+
+#: [error]username
+msgid "Wrong username"
+msgstr ""
+
+#: [error]jid
+msgid "Invalid JID"
+msgstr ""
+
+#: [error]empty_challenge
+msgid "Empty Challenge from the server"
+msgstr ""
+
+#: [error]dns
+msgid "XMPP Domain error, your account is not a correct Jabber ID"
+msgstr ""
+
+#: [error]data_missings
+msgid "Some data are missing!"
+msgstr ""
+
+#: [error]wrong_password
+msgid "Wrong password"
+msgstr "Malkorekta pasvorto"
+
+#: [error]internal
+msgid "Internal server error"
+msgstr ""
+
+#: [error]session
+msgid "Session error"
+msgstr ""
+
+#: [error]account_created
+msgid "Account successfully created"
+msgstr ""
+
+#: [error]timeout
+msgid "The server takes too much time to respond"
+msgstr ""
+
+#: [error]impossible
+msgid "Impossible login"
+msgstr ""
+
+#: [error]default
+msgid "Unknown error"
+msgstr ""
+
+#: [error]login_format
+msgid "Invalid username format"
+msgstr ""
+
+#: [error]password_format
+msgid "Invalid password format"
+msgstr ""
+
+#: [error]unauthorized
+msgid "Your XMPP server is unauthorized"
+msgstr ""
+
+#: [error]wrong_account
+msgid "Movim failed to authenticate. You entered wrong data"
+msgstr ""
+
+#: [error]mechanism
+msgid "Authentication mechanism not supported by Movim"
+msgstr ""
+
+#: [error]fail_auth
+msgid "The XMPP authentification failed"
+msgstr ""
+
+#: [connection]socket_connected
+msgid "Connected to the server"
+msgstr ""
+
+#: [connection]authenticated
+msgid "Authenticated to the server"
+msgstr ""
+
+#: [form]username
+msgid "My address"
+msgstr "Mia adreso"
+
+#: [form]whitelist_info
+msgid "Login with accounts from these servers"
+msgstr ""
+
+#: [form]connect_info
+msgid "Login using any XMPP account or create a new one"
+msgstr ""
+
+#: [form]connected
+msgid "Connected"
+msgstr ""
+
+#: [form]population
+msgid "Population"
+msgstr ""
+
+#: [form]invite_chatroom
+msgid "%s invited you to join a chatroom"
+msgstr ""
+
+#: [form]pod_admins
+msgid "Administrated by"
+msgstr ""
+
+#: [login_anonymous]bad_username
+msgid "Bad nickname (between 4 and 40 characters)"
+msgstr ""
+
+#: [menu]empty_title
+msgid "No news yet…"
+msgstr ""
+
+#: [menu]empty
+msgid "Welcome on your news feed, here you will see all the posts published by your contacts and in the communities you have subscribed."
+msgstr ""
+
+#: [menu]all
+msgid "All"
+msgstr ""
+
+#: [menu]mine
+msgid "My publications"
+msgstr ""
+
+#: [menu]contacts [page]contacts
+msgid "Contacts"
+msgstr ""
+
+#: [menu]add_post
+msgid "Write a new post…"
+msgstr ""
+
+#: [invitations]title
+msgid "Pending Invitations"
+msgstr ""
+
+#: [invitations]wants_to_talk
+msgid "%s wants to talk with you"
+msgstr ""
+
+#: [notifs]title [onboarding]notifications_title [room]notify_title
+msgid "Notifications"
+msgstr ""
+
+#: [notifs]empty
+msgid "No new notifications"
+msgstr ""
+
+#: [onboarding]notifications_text
+msgid "Movim can notify you when a new post is published or if you receive messages"
+msgstr ""
+
+#: [onboarding]notifications_text_second
+msgid "You can always disable them afterwards"
+msgstr ""
+
+#: [onboarding]public_title
+msgid "Public profile"
+msgstr ""
+
+#: [onboarding]public_text
+msgid "Make your profile public and allow other users to find you and make new contacts more easily"
+msgstr ""
+
+#: [onboarding]public_text_second
+msgid "You can always disable this in the configuration afterwards"
+msgstr ""
+
+#: [onboarding]popups_title
+msgid "Popups"
+msgstr ""
+
+#: [onboarding]popups_text
+msgid "Movim is using popups for the video-conference feature, they are sometime blocked by the browsers"
+msgstr ""
+
+#: [onboarding]popups_text_second
+msgid "Please be sure that they are enabled to use this feature properly"
+msgstr ""
+
+#: [post]news_feed
+msgid "News Feed"
+msgstr ""
+
+#: [post]placeholder
+msgid "Discover and register to the groups you are interested in"
+msgstr ""
+
+#: [post]content
+msgid "Content"
+msgstr ""
+
+#: [post]published
+msgid "Post published"
+msgstr ""
+
+#: [post]deleted
+msgid "Post deleted"
+msgstr ""
+
+#: [post]hot
+msgid "What’s Hot"
+msgstr ""
+
+#: [post]hot_text
+msgid "Posts recently published in communities that you are not subscribed (yet)"
+msgstr ""
+
+#: [post]new [publish]new [publishbrief]new
+msgid "New post"
+msgstr ""
+
+#: [post]repost
+msgid "This is a re-post from %s"
+msgstr ""
+
+#: [post]repost_profile
+msgid "See %s profile"
+msgstr ""
+
+#: [post]blog_last
+msgid "Public posts from users"
+msgstr ""
+
+#: [post]read_time_singular
+msgid "%s minute"
+msgstr ""
+
+#: [post]read_time_plural
+msgid "%s minutes"
+msgstr ""
+
+#: [post]public
+msgid "Publish this post publicly?"
+msgstr ""
+
+#: [post]public_yes
+msgid "This post is public"
+msgstr ""
+
+#: [post]public_no
+msgid "This post is private"
+msgstr ""
+
+#: [post]public_url
+msgid "Public URL of this post"
+msgstr ""
+
+#: [post]delete_title [post]delete
+msgid "Delete this post"
+msgstr ""
+
+#: [post]delete_text
+msgid "You are going to delete this post, please confirm your action"
+msgstr ""
+
+#: [post]delete_comment
+msgid "Are you sure that you want to delete this comment?"
+msgstr ""
+
+#: [post]discover
+msgid "Discover more articles on the communities page"
+msgstr ""
+
+#: [post]more
+msgid "Read more"
+msgstr ""
+
+#: [post]comments_disabled
+msgid "Comments disabled"
+msgstr ""
+
+#: [post]comment_published
+msgid "Comment published"
+msgstr ""
+
+#: [post]comment_like_published
+msgid "Liked"
+msgstr ""
+
+#: [post]comment_publish_error
+msgid "The comment cannot be published"
+msgstr ""
+
+#: [post]comment_deleted
+msgid "Comment deleted"
+msgstr ""
+
+#: [post]liked
+msgid "Liked your publication"
+msgstr ""
+
+#: [post]commented
+msgid "Commented"
+msgstr ""
+
+#: [hello]contact_post
+msgid "Contact post"
+msgstr ""
+
+#: [hello]share_title
+msgid "Universal share button"
+msgstr ""
+
+#: [hello]share_text
+msgid "Bookmark or drag and drop the following button in your toolbar and use it on all the pages you want to share on Movim"
+msgstr ""
+
+#: [hello]share_button
+msgid "Share on Movim"
+msgstr ""
+
+#: [hello]enter_title
+msgid "Oh! Hello!"
+msgstr ""
+
+#: [hello]enter_paragraph
+msgid "It seems that you’re new there! Welcome on Movim!"
+msgstr ""
+
+#: [hello]menu_title
+msgid "Check the Menu"
+msgstr ""
+
+#: [hello]menu_paragraph
+msgid "All the main Movim features are accessible there. Don’t hesitate to navigate through the pages to discover more!"
+msgstr ""
+
+#: [hello]profile_title
+msgid "Looks like you didn’t complete your profile yet"
+msgstr ""
+
+#: [hello]profile_paragraph
+msgid "You can go in the Configuration page to describe yourself and put a nice picture"
+msgstr ""
+
+#: [status]disconnect
+msgid "Disconnect"
+msgstr ""
+
+#: [status]presence
+msgid "Presence"
+msgstr ""
+
+#: [status]logout_confirm
+msgid "Do you really want to log out?"
+msgstr ""
+
+#: [preview]link_copied
+msgid "Link copied to clipboard"
+msgstr ""
+
+#: [publish]placeholder [publishbrief]placeholder
+msgid "What’s new?"
+msgstr ""
+
+#: [publish]post [publishbrief]post
+msgid "Write a post"
+msgstr ""
+
+#: [publish]add_link [publishbrief]add_link
+msgid "Add a link"
+msgstr ""
+
+#: [publish]add_snap [publishbrief]add_snap
+msgid "Take a picture"
+msgstr ""
+
+#: [publish]no_title [publishbrief]no_title
+msgid "Please provide a title"
+msgstr ""
+
+#: [publish]preview [publishbrief]preview
+msgid "Preview"
+msgstr ""
+
+#: [publish]attach [publishbrief]attach
+msgid "Add a file or a picture"
+msgstr ""
+
+#: [publish]no_publication [publishbrief]no_publication
+msgid "You cannot publish a post here"
+msgstr ""
+
+#: [publish]no_content_preview [publishbrief]no_content_preview
+msgid "No content to preview"
+msgstr ""
+
+#: [publish]title [publishbrief]title
+msgid "Post title"
+msgstr ""
+
+#: [publish]content [publishbrief]content
+msgid "Markdown content"
+msgstr ""
+
+#: [publish]valid_url [publishbrief]valid_url
+msgid "Please enter a valid URL"
+msgstr ""
+
+#: [publish]content_text [publishbrief]content_text
+msgid "You can format your content using Markdown"
+msgstr ""
+
+#: [publish]draft_saved [publishbrief]draft_saved
+msgid "Draft saved"
+msgstr ""
+
+#: [publish]rich_editor [publishbrief]rich_editor
+msgid "Rich text editor"
+msgstr ""
+
+#: [publishhelp]title [page]help
+msgid "Help"
+msgstr "Helpo"
+
+#: [publishhelp]more
+msgid "More help"
+msgstr ""
+
+#: [publishhelp]manual
+msgid "Markdown syntax manual"
+msgstr ""
+
+#: [rooms]create
+msgid "Create a chatroom"
+msgstr ""
+
+#: [rooms]edit
+msgid "Edit a chatroom"
+msgstr ""
+
+#: [rooms]join
+msgid "Join a chatroom"
+msgstr ""
+
+#: [rooms]join_custom
+msgid "Join a custom chatroom"
+msgstr ""
+
+#: [rooms]empty_text1
+msgid "You don’t have any chatrooms yet."
+msgstr ""
+
+#: [rooms]empty_text2
+msgid "Add one by clicking on the add button."
+msgstr ""
+
+#: [rooms]empty_synchronize_title
+msgid "You had some rooms previously listed?"
+msgstr ""
+
+#: [rooms]empty_synchronize_text
+msgid "Try to synchronize them to the new room bookmarking system"
+msgstr ""
+
+#: [rooms]empty_synchronize_button
+msgid "Synchronize"
+msgstr ""
+
+#: [rooms]type_room
+msgid "Type of room"
+msgstr ""
+
+#: [rooms]default_room
+msgid "Standard room"
+msgstr ""
+
+#: [rooms]gateway_room
+msgid "Gateway room"
+msgstr ""
+
+#: [rooms]show_all
+msgid "Show all rooms"
+msgstr ""
+
+#: [rooms]hide_disconnected
+msgid "Hide disconnected rooms"
+msgstr ""
+
+#: [rooms]destroy_title
+msgid "Destroy the room"
+msgstr ""
+
+#: [rooms]destroy_text
+msgid "Are you sure you want to permanently destroy the following room?"
+msgstr ""
+
+#: [rooms]owner
+msgctxt "[rooms]owner"
+msgid "Owner"
+msgstr ""
+
+#: [rooms]admin
+msgctxt "[rooms]admin"
+msgid "Admin"
+msgstr ""
+
+#: [rooms]visitor
+msgid "Visitor"
+msgstr ""
+
+#: [rooms]explore_placeholder
+msgid "Name or description"
+msgstr ""
+
+#: [chatrooms]title
+msgid "Chatrooms"
+msgstr ""
+
+#: [chatrooms]id
+msgid "Chatroom ID"
+msgstr ""
+
+#: [chatrooms]name_placeholder
+msgid "My Favorite Room"
+msgstr ""
+
+#: [chatrooms]bad_id
+msgid "Bad Chatroom ID"
+msgstr ""
+
+#: [chatrooms]empty_name
+msgid "Empty name"
+msgstr ""
+
+#: [chatrooms]synchronized
+msgid "%s rooms synchronized"
+msgstr ""
+
+#: [chatrooms]not_synchronized
+msgid "No rooms to synchronize found"
+msgstr ""
+
+#: [chatrooms]users
+msgctxt "[chatrooms]users"
+msgid "Users"
+msgstr ""
+
+#: [chatrooms]members
+msgctxt "[chatrooms]members"
+msgid "Members"
+msgstr ""
+
+#: [chatrooms]banned
+msgid "Banned"
+msgstr ""
+
+#: [chatrooms]bad_nickname
+msgid "Please enter a correct nickname (2 to 40 characters)"
+msgstr ""
+
+#: [chatrooms]conflict
+msgid "Username already taken"
+msgstr ""
+
+#: [chatrooms]autojoin
+msgid "Join this chatroom on connect"
+msgstr ""
+
+#: [chatrooms]pinned
+msgid "Pin this chatroom"
+msgstr ""
+
+#: [chatrooms]destroyed
+msgid "Room destroyed"
+msgstr ""
+
+#: [chatrooms]registrationrequired
+msgid "Chatroom cannot be joined, registration required"
+msgstr ""
+
+#: [chatrooms]itemnotfound
+msgid "The chatroom doesn’t exists"
+msgstr ""
+
+#: [chatrooms]notauthorized
+msgid "A password is required"
+msgstr ""
+
+#: [chatrooms]forbidden
+msgid "You are not allowed to join this chatroom"
+msgstr ""
+
+#: [chatrooms]jidmalformed
+msgid "Your nickname is not valid"
+msgstr ""
+
+#: [chatrooms]notacceptable
+msgid "Not acceptable"
+msgstr ""
+
+#: [chatrooms]serviceunavailable
+msgid "The chatroom occupant limit has been reached"
+msgstr ""
+
+#: [chatrooms]notallowed
+msgid "You are not allowed to create a chatroom there"
+msgstr ""
+
+#: [chatrooms]created
+msgid "Chatroom created"
+msgstr ""
+
+#: [bookmarks]updated
+msgid "Bookmarks updated"
+msgstr ""
+
+#: [room]anonymous_title
+msgid "Public chatroom"
+msgstr ""
+
+#: [room]anonymous_text1
+msgid "You are currently logged as an anonymous user."
+msgstr ""
+
+#: [room]anonymous_text2
+msgid "You can join using your own account or create one on the login page by loging out using the cross in the top-right corner."
+msgstr ""
+
+#: [room]anonymous_login
+msgid "Login on %s"
+msgstr ""
+
+#: [room]invite
+msgid "Invite a contact"
+msgstr ""
+
+#: [room]invited
+msgid "Invitation sent"
+msgstr ""
+
+#: [room]invite_code
+msgid "Send this link to your contacts"
+msgstr ""
+
+#: [room]public_muc_text
+msgid "This chatroom is publicly discoverable"
+msgstr ""
+
+#: [room]nonanonymous_muc
+msgid "Public profiles"
+msgstr ""
+
+#: [room]nonanonymous_muc_text
+msgid "The participants of this chatroom can see each other's profile"
+msgstr ""
+
+#: [room]group_chat
+msgid "Group Chat"
+msgstr ""
+
+#: [room]group_chat_text
+msgid "Private group chat with invited members"
+msgstr ""
+
+#: [room]group_chat_add
+msgid "Add a new member"
+msgstr ""
+
+#: [room]group_chat_members
+msgctxt "[room]group_chat_members"
+msgid "Members"
+msgstr ""
+
+#: [room]banned_add
+msgid "Ban someone"
+msgstr ""
+
+#: [room]banned_remove
+msgid "Unban"
+msgstr ""
+
+#: [room]change_affiliation
+msgid "Change the user affiliation"
+msgstr ""
+
+#: [room]change_affiliation_unauthorized
+msgid "You are not authorized to change this affiliation"
+msgstr ""
+
+#: [room]affiliation
+msgid "Affiliation"
+msgstr ""
+
+#: [room]reason
+msgid "Reason"
+msgstr ""
+
+#: [room]channel
+msgid "Channel"
+msgstr ""
+
+#: [room]channel_users
+msgctxt "[room]channel_users"
+msgid "Users"
+msgstr ""
+
+#: [room]channel_text
+msgid "Public channel that can be publicly discoverable and joinable"
+msgstr ""
+
+#: [room]notify_never
+msgid "Never notify"
+msgstr ""
+
+#: [room]notify_quoted
+msgid "Notify when quoted"
+msgstr ""
+
+#: [room]notify_always
+msgid "Always notify"
+msgstr ""
+
+#: [room]pinned
+msgid "Pinned"
+msgstr ""
+
+#: [room]affiliation_owner
+msgctxt "[room]affiliation_owner"
+msgid "Owner"
+msgstr ""
+
+#: [room]affiliation_admin
+msgctxt "[room]affiliation_admin"
+msgid "Admin"
+msgstr ""
+
+#: [room]affiliation_member [affiliation]member
+msgid "Member"
+msgstr ""
+
+#: [room]affiliation_none [affiliation]no-aff
+msgid "No affiliation"
+msgstr ""
+
+#: [room]affiliation_owner_changed
+msgid "User granted as owner"
+msgstr ""
+
+#: [room]affiliation_admin_changed
+msgid "User granted as admin"
+msgstr ""
+
+#: [room]affiliation_member_changed
+msgid "User granted as member"
+msgstr ""
+
+#: [room]affiliation_outcast_changed
+msgid "User banned"
+msgstr ""
+
+#: [room]affiliation_none_changed
+msgid "Affiliation removed for the user"
+msgstr ""
+
+#: [roomsexplore]no_local
+msgid "No chatrooms found locally"
+msgstr ""
+
+#: [roomsexplore]global_title
+msgid "Global search"
+msgstr ""
+
+#: [roomsexplore]no_global
+msgid "No chatrooms found globally"
+msgstr ""
+
+#: [search]keyword
+msgid "What are you looking for?"
+msgstr ""
+
+#: [search]subtitle
+msgid "Open me using Ctrl + M"
+msgstr ""
+
+#: [search]placeholder
+msgid "#cats, username@server.com, John…"
+msgstr ""
+
+#: [search]no_contacts_title
+msgid "No contacts yet?"
+msgstr ""
+
+#: [search]no_contacts_text
+msgid "Find one by searching for their name or id"
+msgstr ""
+
+#: [search]tags
+msgid "Tags"
+msgstr ""
+
+#: [search]show_complete_roster
+msgid "Show all the contacts"
+msgstr ""
+
+#: [sendto]attach
+msgid "Attach to a blog publication"
+msgstr ""
+
+#: [sendto]contact
+msgid "Send it to a contact"
+msgstr ""
+
+#: [sendto]chatroom
+msgid "Share it in a chatroom"
+msgstr ""
+
+#: [sendto]shared_with
+msgid "Post shared"
+msgstr ""
+
+#: [sendto]shared_contact
+msgid "Post shared with your contact"
+msgstr ""
+
+#: [sendto]shared_chatroom
+msgid "Post shared within the chatroom"
+msgstr ""
+
+#: [sendto]more_contacts
+msgid "More contacts"
+msgstr ""
+
+#: [statistics]title
+msgid "Statistics"
+msgstr ""
+
+#: [sticker]title
+msgid "Stickers"
+msgstr ""
+
+#: [sticker]sent
+msgid "A sticker has been sent using Movim"
+msgstr ""
+
+#: [sticker]keyword
+msgid "Type a keyword"
+msgstr ""
+
+#: [sticker]gif_title
+msgid "Find a GIF"
+msgstr ""
+
+#: [sticker]gif_text
+msgid "Powered by Tenor"
+msgstr ""
+
+#: [subscribe]info
+msgid "Movim is a decentralized social network, before creating a new account you need to choose a server to register."
+msgstr ""
+
+#: [subscribe]server_question
+msgid "Your server here?"
+msgstr ""
+
+#: [subscribe]server_contact
+msgid "Contact us to add yours to the officially supported servers list"
+msgstr ""
+
+#: [feed]nope
+msgid "No public feed for this contact"
+msgstr ""
+
+#: [feed]nope_contact
+msgid "No contact specified"
+msgstr ""
+
+#: [upload]title [button]upload
+msgid "Upload"
+msgstr ""
+
+#: [upload]choose
+msgid "Choose a file to upload"
+msgstr ""
+
+#: [upload]info
+msgid "Large pictures will be resized and compressed"
+msgstr ""
+
+#: [upload]error_filesize
+msgid "File too large"
+msgstr ""
+
+#: [upload]error_failed
+msgid "Upload failed"
+msgstr ""
+
+#: [upload]error_not_allowed
+msgid "You are not allowed to upload a file"
+msgstr ""
+
+#: [upload]error_resource_constraint
+msgid "You exceeded the quota"
+msgstr ""
+
+#: [upload]drag_drop
+msgid "Drag and drop your file in this area"
+msgstr ""
+
+#: [upload]max_size
+msgid "Max file size %s"
+msgstr ""
+
+#: [vcard]title [page]profile
+msgid "Profile"
+msgstr "Profilo"
+
+#: [vcard]updated
+msgid "Profile Updated"
+msgstr ""
+
+#: [vcard]not_updated
+msgid "Profile Not Updated"
+msgstr ""
+
+#: [vcard]public
+msgid "Your profile is now public"
+msgstr ""
+
+#: [vcard]restricted
+msgid "Your profile is now restricted"
+msgstr ""
+
+#: [profile]info
+msgid "Configure your instance nickname"
+msgstr ""
+
+#: [profile]privacy_question
+msgid "Is this profile public?"
+msgstr ""
+
+#: [profile]privacy_info
+msgid "Please pay attention! By making your profile public, all the information listed below will be available for all the Movim users and on the whole Internet."
+msgstr ""
+
+#: [profile]nickname_info
+msgid "Set a local nickname to allow the other users of the instance to find you easily."
+msgstr ""
+
+#: [profile]nickname_set
+msgid "Your nickname is %s."
+msgstr ""
+
+#: [profile]nickname_placeholder
+msgid "John_Bob96"
+msgstr ""
+
+#: [profile]nickname_error
+msgid "Your nickname should only contains letters, numbers, - and _"
+msgstr ""
+
+#: [profile]nickname_conflict
+msgid "The nickname is already registered"
+msgstr ""
+
+#: [profile]nickname_saved
+msgid "Nickname saved"
+msgstr ""
+
+#: [save]submit [button]submit
+msgid "Submit"
+msgstr "Sendi"
+
+#: [save]reset [button]reset
+msgid "Reset"
+msgstr "Nuligi"
+
+#: [degraded]title
+msgid "Movim is currently working in degraded mode"
+msgstr ""
+
+#: [degraded]text_1
+msgid "Your server doesn’t support XMPP Pubsub persistence or the social features (communities, news feed and profile) are disabled by the administrator."
+msgstr ""
+
+#: [degraded]text_2
+msgid "Please contact your server administrator to see if this feature can be enabled."
+msgstr ""
+
+#: [visio]calling
+msgid "…is calling you"
+msgstr ""
+
+#: [visio]video_call
+msgid "Incoming video call"
+msgstr ""
+
+#: [visio]audio_call
+msgid "Incoming audio call"
+msgstr ""
+
+#: [visio]ringing
+msgid "…ringing"
+msgstr ""
+
+#: [visio]declined
+msgid "declined"
+msgstr ""
+
+#: [visio]in_call
+msgid "in call"
+msgstr ""
+
+#: [visio]failed
+msgid "failed"
+msgstr ""
+
+#: [visio]connecting
+msgid "…connecting"
+msgstr ""
+
+#: [visio]ended
+msgid "call ended"
+msgstr ""
+
+#: [visioconfig]title
+msgid "Video & Voice"
+msgstr ""
+
+#: [visioconfig]help
+msgid "Configure the default devices used by Movim"
+msgstr ""
+
+#: [visioconfig]microphone
+msgid "Microphone"
+msgstr ""
+
+#: [visioconfig]microphone_label
+msgid "Default microphone"
+msgstr ""
+
+#: [visioconfig]camera
+msgid "Camera"
+msgstr ""
+
+#: [visioconfig]camera_label
+msgid "Default camera"
+msgstr ""
+
+#: [visioconfig]default_microphone_changed
+msgid "Default microphone changed"
+msgstr ""
+
+#: [visioconfig]default_camera_changed
+msgid "Default camera changed"
+msgstr ""
+
+#: [visioconfig]no_mic_sound
+msgid "No sound detected from your microphone"
+msgstr ""
+
+#: [visioconfig]no_mic_sound2
+msgid "Try to select another source or check your system settings"
+msgstr ""
+
+#: [global]no_js
+msgid "Movim requires Javascript to be enabled to work properly."
+msgstr ""
+
+#: [global]description
+msgid "Movim is a kickass distributed social networking platform that protect your privacy and comes with a set of awesome features."
+msgstr ""
+
+#: [global]loading
+msgid "Loading…"
+msgstr ""
+
+#: [global]or
+msgid "Or"
+msgstr ""
+
+#: [global]change_pod
+msgid "Switch to another pod"
+msgstr ""
+
+#: [page]communities
+msgid "Communities"
+msgstr ""
+
+#: [page]home
+msgid "Home"
+msgstr "Ĉefpaĝo"
+
+#: [page]explore
+msgid "Explore"
+msgstr ""
+
+#: [page]account_creation
+msgid "Account Creation"
+msgstr "Kreado de konto"
+
+#: [page]news
+msgid "News"
+msgstr ""
+
+#: [page]avatar
+msgid "Avatar"
+msgstr "Avataro"
+
+#: [page]chats
+msgid "Chats"
+msgstr ""
+
+#: [page]publish
+msgid "Publish"
+msgstr ""
+
+#: [page]post
+msgid "Post"
+msgstr ""
+
+#: [page]blog
+msgid "Blog"
+msgstr ""
+
+#: [page]about
+msgid "About"
+msgstr ""
+
+#: [page]login
+msgid "Login"
+msgstr ""
+
+#: [page]not_found
+msgid "Not Found"
+msgstr ""
+
+#: [page]feed
+msgid "Feed"
+msgstr "Fluo"
+
+#: [page]posts
+msgid "Posts"
+msgstr ""
+
+#: [page]gallery
+msgid "Gallery"
+msgstr ""
+
+#: [page]visio
+msgid "Visio-conference"
+msgstr ""
+
+#: [page]share
+msgctxt "[page]share"
+msgid "Share"
+msgstr ""
+
+#: [page]room
+msgid "Room"
+msgstr ""
+
+#: [page]tag
+msgid "Tag"
+msgstr ""
+
+#: [error]error
+msgid "Error: %s"
+msgstr "Eraro: %s"
+
+#: [error]cannot_load_file
+msgid "Cannot load file '%s'"
+msgstr "Ne povas ŝargi dosieron “%s”."
+
+#: [error]widget_load_error
+msgid "Requested widget '%s' doesn’t exist."
+msgstr ""
+
+#: [error]widget_call_error
+msgid "Requested event '%s' not registered."
+msgstr ""
+
+#: [error]whoops
+msgid "Whoops!"
+msgstr ""
+
+#: [error]websocket
+msgid "Movim cannot talk with the server, please try again later"
+msgstr ""
+
+#: [error]websocket_connect
+msgid "Reconnection to the server…"
+msgstr ""
+
+#: [error]oops
+msgid "Oops!"
+msgstr ""
+
+#: [button]call
+msgid "Call"
+msgstr ""
+
+#: [button]audio_call
+msgid "Audio Call"
+msgstr ""
+
+#: [button]video_call
+msgid "Video Call"
+msgstr ""
+
+#: [button]validate
+msgid "Validate"
+msgstr ""
+
+#: [button]refresh
+msgid "Refresh"
+msgstr ""
+
+#: [button]add
+msgid "Add"
+msgstr "Aldoni"
+
+#: [button]delete
+msgid "Delete"
+msgstr ""
+
+#: [button]destroy
+msgid "Destroy"
+msgstr ""
+
+#: [button]cancel
+msgid "Cancel"
+msgstr ""
+
+#: [button]close
+msgid "Close"
+msgstr ""
+
+#: [button]update
+msgid "Update"
+msgstr ""
+
+#: [button]updating
+msgid "Updating"
+msgstr ""
+
+#: [button]submitting
+msgid "Submitting"
+msgstr ""
+
+#: [button]register
+msgid "Register"
+msgstr ""
+
+#: [button]reply
+msgid "Reply"
+msgstr ""
+
+#: [button]unregister
+msgid "Unregister"
+msgstr ""
+
+#: [button]save
+msgid "Save"
+msgstr ""
+
+#: [button]clear
+msgid "Clear"
+msgstr ""
+
+#: [button]connecting
+msgid "Connecting"
+msgstr ""
+
+#: [button]bool_yes
+msgid "Yes"
+msgstr ""
+
+#: [button]bool_no
+msgid "No"
+msgstr ""
+
+#: [button]return
+msgid "Return"
+msgstr ""
+
+#: [button]accept
+msgid "Accept"
+msgstr "Akcepti"
+
+#: [button]refuse
+msgid "Refuse"
+msgstr ""
+
+#: [button]next
+msgid "Next"
+msgstr ""
+
+#: [button]previous
+msgid "Previous"
+msgstr ""
+
+#: [button]search
+msgid "Search"
+msgstr ""
+
+#: [button]share
+msgctxt "[button]share"
+msgid "Share"
+msgstr ""
+
+#: [button]discover
+msgid "Discover"
+msgstr ""
+
+#: [button]like
+msgid "Like"
+msgstr ""
+
+#: [button]not_now
+msgid "Not Now"
+msgstr ""
+
+#: [button]enable
+msgid "Enable"
+msgstr ""
+
+#: [button]sign_up
+msgid "Sign Up"
+msgstr ""
+
+#: [button]send_to
+msgid "Send to"
+msgstr ""
+
+#: [button]more
+msgid "More"
+msgstr ""
+
+#: [button]copy_link
+msgid "Copy Link"
+msgstr ""
+
+#: [button]open
+msgid "Open"
+msgstr ""
+
+#: [input]optional
+msgid "Optional"
+msgstr ""
+
+#: [input]muc_pubsub_node
+msgid "Associated Community"
+msgstr ""
+
+#: [day]title
+msgid "Day"
+msgstr ""
+
+#: [day]monday
+msgid "Monday"
+msgstr "Lundo"
+
+#: [day]tuesday
+msgid "Tuesday"
+msgstr "Mardo"
+
+#: [day]wednesday
+msgid "Wednesday"
+msgstr "Merkredo"
+
+#: [day]thursday
+msgid "Thursday"
+msgstr "Ĵaŭdo"
+
+#: [day]friday
+msgid "Friday"
+msgstr "Vendredo"
+
+#: [day]saturday
+msgid "Saturday"
+msgstr "Sabato"
+
+#: [day]sunday
+msgid "Sunday"
+msgstr ""
+
+#: [client]bot
+msgid "Bot"
+msgstr ""
+
+#: [client]console
+msgid "Console"
+msgstr ""
+
+#: [client]desktop
+msgid "Desktop"
+msgstr ""
+
+#: [client]phone
+msgid "Phone"
+msgstr ""
+
+#: [client]web
+msgid "Web"
+msgstr ""
+
+#: [client]registered
+msgid "Registered"
+msgstr ""
+
+#: [presence]online
+msgid "Online"
+msgstr "Enrete"
+
+#: [presence]away
+msgid "Away"
+msgstr "For"
+
+#: [presence]dnd
+msgid "Do Not Disturb"
+msgstr "Ne ĝenu"
+
+#: [presence]xa
+msgid "Extended Away"
+msgstr ""
+
+#: [presence]offline
+msgid "Offline"
+msgstr ""
+
+#: [presence]error
+msgid "Error"
+msgstr ""
+
+#: [mood]afraid
+msgid "afraid"
+msgstr ""
+
+#: [mood]amazed
+msgid "amazed"
+msgstr ""
+
+#: [mood]amorous
+msgid "amorous"
+msgstr ""
+
+#: [mood]angry
+msgid "angry"
+msgstr ""
+
+#: [mood]annoyed
+msgid "annoyed"
+msgstr ""
+
+#: [mood]anxious
+msgid "anxious"
+msgstr ""
+
+#: [mood]aroused
+msgid "aroused"
+msgstr ""
+
+#: [mood]ashamed
+msgid "ashamed"
+msgstr ""
+
+#: [mood]bored
+msgid "bored"
+msgstr ""
+
+#: [mood]brave
+msgid "brave"
+msgstr ""
+
+#: [mood]calm
+msgid "calm"
+msgstr ""
+
+#: [mood]cautious
+msgid "cautious"
+msgstr ""
+
+#: [mood]cold
+msgid "cold"
+msgstr ""
+
+#: [mood]confident
+msgid "confident"
+msgstr ""
+
+#: [mood]confused
+msgid "confused"
+msgstr ""
+
+#: [mood]contemplative
+msgid "contemplative"
+msgstr ""
+
+#: [mood]contented
+msgid "contented"
+msgstr ""
+
+#: [mood]cranky
+msgid "cranky"
+msgstr ""
+
+#: [mood]crazy
+msgid "crazy"
+msgstr ""
+
+#: [mood]creative
+msgid "creative"
+msgstr ""
+
+#: [mood]curious
+msgid "curious"
+msgstr ""
+
+#: [mood]dejected
+msgid "dejected"
+msgstr ""
+
+#: [mood]depressed
+msgid "depressed"
+msgstr ""
+
+#: [mood]disappointed
+msgid "disappointed"
+msgstr ""
+
+#: [mood]disgusted
+msgid "disgusted"
+msgstr ""
+
+#: [mood]dismayed
+msgid "dismayed"
+msgstr ""
+
+#: [mood]distracted
+msgid "distracted"
+msgstr ""
+
+#: [mood]embarrassed
+msgid "embarrassed"
+msgstr ""
+
+#: [mood]envious
+msgid "envious"
+msgstr ""
+
+#: [mood]excited
+msgid "excited"
+msgstr ""
+
+#: [mood]flirtatious
+msgid "flirtatious"
+msgstr ""
+
+#: [mood]frustrated
+msgid "frustrated"
+msgstr ""
+
+#: [mood]grateful
+msgid "grateful"
+msgstr ""
+
+#: [mood]grieving
+msgid "grieving"
+msgstr ""
+
+#: [mood]grumpy
+msgid "grumpy"
+msgstr ""
+
+#: [mood]guilty
+msgid "guilty"
+msgstr ""
+
+#: [mood]happy
+msgid "happy"
+msgstr ""
+
+#: [mood]hopeful
+msgid "hopeful"
+msgstr ""
+
+#: [mood]hot
+msgid "hot"
+msgstr ""
+
+#: [mood]humbled
+msgid "humbled"
+msgstr ""
+
+#: [mood]humiliated
+msgid "humiliated"
+msgstr ""
+
+#: [mood]hungry
+msgid "hungry"
+msgstr ""
+
+#: [mood]hurt
+msgid "hurt"
+msgstr ""
+
+#: [mood]impressed
+msgid "impressed"
+msgstr ""
+
+#: [mood]in_awe
+msgid "in awe"
+msgstr ""
+
+#: [mood]in_love
+msgid "in love"
+msgstr ""
+
+#: [mood]indignant
+msgid "indignant"
+msgstr ""
+
+#: [mood]interested
+msgid "interested"
+msgstr ""
+
+#: [mood]intoxicated
+msgid "intoxicated"
+msgstr ""
+
+#: [mood]invincible
+msgid "invincible"
+msgstr ""
+
+#: [mood]jealous
+msgid "jealous"
+msgstr ""
+
+#: [mood]lonely
+msgid "lonely"
+msgstr ""
+
+#: [mood]lost
+msgid "lost"
+msgstr ""
+
+#: [mood]lucky
+msgid "lucky"
+msgstr ""
+
+#: [mood]mean
+msgid "mean"
+msgstr ""
+
+#: [mood]moody
+msgid "moody"
+msgstr ""
+
+#: [mood]nervous
+msgid "nervous"
+msgstr ""
+
+#: [mood]neutral
+msgid "neutral"
+msgstr ""
+
+#: [mood]offended
+msgid "offended"
+msgstr ""
+
+#: [mood]outraged
+msgid "outraged"
+msgstr ""
+
+#: [mood]playful
+msgid "playful"
+msgstr ""
+
+#: [mood]proud
+msgid "proud"
+msgstr ""
+
+#: [mood]relaxed
+msgid "relaxed"
+msgstr ""
+
+#: [mood]relieved
+msgid "relieved"
+msgstr ""
+
+#: [mood]restless
+msgid "restless"
+msgstr ""
+
+#: [mood]sad
+msgid "sad"
+msgstr ""
+
+#: [mood]sarcastic
+msgid "sarcastic"
+msgstr ""
+
+#: [mood]satisfied
+msgid "satisfied"
+msgstr ""
+
+#: [mood]serious
+msgid "serious"
+msgstr ""
+
+#: [mood]shocked
+msgid "shocked"
+msgstr ""
+
+#: [mood]shy
+msgid "shy"
+msgstr ""
+
+#: [mood]sick
+msgid "sick"
+msgstr ""
+
+#: [mood]sleepy
+msgid "sleepy"
+msgstr ""
+
+#: [mood]spontaneous
+msgid "spontaneous"
+msgstr ""
+
+#: [mood]stressed
+msgid "stressed"
+msgstr ""
+
+#: [mood]strong
+msgid "strong"
+msgstr ""
+
+#: [mood]surprised
+msgid "surprised"
+msgstr ""
+
+#: [mood]thankful
+msgid "thankful"
+msgstr ""
+
+#: [mood]thirsty
+msgid "thirsty"
+msgstr ""
+
+#: [mood]tired
+msgid "tired"
+msgstr ""
+
+#: [mood]undefined
+msgid "undefined"
+msgstr ""
+
+#: [mood]weak
+msgid "weak"
+msgstr ""
+
+#: [mood]worried
+msgid "worried"
+msgstr ""
+
+#: [month]title
+msgid "Month"
+msgstr ""
+
+#: [month]january
+msgid "January"
+msgstr "Januaro"
+
+#: [month]february
+msgid "February"
+msgstr "Februaro"
+
+#: [month]march
+msgid "March"
+msgstr "Marto"
+
+#: [month]april
+msgid "April"
+msgstr "Aprilo"
+
+#: [month]may
+msgid "May"
+msgstr "Majo"
+
+#: [month]june
+msgid "June"
+msgstr "Junio"
+
+#: [month]july
+msgid "July"
+msgstr "Julio"
+
+#: [month]august
+msgid "August"
+msgstr "Aŭgusto"
+
+#: [month]september
+msgid "September"
+msgstr "Septembro"
+
+#: [month]october
+msgid "October"
+msgstr "Oktobro"
+
+#: [month]november
+msgid "November"
+msgstr "Novembro"
+
+#: [month]december
+msgid "December"
+msgstr "Decembro"
+
+#: [year]title
+msgid "Year"
+msgstr ""
+
+#: [date]today
+msgid "Today"
+msgstr "Hodiaŭ"
+
+#: [date]tomorrow
+msgid "Tomorrow"
+msgstr "Morgaŭ"
+
+#: [date]yesterday
+msgid "Yesterday"
+msgstr "Hieraŭ"
+
+#: [date]ago
+msgid "%d days ago"
+msgstr ""
+
+#: [date]day
+msgid "day"
+msgstr "tago"
+
+#: [post]title
+msgid "Title"
+msgstr ""
+
+#: [post]place
+msgid "Place"
+msgstr ""
+
+#: [post]by
+msgid "by"
+msgstr ""
+
+#: [post]geolocalisation
+msgid "Geolocalisation"
+msgstr ""
+
+#: [post]email
+msgid "email"
+msgstr ""
+
+#: [post]empty
+msgid "No content"
+msgstr ""
+
+#: [post]no_comments
+msgid "No comments yet"
+msgstr ""
+
+#: [post]older
+msgid "Get older posts"
+msgstr ""
+
+#: [post]new_items
+msgid "%s new items"
+msgstr ""
+
+#: [post]comment_error
+msgid "Comment publication error"
+msgstr ""
+
+#: [post]comments_get
+msgid "Get the comments"
+msgstr ""
+
+#: [post]comment_add
+msgid "Add a comment"
+msgstr ""
+
+#: [post]share
+msgid "Share with"
+msgstr ""
+
+#: [post]share_everyone
+msgid "Everyone"
+msgstr ""
+
+#: [post]updated
+msgid "Updated"
+msgstr ""
+
+#: [post]content_not_found
+msgid "Content not found"
+msgstr ""
+
+#: [post]default_title
+msgid "Contact publication"
+msgstr ""
+
+#: [post]comments
+msgid "Comments"
+msgstr ""
+
+#: [post]original_deleted
+msgid "Original post deleted"
+msgstr ""
+
+#: [filesize]byte
+msgid "B"
+msgstr ""
+
+#: [filesize]kilobyte
+msgid "KB"
+msgstr ""
+
+#: [filesize]megabyte
+msgid "MB"
+msgstr ""
+
+#: [filesize]gigabyte
+msgid "GB"
+msgstr ""
+
+#: [filesize]terabyte
+msgid "TB"
+msgstr ""
+
+#: [affiliation]owner
+msgid "Owner"
+msgstr ""
+
+#: [affiliation]publisher
+msgid "Publisher"
+msgstr ""
+
+#: [affiliation]publish-only
+msgid "Publish only"
+msgstr ""
+
+#: [affiliation]outcast
+msgid "Outcast"
+msgstr ""
+
+#: [api]error
+msgid "The API is not reachable, try again later"
+msgstr ""
+
+#: [field]type_here
+msgid "Type here"
+msgstr ""

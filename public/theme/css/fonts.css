@@ -1,0 +1,35 @@
+@import url('../fonts/MaterialIcons/font.css?1');
+@import url('../fonts/Roboto/font.css?0');
+/*@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Titillium+Web:wght@300&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre');
+/*@import url('../fonts/GemunuLibre/GemunuLibre-VariableFont_wght.ttf');*/
+
+.emoji {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 0.5rem;
+    margin-bottom: -0.7rem;
+}
+
+ul.list p + p .emoji {
+    margin-bottom: -0.5rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.emoji.medium {
+    width: auto;
+    height: 3.5rem;
+    margin: 0;
+    margin-bottom: -1.2rem;
+}
+
+.emoji.large {
+    width: 4.5rem;
+    height: 5rem;
+    margin: 0;
+}
+
+.hfr {
+    display: inline-block;
+}

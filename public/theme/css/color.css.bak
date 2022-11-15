@@ -1,0 +1,241 @@
+/* Color */
+
+body {
+    --movim-main: 109, 161, 79;
+    --movim-accent: 90, 70, 27;/*147, 51, 6;*/
+    --movim-background-main: 254, 254, 254;
+    --movim-background: 204, 197, 189;
+    --movim-gray: 90, 70, 27;/*147, 51, 6;*/
+    --movim-font: 4, 4, 4;
+    --movim-element-action: 130, 211, 23; /*68, 63, 176;*/
+    scrollbar-color: rgba(var(--movim-font), 1) transparent;
+    scrollbar-width: thin;
+
+    --movim-red: #DB1D00;
+}
+
+body.nightmode {
+    --movim-accent: 16, 21, 26;
+    --movim-background-main: 20,26,33;
+    --movim-background: 25, 32, 40;
+    --movim-gray: var(--movim-accent);
+    --movim-font: 255, 255, 255;
+    scrollbar-color: rgba(var(--movim-font), 0.1) transparent;
+}
+
+body {
+    background-color: rgb(var(--movim-gray));
+}
+
+body > *,
+.context_menu,
+.icon-text,
+.tabs a,
+input, textarea, select {
+    color: rgba(var(--movim-font), 0.87);
+}
+
+ul.list li.divided,
+ul.list li.divided.spaced:after,
+hr:not(.clear),
+.card > .block:not(.subheader):not(.simple),
+*.divided > *:not(:last-child),
+*.divided.spaced > *:not(:last-child):after {
+    border-color: rgba(var(--movim-font), 0.12);
+}
+
+ul.list li span.control.divided:before {
+    border-color: rgba(var(--movim-font), 0.128);
+}
+
+label, span.info,
+table tr th {
+    color: rgba(var(--movim-font), 0.54);
+}
+
+.highlighted {
+    background-color: rgba(var(--movim-font), 0.035);
+    border-radius: 0.5rem;
+}
+
+.color {
+    background-color: #607D8B;
+    color: white;
+}
+
+.color.dark {
+    background-color: rgb(var(--movim-gray));
+}
+
+.color.dark *.divided > *:not(:last-child),
+.color.dark hr {
+    border-color: rgba(255, 255, 255, 0.05);
+}
+/*
+body > nav > ul.list.active li.active:before {
+    background-color: rgba(var(--movim-element-action), 0.08);
+}
+
+body > nav > ul.list.active li:not(.active):active:before {
+    background-color: rgba(var(--movim-element-action), 0.08);
+}
+
+body > nav > ul.list.active li:not(.active):hover:before {
+    background-color: rgba(var(--movim-element-action), 0.04);
+}*/
+
+ul li.date > div > p.normal,
+.dialog, .drawer, ul.context_menu,
+ul li div.bubble:not(.sticker):not(.file),
+.card > .block:not(.subheader):not(.simple),
+ul.list.actions p,
+main {
+    background-color: rgb(var(--movim-background-main));
+}
+
+main > header a,
+.icon:not(.placeholder):not(.active) a,
+.color input {
+    color: white;
+}
+
+.button.color,
+.color,
+span.icon span.counter,
+span.icon.composing:after,
+form > div .radio > input[type="radio"]:checked + label {
+    border-color: rgb(var(--movim-main));
+    background-color: rgb(var(--movim-main));
+    color: white;
+}
+
+span.icon span.counter.alt {
+    background-color: rgb(var(--movim-accent));
+}
+
+/* Elements */
+
+.button.red,    .icon.red   , span.resource.red, p.encrypted.error { color: var(--movim-red); }
+.button.purple, .icon.purple, span.resource.purple   { color: #9C27B0; }
+.button.indigo, .icon.indigo, span.resource.indigo   { color: #3F51B5; }
+.button.blue,   .icon.blue  , span.resource.blue     { color: #2196F3; }
+.button.green,  .icon.green , span.resource.green    { color: #689F38; }
+ul li div.bubble.moderator:after,
+ul li div > p > span.moderator,
+.button.orange, .icon.orange, span.resource.orange   { color: #FF9800; }
+.button.yellow, .icon.yellow, span.resource.yellow   { color: #FBC02D; }
+.button.brown,  .icon.brown , span.resource.brown    { color: #795548; }
+ul li.action > div.action,
+ul li.action > form > div.action,
+.button.gray,   .icon.gray  , span.resource.gray     { color: #9E9E9E; }
+.button.black,  .icon.black , span.resource.black    { color: #000000; }
+.button.lime,   .icon.lime  , span.resource.lime     { color: #CDDC39 }
+.button.cyan,   .icon.cyan  , span.resource.cyan     { color: #00bcd4 }
+.button.teal,   .icon.teal  , span.resource.teal     { color: #009688 }
+.button.pink,   .icon.pink  , span.resource.pink     { color: #e91e63 }
+.button.dorange,.icon.dorange  , span.resource.dorange  { color: #ff5722 }
+.button.lblue,  .icon.lblue  , span.resource.lblue   { color: #03a9f4 }
+.button.amber,  .icon.anber  , span.resource.amber   { color: #ffc107 }
+.button.bgray,  .icon.bgray  , span.resource.bgray   { color: #607d8b }
+
+.color          { color: white; background-color: #607D8B; border-color: #607D8B }
+span.icon:not(.composing).status.dnd:after,
+.color.red      { color: white; background-color: var(--movim-red); border-color: var(--movim-red) }
+span.icon:not(.composing).status.xa:after,
+.color.purple   { color: white; background-color: #9C27B0; border-color: #9C27B0 }
+.color.indigo   { color: white; background-color: #3F51B5; border-color: #3F51B5 }
+.color.blue     { color: white; background-color: #2196F3; border-color: #2196F3 }
+span.icon:not(.composing).status.chat:after,
+span.icon:not(.composing).status.online:after,
+.color.green    { color: white; background-color: #689F38; border-color: #689F38 }
+.color.orange   { color: white; background-color: #FF9800; border-color: #FF9800 }
+span.icon:not(.composing).status.away:after,
+.color.yellow   { color: white; background-color: #FDD835; border-color: #FDD835 }
+span.icon:not(.composing).status.server_error:after,
+.color.brown    { color: white; background-color: #795548; border-color: #795548 }
+.color.gray     { color: white; background-color: #9E9E9E; border-color: #9E9E9E }
+.color.black    { color: white; background-color: #000000; border-color: #000000 }
+.color.lime     { color: white; background-color: #CDDC39; border-color: #CDDC39 }
+.color.cyan     { color: white; background-color: #00bcd4; border-color: #00bcd4 }
+.color.teal     { color: white; background-color: #009688; border-color: #009688 }
+.color.pink     { color: white; background-color: #e91e63; border-color: #e91e63 }
+.color.dorange  { color: white; background-color: #ff5722; border-color: #ff5722 }
+.color.lblue    { color: white; background-color: #03a9f4; border-color: #03a9f4 }
+.color.amber    { color: white; background-color: #ffc107; border-color: #ffc107 }
+.color.bgray    { color: white; background-color: #607d8b; border-color: #607d8b }
+
+.color.transparent { color: white; background-color: rgba(0, 0, 0, 0); }
+.color.semi { color: rgba(var(--movim-font), 0.87); background-color: rgba(var(--movim-background-main), 0.75); }
+
+form > div > input:focus:invalid,
+form > div > input:focus:required {
+    box-shadow: 0px 2px 0px var(--movim-red);
+}
+
+form > div > input:invalid,
+form input:focus:invalid + label,
+form textarea:focus:invalid + label {
+    color: var(--movim-red);
+}
+
+/* Chat edit */
+#chat_widget .chat_box form textarea.edit:focus {
+    box-shadow: 0px 2px 0px #FBC02D;
+}
+
+body:not(.nightmode) header.fixed ul.list li > div > p span.second {
+    color: rgba(var(--movim-background-main), 0.60);
+}
+
+ul.list li > div > p:nth-last-of-type(3) + p:not(.normal):not(.main),
+ul.list li > div > p:nth-last-of-type(2) + p:not(.normal):not(.main) {
+    color: rgba(var(--movim-font), 0.60);
+}
+
+body:not(.nightmode) header.fixed ul.list li > div > p:nth-last-of-type(3) + p:not(.normal):not(.main),
+body:not(.nightmode) header.fixed ul.list li > div > p:nth-last-of-type(2) + p:not(.normal):not(.main),
+body:not(.nightmode) header.big ul.list li > div > p:nth-last-of-type(3) + p:not(.normal):not(.main),
+body:not(.nightmode) header.big ul.list li > div > p:nth-last-of-type(2) + p:not(.normal):not(.main),
+body:not(.nightmode) div#snackbar ul.list li > div > p:nth-last-of-type(2) + p:not(.normal):not(.main) {
+    color: rgba(var(--movim-background-main), 0.80);
+}
+
+/* Default color : indigo */
+
+input[type=button].color,
+main > div > header.fixed,
+header.big,
+main > header {
+    background-color: rgb(var(--movim-accent));
+    color: white;
+    border-color: rgb(var(--movim-accent));
+}
+
+.snackbar ul.list li > div > p,
+.snackbar ul.list li > div > p:nth-last-of-type(2) + p,
+main > header ul.list li > div > p:nth-last-of-type(2) + p {
+    color: white;
+}
+
+/* Gray accent : orange */
+
+.tabs,
+.button,
+header:not(.big) .icon a,
+a {
+    color: rgb(var(--movim-main));
+    border-color: rgb(var(--movim-main));
+}
+
+form > div .checkbox:before { background-color: rgba(var(--movim-main), 0.5); }
+form > div .checkbox > input[type="checkbox"]:checked + label { background-color: rgb(var(--movim-main)); }
+
+form input:focus:not(:invalid) + label,
+form textarea:focus:not(:invalid) + label {
+    color: rgb(var(--movim-main));
+}
+
+form input:focus:not(:invalid):not(.button),
+form textarea:focus:not(:invalid):not(.button) {
+    box-shadow: 0px 2px 0px rgb(var(--movim-main));
+}

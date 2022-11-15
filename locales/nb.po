@@ -1,0 +1,3398 @@
+#
+# Translators:
+# Allan Nordhøy <epost@anotheragency.no>, 2017
+# Dominik George <nik@naturalnet.de>, 2017-2018
+# pere <pere-transifex@hungry.com>, 2017
+# Ruben Solvang <rsolvang@gmail.com>, 2016-2017
+# 1b09ca809bd1d57b09c4d19f89cfcafa_19f763a <9a173cebe69c399e2bc3c9d455cdd880_367693>, 2016
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/About/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Account/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/AccountNext/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/AdHoc/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/AdminMain/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/AdminReported/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/AdminSessions/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/AdminTest/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Api/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Avatar/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Blocked/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Blog/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Chat/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/ChatOmemo/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Chats/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Communities/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/CommunitiesInteresting/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/CommunitiesServer/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/CommunitiesServers/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/CommunityAffiliations/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/CommunityConfig/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/CommunityData/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/CommunityHeader/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/CommunitySubscriptions/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Config/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Confirm/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/ContactActions/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/ContactData/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/ContactDataPublic/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Draw/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Help/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Login/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/LoginAnonymous/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Menu/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Notifications/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Onboarding/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Post/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Presence/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Preview/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Publish/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/PublishBrief/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/PublishHelp/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Rooms/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/RoomsExplore/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Search/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/SendTo/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Statistics/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Stickers/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Subscribe/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Syndication/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Upload/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Vcard4/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Visio/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/VisioConfig/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../locales/locales.ini
+msgid ""
+msgstr ""
+"Project-Id-Version: movim\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-07 14:14+0200\n"
+"PO-Revision-Date: 2022-02-17 07:57+0000\n"
+"Last-Translator: Jaussoin Timothée <edhelas@movim.eu>\n"
+"Language-Team: Norwegian Bokmål (Norway) (http://www.transifex.com/movim/movim/language/nb_NO/)\n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Translate Toolkit 3.4.1\n"
+
+#: [about]thanks
+msgid "Thanks"
+msgstr "Takk"
+
+#: [about]developers
+msgid "Developers"
+msgstr "Utviklere"
+
+#: [about]translators
+msgid "Translators"
+msgstr "Oversettere"
+
+#: [about]translators_text
+msgid "Thanks to all the translators"
+msgstr "Takk til alle oversettere"
+
+#: [about]software
+msgid "Software"
+msgstr "Programvare"
+
+#: [about]resources
+msgid "Resources"
+msgstr "Ressurser"
+
+#: [about]api [schema]api [api]title
+msgid "API"
+msgstr "API"
+
+#: [about]info
+msgid "Movim is an XMPP-based communication platform. All the project, except the following software and resources, is under"
+msgstr "Movim er basert på kommunikasjonsplattformen XMPP. Hele prosjektet, med unntak av følgende programvare og ressurser, er under"
+
+#: [account]title [page]account
+msgid "Account"
+msgstr "Konto"
+
+#: [account]password_change_title
+msgid "Change my password"
+msgstr "Endre passordet mitt"
+
+#: [account]password [credentials]password [form]password [input]password
+msgid "Password"
+msgstr "Passord"
+
+#: [account]password_confirmation
+msgid "Password confirmation"
+msgstr "Passordbekreftelse"
+
+#: [account]password_changed
+msgid "The password has been updated"
+msgstr "Passordet er oppdatert"
+
+#: [account]password_not_valid
+msgid "Please provide a valid password (6 characters minimum)"
+msgstr "Oppgi et gyldig passord (må inneholde minst 6 tegn)"
+
+#: [account]password_not_same
+msgid "The provided passwords are not the same"
+msgstr "Passordene er ulike"
+
+#: [account]delete
+msgid "Delete your account"
+msgstr "Slett kontoen din"
+
+#: [account]delete_text
+msgid "You will delete your XMPP account and all the relative information linked to it (profile, contacts and publications)."
+msgstr "Du vil slette din XMPP-konto og all relevant informasjon koblet til den (profil, kontakter og publikasjoner)"
+
+#: [account]delete_text_confirm
+msgid "Type your full username"
+msgstr ""
+
+#: [account]delete_text_error
+msgid "Please provide a valid username."
+msgstr ""
+
+#: [account]gateway_title
+msgid "Gateways"
+msgstr ""
+
+#: [account]clear
+msgid "Leave this instance"
+msgstr "Forlat denne utgaven"
+
+#: [account]clear_text
+msgid "You will delete all the relative information linked to your account on this Movim instance (profile, contacts and publications)."
+msgstr "Du sletter all tilknyttet informasjon lenket til kontoen din på denne utgaven av Movim (profil, kontakter og publikasjoner)."
+
+#: [account]clear_text_confirm
+msgid "This action will not delete your account but will disconnect you from this instance."
+msgstr "Dette vil ikke slette kontoen din, men vil koble deg fra denne utgaven."
+
+#: [account]delete_bundle_title
+msgid "OMEMO Key deletion"
+msgstr ""
+
+#: [account]delete_bundle_text
+msgid "Your are going to destroy the following OMEMO key. Your contacts will not be able to encrypt messages using that key anymore. This action cannot be reverted. Are you sure?"
+msgstr ""
+
+#: [create]title [subscribe]title
+msgid "Create a new account"
+msgstr "Opprett en ny konto"
+
+#: [create]notfound
+msgid "No account creation form found on the server"
+msgstr "Fant ikke skjema for opprettelse av ny konto på tjeneren"
+
+#: [create]server_on
+msgid "on"
+msgstr "på"
+
+#: [create]successfull
+msgid "Your acccount has been successfully registered"
+msgstr "Din konto har blitt registrert"
+
+#: [create]loading
+msgid "Loading"
+msgstr "Laster"
+
+#: [create]placeholder
+msgid "…and start playing"
+msgstr "…og start leken"
+
+#: [error]not_acceptable
+msgid "Not Acceptable"
+msgstr "Ikke akseptert"
+
+#: [error]service_unavailable
+msgid "The registration system of this server is currently unavailable"
+msgstr "Registreringssystemet på denne tjeneren er foreløpig utilgjengelig"
+
+#: [error]forbidden
+msgid "Registration forbidden"
+msgstr "Registrering forbudt"
+
+#: [adhoc]title
+msgid "Actions"
+msgstr "Handlinger"
+
+#: [adhoc]completed
+msgid "Action completed"
+msgstr "Akjson klart"
+
+#: [admin]general
+msgid "General Settings"
+msgstr "Generelle innstillinger"
+
+#: [general]theme
+msgid "Theme"
+msgstr "Drakt"
+
+#: [general]language
+msgid "Default language"
+msgstr "Forvalgt språk"
+
+#: [general]log_verbosity
+msgid "Log verbosity"
+msgstr "Detaljrikdom i loggen"
+
+#: [restrictsuggestions]title
+msgid "Restrict suggestions"
+msgstr "Innskrenke forslager"
+
+#: [restrictsuggestions]text
+msgid "Only suggest chatrooms, Communities and other contents that are available on the user XMPP server and related services"
+msgstr ""
+
+#: [chatonly]title
+msgid "Chat only"
+msgstr ""
+
+#: [chatonly]text
+msgid "Disable all the social feature (Communities, Blog…) and keep only the chat ones"
+msgstr ""
+
+#: [credentials]title
+msgid "Administration Credential"
+msgstr "Administrasjonsakkreditiv"
+
+#: [credentials]username [input]username
+msgid "Username"
+msgstr "Brukernavn"
+
+#: [credentials]re_password
+msgid "Retype password"
+msgstr "Gjenta passord"
+
+#: [disableregistration]title
+msgid "Disable the XMPP registration feature"
+msgstr ""
+
+#: [disableregistration]text
+msgid "Remove the XMPP registration flow and buttons from the interface"
+msgstr ""
+
+#: [whitelist]title
+msgid "Whitelisted XMPP Servers"
+msgstr "Hvitlistede XMPP-tjenere"
+
+#: [whitelist]info1
+msgid "If you want to specify a list of authorized XMPP servers on your Movim pod and forbid the connection on all the others please put their domain name here, with comma (ex: movim.eu,jabber.fr)"
+msgstr "Hvis du ønsker å spesifisere én eller flere XMPP-tjenere på Movim-kapselen og samtidig blokkere alle andre tilkoblinger, må du oppgi domenene deres kommainndelt her (f.eks.: movim.eu, jabber.fr)"
+
+#: [whitelist]info2
+msgid "Leave this field blank if you allow the access to all the XMPP accounts."
+msgstr "La dette feltet stå tomt for å gi tilgang til alle XMPP-kontoer"
+
+#: [whitelist]label
+msgid "List of whitelisted XMPP servers"
+msgstr "Liste over hvitlistede XMPP-tjenere"
+
+#: [information]title
+msgctxt "[information]title"
+msgid "Information Message"
+msgstr "Informasjonsmelding"
+
+#: [information]description [communityconfig]description
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: [information]description_placeholder
+msgid "General description of the instance"
+msgstr ""
+
+#: [information]banner
+msgid "Main banner"
+msgstr ""
+
+#: [information]banner_info
+msgid "Ensure that the picture is not too large and can be reached from any webpages"
+msgstr ""
+
+#: [information]info1
+msgid "This message will be displayed on the login page. It can be used to link the Terms and Conditions of your Movim instance for example."
+msgstr ""
+
+#: [information]info2
+msgid "Leave this field blank if you don’t want to show any message."
+msgstr ""
+
+#: [information]label
+msgctxt "[information]label"
+msgid "Information Message"
+msgstr "Informasjonsmelding"
+
+#: [xmpp]title
+msgid "Default XMPP server"
+msgstr "Standard XMPP-tjener"
+
+#: [xmpp]domain
+msgid "Main XMPP server domain"
+msgstr "Forvalgt XMPP-tjenerdomene"
+
+#: [xmpp]description
+msgid "Main XMPP server description"
+msgstr "Forvalgt XMPP-tjenerbeskrivelse"
+
+#: [xmpp]country
+msgid "Main XMPP server country"
+msgstr "Forvalgt XMPP-tjenerland"
+
+#: [xmpp]country_pick
+msgid "Pick a country in the list"
+msgstr "Velg ut et land fra listen"
+
+#: [tenor]title
+msgid "Tenor integration"
+msgstr ""
+
+#: [tenor]label
+msgid "Your Tenor API Key"
+msgstr ""
+
+#: [tenor]info1
+msgid "Movim integrates the Tenor API to allow GIF search and publication in Chat"
+msgstr ""
+
+#: [tenor]info2
+msgid "Access Tenor and get your API key"
+msgstr ""
+
+#: [twitter]title
+msgid "Twitter integration"
+msgstr ""
+
+#: [twitter]label
+msgid "Your Twitter Token"
+msgstr ""
+
+#: [twitter]info1
+msgid "The Twitter integration allow Movim to embed and extract the Tweets shared on the instance"
+msgstr ""
+
+#: [twitter]info2
+msgid "Generate your Token on the Developer Twitter website"
+msgstr ""
+
+#: [log]empty
+msgid "Empty"
+msgstr "Tom"
+
+#: [log]syslog
+msgid "Syslog"
+msgstr "Syslog"
+
+#: [log]syslog_files
+msgid "Syslog and files"
+msgstr "Syslog og filer"
+
+#: [adminreported]reported_by
+#, fuzzy
+msgid "Reported by %s users"
+msgstr "Melde misbruk"
+
+#: [adminreported]info
+msgid "Those accounts were reported by some Movim users"
+msgstr ""
+
+#: [adminreported]info2
+msgid "You can choose to block them for all the other users"
+msgstr ""
+
+#: [adminsessions]title
+msgid "Sessions"
+msgstr "Sesjoner"
+
+#: [adminsessions]text
+msgid "Currently connected users on the pod"
+msgstr ""
+
+#: [admin]compatibility
+msgid "General Overview"
+msgstr "Generell oversikt"
+
+#: [compatibility]rights
+msgid "Read and write rights for the webserver in Movim’s %s directory"
+msgstr ""
+
+#: [compatibility]websocket
+msgid "WebSocket connection error, check if the Movim Daemon is running and is reachable"
+msgstr "Klarer ikke koble til WebSocket, kontroller at Movim-tjenesten kjører og kan kontaktes"
+
+#: [schema]browser
+msgid "Browser"
+msgstr "Nettleser"
+
+#: [schema]movim
+msgid "Movim Core"
+msgstr "Movim Core"
+
+#: [schema]daemon
+msgid "Movim Daemon"
+msgstr "Movim-tjenesten"
+
+#: [schema]database
+msgid "Database"
+msgstr "Database"
+
+#: [schema]xmpp
+msgid "XMPP"
+msgstr "XMPP"
+
+#: [api]info
+msgid "Here you can register your pod on the official %sMovim API%s"
+msgstr "Her kan du registrere kapselen din på den offisielle %sMovim API%s"
+
+#: [api]register
+msgid "Your pod is not registered on the API"
+msgstr "Kapselen din er ikke registrert på API-et"
+
+#: [api]registered
+msgid "Your pod is registered on the API"
+msgstr "Kapselen din er registrert på API-et"
+
+#: [api]wait
+msgid "Your pod is not yet validated"
+msgstr "Kapselen din er ikke godkjent enda"
+
+#: [api]validated
+msgid "Your pod is validated"
+msgstr "Kapselen din er godkjent"
+
+#: [api]unregister
+msgid "You asked to be removed from the API, this request will be processed in a couple of hours"
+msgstr "Du spurte om å bli fjernet fra API-et og forespørselen din vil behandles i løpet av et par timer"
+
+#: [api]conf_updated [config]updated
+msgid "Configuration updated"
+msgstr "Oppsettet er oppdatert"
+
+#: [avatar]file
+msgid "File"
+msgstr "Fil"
+
+#: [avatar]use_it
+msgid "Use it"
+msgstr "Ta i bruk"
+
+#: [avatar]webcam
+msgid "Webcam"
+msgstr "Nettkamera"
+
+#: [avatar]cheese
+msgid "Cheese!"
+msgstr "Appelsin!"
+
+#: [avatar]snapshot
+msgid "Take a webcam snapshot"
+msgstr "Ta bilde med nettkameraet"
+
+#: [avatar]updated
+msgid "Avatar Updated"
+msgstr "Avataren er oppdatert"
+
+#: [avatar]not_updated
+msgid "Avatar Not Updated"
+msgstr "Avataren er ikke oppdatert"
+
+#: [avatar]missing
+msgid "No avatar defined yet"
+msgstr "Ingen avatar angitt enda"
+
+#: [avatar]change
+msgid "Change my avatar"
+msgstr ""
+
+#: [avatar]upload_new
+msgid "Upload a new picture"
+msgstr ""
+
+#: [blocked]title
+#, fuzzy
+msgid "Blocked"
+msgstr "sjokkert"
+
+#: [blocked]block_account
+#, fuzzy
+msgid "Block the account"
+msgstr "Andre kontoer"
+
+#: [blocked]unblock_account
+#, fuzzy
+msgid "Unblock the account"
+msgstr "Andre kontoer"
+
+#: [blocked]account_blocked
+#, fuzzy
+msgid "Account blocked"
+msgstr "Konto"
+
+#: [blocked]account_unblocked
+msgid "Account unblocked"
+msgstr ""
+
+#: [blocked]placeholder
+msgid "You will find here the users you have blocked"
+msgstr ""
+
+#: [blocked]info
+msgid "The following users are blocked by Movim and cannot contact you anymore"
+msgstr ""
+
+#: [blocked]info2
+msgid "The administrator is also aware of this list and can therefore block those users system wide"
+msgstr ""
+
+#: [blog]title [feed]title
+msgid "%s’s feed"
+msgstr "%ss strøm"
+
+#: [blog]private
+msgid "This content is private, please login to see it"
+msgstr "Dette innholdet er privat, logg på for å se det"
+
+#: [message]published
+msgid "Message Published"
+msgstr "Melding publisert"
+
+#: [message]react
+msgid "Add a reaction"
+msgstr ""
+
+#: [message]retract
+msgid "Retract"
+msgstr ""
+
+#: [message]error
+msgid "Your message could not be sent, please try again later"
+msgstr "Meldingen din kunne ikke sendes, trenge på nytt senere."
+
+#: [message]encrypted [omemo]encrypted
+msgid "Encrypted message"
+msgstr "Kryptert melding"
+
+#: [message]retracted
+msgid "Retracted message"
+msgstr ""
+
+#: [message]composing
+msgid "Composing…"
+msgstr "Oppretter…"
+
+#: [message]invitation
+#, fuzzy
+msgid "Invitation"
+msgstr "Invitasjon er sendt"
+
+#: [message]paused
+msgid "Paused…"
+msgstr "Pauserer…"
+
+#: [message]gone
+msgid "Contact gone"
+msgstr "Kontakten er borte"
+
+#: [message]history
+msgid "%s messages retrieved"
+msgstr "%s meldinger hentet"
+
+#: [message]edit_help
+msgid "↑ to edit your previous message"
+msgstr ""
+
+#: [message]emoji_help
+msgid ":shortcut: to insert an emoji"
+msgstr ""
+
+#: [message]visitor_help
+msgid "You are not allowed to send messages in this conference"
+msgstr ""
+
+#: [chat]attention
+msgid "%s needs your attention"
+msgstr "%s trenger din oppmerksomhet"
+
+#: [chat]placeholder
+msgid "Your message here…"
+msgstr "Meddelelsen din her…"
+
+#: [chat]smileys
+msgid "Smileys"
+msgstr "Emoji-er"
+
+#: [chat]frequent
+msgid "Frequent contacts"
+msgstr "Ofte brukte kontakter"
+
+#: [chat]new_title
+msgid "Nothing here yet…"
+msgstr "Ennå intet her…"
+
+#: [chat]new_text
+msgid "Don’t be shy, send a first message to start the discussion"
+msgstr "Vær ikke blyg, sender en først meddelelse for å begynne diskusjonen"
+
+#: [chat]invitation
+msgid "You received an invitation to join a chatroom"
+msgstr "Du mottok en invitasjon til å bli med i et samtalerom"
+
+#: [chat]invitation_self
+#, fuzzy
+msgid "You sent an invitation to join a chatroom"
+msgstr "Du mottok en invitasjon til å bli med i et samtalerom"
+
+#: [chat]invitation_join
+msgid "Join %s"
+msgstr "Bli med i %s"
+
+#: [chat]profile
+msgid "See the profile"
+msgstr "Se profilen"
+
+#: [chat]clear
+msgctxt "[chat]clear"
+msgid "Clear the history"
+msgstr ""
+
+#: [chat]edit_previous
+msgid "Edit last message"
+msgstr "Endre siste melding"
+
+#: [chat]report_abuse
+msgid "Report abuse"
+msgstr "Melde misbruk"
+
+#: [chat]jingle_start
+msgid "Call started"
+msgstr ""
+
+#: [chat]jingle_end
+msgid "Call ended"
+msgstr ""
+
+#: [chat]publish_error
+msgid "An error occured when sending the message"
+msgstr ""
+
+#: [chat]mam_retrieval
+msgid "Synchronizing the history, please wait…"
+msgstr ""
+
+#: [chat]clear_history
+msgctxt "[chat]clear_history"
+msgid "Clear the history"
+msgstr ""
+
+#: [chat]clear_history_text
+msgid "You are going to delete %s messages, are you sure?"
+msgstr ""
+
+#: [chat]action_impossible_encrypted
+msgid "Action impossible in encrypted chats"
+msgstr ""
+
+#: [chatroom]members
+msgid "Members"
+msgstr "Medlemer"
+
+#: [chatroom]connected [chatrooms]connected
+msgid "Connected to the chatroom"
+msgstr "Koble til gruppesamtale"
+
+#: [chatroom]disconnected [chatrooms]disconnected
+msgid "Disconnected from the chatroom"
+msgstr "Frakoblet fra samtalerommet"
+
+#: [chatroom]config [communityaffiliation]configuration [page]configuration
+msgid "Configuration"
+msgstr "Oppsett"
+
+#: [chatroom]config_saved [communityaffiliation]config_saved
+msgid "Configuration saved"
+msgstr "Oppsett lagret"
+
+#: [chatroom]subject
+msgid "Subject"
+msgstr "Emne"
+
+#: [chatroom]subject_changed
+msgid "Subject changed"
+msgstr "Emne er forandret"
+
+#: [chatroom]administration [page]administration
+msgid "Administration"
+msgstr "Administrasjon"
+
+#: [omemo]fingerprints_title
+msgid "Fingerprints"
+msgstr ""
+
+#: [omemo]fingerprints
+msgid "OMEMO Fingerprints"
+msgstr ""
+
+#: [omemo]generating_bundle
+msgid "Generating the encryption keys, please wait…"
+msgstr ""
+
+#: [omemo]generated_bundle
+msgid "Encryption keys generated"
+msgstr ""
+
+#: [omemo]resolving_devices
+msgid "Resolving OMEMO devices"
+msgstr ""
+
+#: [omemo]building_sessions
+msgid "Building encryption sessions"
+msgstr ""
+
+#: [omemo]building_own_sessions
+msgid "Building own encryption sessions"
+msgstr ""
+
+#: [omemo]encrypted_disabled
+msgid "Encryption disabled"
+msgstr ""
+
+#: [omemo]encrypted_loading
+msgid "Send a message to build the encrypted session"
+msgstr ""
+
+#: [omemo]enable_contact
+msgid "Enabling encryption for the contact"
+msgstr ""
+
+#: [omemo]disable_contact
+msgid "Disabling encryption for the contact"
+msgstr ""
+
+#: [omemo]last_activity
+msgid "Last activity"
+msgstr ""
+
+#: [omemo]sessions_built
+msgid "%s sessions built"
+msgstr ""
+
+#: [chats]empty_title
+msgid "No chats yet…"
+msgstr "Ingen samtaler ennå…"
+
+#: [chats]empty
+msgid "Start a new conversation by clicking on the %s button."
+msgstr "Begynn en ny samtale ved å klikke knappen %s."
+
+#: [chats]add
+msgid "Chat with a contact"
+msgstr "Prat med en kontakt"
+
+#: [chats]me
+msgid "Me"
+msgstr ""
+
+#: [chats]picture
+msgid "Picture"
+msgstr ""
+
+#: [chats]video
+msgid "Video"
+msgstr ""
+
+#: [button]chat
+msgid "Chat"
+msgstr "Samtale"
+
+#: [button]new
+msgid "New conversation"
+msgstr "Ny samtale"
+
+#: [communities]empty_text
+msgid "Discover, follow and share"
+msgstr "Oppdag, følg og del"
+
+#: [communities]counter
+msgid "%s communities"
+msgstr "%s samfunn"
+
+#: [communities]search_server
+msgid "Search for a new server"
+msgstr "Søk etter en ny tjener"
+
+#: [communities]servers
+msgid "Communities servers"
+msgstr "Samfunns-tjenere"
+
+#: [communities]servers_text
+msgid "Discover the Communities by servers"
+msgstr ""
+
+#: [communities]disco
+msgid "Communities server discovered"
+msgstr ""
+
+#: [communities]disco_error
+msgid "This server doesn’t exists"
+msgstr "Denne tjeneren eksisterer ikke"
+
+#: [communitiesinteresting]about
+msgid "Communities you might like"
+msgstr ""
+
+#: [communitiesserver]created
+msgid "Community created successfully"
+msgstr "Klarte å opprette fellesskapet"
+
+#: [communitiesserver]empty_server
+msgid "There is no Communities yet on this server."
+msgstr "Det er ennå ingen fellesskap på denne tjeneren."
+
+#: [communitiesserver]add
+msgid "Create a new community on %s"
+msgstr "Lag et nytt fellesskap på %s"
+
+#: [communitiesserver]name
+msgid "Community name"
+msgstr "Navn på fellesskap"
+
+#: [communitiesserver]name_example
+msgid "My Little Pony - Fan Club"
+msgstr "Fanklubb for SKAM-serien"
+
+#: [communitiesserver]name_error
+msgid "Please provide a valid community name (4 characters minimum)"
+msgstr "Skriv inn et gyldig fellesskapsnavn (minst fire tegn)"
+
+#: [communitiesserver]no_creation
+msgid "You cannot create a new community on this server"
+msgstr "Du kan ikke opprette et nytt fellesskap på denne tjeneren"
+
+#: [communitiesservers]empty_title
+msgid "No Communities Servers yet…"
+msgstr ""
+
+#: [communitiesservers]empty_text
+msgid "It seems that we can't find any communities for the moment"
+msgstr ""
+
+#: [communityaffiliation]subscriptions
+msgid "Subscriptions"
+msgstr "Abonnementer "
+
+#: [communityaffiliation]public_subscriptions
+msgid "Public subscriptions"
+msgstr ""
+
+#: [communityaffiliation]subscriptions_text
+msgid "My Communities subscriptions"
+msgstr ""
+
+#: [communityaffiliation]deleted
+msgid "Community deleted successfully"
+msgstr "Sletting av fellesskap gikk bra"
+
+#: [communityaffiliation]delete_title
+msgid "Delete the community"
+msgstr "Slett dette fellesskapet"
+
+#: [communityaffiliation]delete_text
+msgid "You are going to delete the following community. Please confirm your action."
+msgstr "Du er igang med å slette følgende fellesskap.  Vær så snill å bekreft dette."
+
+#: [communityaffiliation]delete_clean_text
+msgid "It seems that this community doesn’t exists anymore. Do you want to remove it from your subscriptions?"
+msgstr ""
+
+#: [communityaffiliation]config_error
+msgid "Error during the application of the node configuration"
+msgstr ""
+
+#: [communityaffiliation]owners
+msgid "Owners"
+msgstr "Eiere"
+
+#: [communityaffiliation]publishers
+#: [communityconfig]publish_model_publishers_title
+msgid "Publishers"
+msgstr "Utgivere"
+
+#: [communityaffiliation]roles
+msgid "Roles"
+msgstr "Roller"
+
+#: [communityaffiliation]role_set
+msgid "Role correctly set"
+msgstr "Rollen riktig satt"
+
+#: [communityconfig]publication
+msgid "Publication"
+msgstr "Utgivelse"
+
+#: [communityconfig]publish_model_open_title [room]public_muc
+msgid "Public"
+msgstr ""
+
+#: [communityconfig]publish_model_open_text
+msgid "Everyone can publish"
+msgstr "Alle kan publisere"
+
+#: [communityconfig]publish_model_publishers_text
+msgid "The publishers can publish"
+msgstr "Utgivere kan publisere"
+
+#: [communityconfig]publish_model_subscribers_title
+msgid "Subscribers"
+msgstr "Abonnenter"
+
+#: [communityconfig]publish_model_subscribers_text
+msgid "The subscribers can publish"
+msgstr "Abonnentene kan publisere"
+
+#: [communitydata]sub
+msgid "%s subscribers"
+msgstr "%s abonnenter"
+
+#: [communitydata]num
+msgid "%s posts"
+msgstr "%s innlegg"
+
+#: [communitydata]public
+msgid "Public page"
+msgstr "Offentlig side"
+
+#: [communitydata]publishmodel_publishers
+msgid "Only publishers can publish"
+msgstr ""
+
+#: [communitydata]publishmodel_subscribers
+msgid "Only subscribers can publish"
+msgstr ""
+
+#: [communityheader]subscribe
+msgid "Subscribe"
+msgstr "Abonner"
+
+#: [communityheader]unsubscribe
+msgid "Unsubscribe"
+msgstr "Avmeld"
+
+#: [communityheader]subscribed
+msgid "Subscribed"
+msgstr "Abonnerer"
+
+#: [communityheader]unsubscribed
+msgid "Unsubscribed"
+msgstr "Avmeldt"
+
+#: [communityheader]subscription_unsupported
+msgid "The subscriptions are disabled for this community"
+msgstr "Dette samfunnet har skrudd av muligheten for å abonnere"
+
+#: [communityheader]label_label
+msgid "Give a label for this community"
+msgstr "Gi et navn til dette samfunnet"
+
+#: [communityheader]label_placeholder
+msgid "My Community Name"
+msgstr "Mitt samfunnsnavn"
+
+#: [communityheader]share_subscription
+msgid "Share this subscription publicly"
+msgstr "Del påmeldingen offentlig"
+
+#: [communityheader]share_subscription_text
+msgid "It will appear on your profile"
+msgstr "Det vil vises på din profil"
+
+#: [communityheader]unsubscribe_text
+msgid "You are going to unsubscribe from this community"
+msgstr "Du forsøker å melde deg ut av dette samfunnet"
+
+#: [communityheader]sure [delete]title
+msgid "Are you sure?"
+msgstr "Er du sikker?"
+
+#: [communitysubscriptions]subscriptions
+msgid "My Subscriptions"
+msgstr "Mine abonnement"
+
+#: [communitysubscriptions]empty_title
+msgid "Hello"
+msgstr "Hei"
+
+#: [communitysubscriptions]empty_text1
+msgid "Here you will be able to manage all your subscriptions."
+msgstr "Her kan du administrere alle dine abonnement."
+
+#: [communitysubscriptions]empty_text2
+msgid "You don’t have any community subscriptions yet."
+msgstr ""
+
+#: [config]general
+msgid "General"
+msgstr "Generelt"
+
+#: [config]language
+msgid "Language"
+msgstr "Språk"
+
+#: [config]roster
+msgid "Roster display"
+msgstr "Visningsmetode"
+
+#: [config]roster_show
+msgid "Show the offline contacts"
+msgstr "Vis avloggede kontakter"
+
+#: [config]roster_hide
+msgid "Hide the offline contacts"
+msgstr "Ikke vis avloggede kontakter"
+
+#: [config]appearence
+msgid "Appearence"
+msgstr "Utseende"
+
+#: [config]not_valid
+msgid "Configuration invalid"
+msgstr "Konfigurasjonen ikke godtatt"
+
+#: [config]advanced
+msgid "Advanced Configuration"
+msgstr "Avansert oppsett"
+
+#: [config]nsfw
+msgid "Display adult content"
+msgstr "Vis innhold for voksne"
+
+#: [config]nsfw_text
+msgid "Will allow you to read the posts tagged with the #nsfw tag"
+msgstr "Lar deg lese meldinger merket med #nsfw-merkelappen"
+
+#: [config]night_mode
+msgid "Night Mode"
+msgstr "Nattmodus"
+
+#: [config]night_mode_text
+msgid "Use dark colors to rest your eyes"
+msgstr "Bruk mørke farger for å avspenne øyne dine"
+
+#: [config]chatmain
+msgid "Main chat page"
+msgstr ""
+
+#: [config]chatmain_text
+msgid "Make the chat page as the default one"
+msgstr ""
+
+#: [config]mam
+msgid "Archiving preferences"
+msgstr "Arkivinstillinger"
+
+#: [config]mam_text
+msgid "Server-side archiving preferences"
+msgstr "Tjenerens arkivinstillinger"
+
+#: [config]mam_always
+msgid "Always"
+msgstr "Alltid"
+
+#: [config]mam_never
+msgid "Never"
+msgstr "Aldri"
+
+#: [config]mam_saved
+msgid "Archiving preferences saved"
+msgstr "Arkivinstillinger lagret"
+
+#: [config]notification_title
+msgid "Audio notifications"
+msgstr ""
+
+#: [config]notification_call
+msgid "Incoming call"
+msgstr ""
+
+#: [config]notification_chat
+msgid "Incoming message"
+msgstr ""
+
+#: [confirm]title
+msgid "Confirmation of authentication"
+msgstr "Bekreftelse av autentisering"
+
+#: [confirm]description
+msgid "The following platform would like your confirmation to authentify this account"
+msgstr ""
+
+#: [confirm]code
+msgid "Authentication code"
+msgstr "Autentiseringskode"
+
+#: [roster]add_title
+msgid "Add a contact"
+msgstr "Legg til kontakt"
+
+#: [roster]add_contact_info1
+msgid "Enter the Jabber ID of your contact."
+msgstr "Oppgi kontaktens Jabber-ID"
+
+#: [roster]add_contact_info2
+msgid "Press enter to validate."
+msgstr "Trykk enter for å godkjenne"
+
+#: [roster]added
+msgid "Contact added"
+msgstr "Kontakten ble lagt til"
+
+#: [roster]updated
+msgid "Contact updated"
+msgstr "Kontakten ble oppdatert"
+
+#: [roster]deleted
+msgid "Contact deleted"
+msgstr "Kontakten ble slettet"
+
+#: [general]legend
+msgid "General Information"
+msgstr "Generelle informasjoner"
+
+#: [general]name [chatrooms]name
+msgid "Name"
+msgstr "Navn"
+
+#: [general]nickname [chatrooms]nickname
+msgid "Nickname"
+msgstr "Kallenavn"
+
+#: [general]date_of_birth
+msgid "Date of Birth"
+msgstr "Fødselsdato"
+
+#: [general]gender
+msgid "Gender"
+msgstr "Kjønn"
+
+#: [general]marital
+msgid "Marital Status"
+msgstr "Sivilstatus"
+
+#: [general]email
+msgid "Email"
+msgstr "E-post"
+
+#: [general]website
+msgid "Website"
+msgstr "Nettside"
+
+#: [general]about
+msgid "About Me"
+msgstr "Om meg"
+
+#: [general]accounts
+msgid "Other Accounts"
+msgstr "Andre kontoer"
+
+#: [general]tune
+msgid "Is Listening"
+msgstr "Lytter"
+
+#: [general]pictures
+msgid "Pictures"
+msgstr ""
+
+#: [general]links
+msgid "Links"
+msgstr ""
+
+#: [position]legend
+msgid "Geographic Position"
+msgstr "Geografisk posisjon"
+
+#: [position]locality
+msgid "Locality"
+msgstr "Plassering"
+
+#: [position]country
+msgid "Country"
+msgstr "Land"
+
+#: [mood]title
+msgid "Mood"
+msgstr "Humør"
+
+#: [mood]im
+msgid "I’m "
+msgstr "Jeg er"
+
+#: [listen]title
+msgid "Listening"
+msgstr "Lytter"
+
+#: [last]title
+msgid "Last seen"
+msgstr "Sist sett"
+
+#: [clients]title
+msgid "Clients"
+msgstr ""
+
+#: [clients]title_full
+msgid "Clients information"
+msgstr ""
+
+#: [explore]last_registered
+msgid "Last registered"
+msgstr "Sist registrert"
+
+#: [explore]explore
+msgid "Find some new contacts"
+msgstr ""
+
+#: [edit]title [button]edit
+msgid "Edit"
+msgstr "Rediger"
+
+#: [edit]alias
+msgid "Alias"
+msgstr "Kallenavn"
+
+#: [edit]group
+msgid "Group"
+msgstr "Gruppe"
+
+#: [delete]text
+msgid "You are going to delete one of your contacts, please confirm your action"
+msgstr "Du er i ferd med å slette en kontakt, bekreft handlingen"
+
+#: [age]years
+msgid "%s years"
+msgstr "%s år"
+
+#: [blog]last
+msgid "Last public post"
+msgstr "Siste offentlige innlegg"
+
+#: [blog]visit
+msgid "Visit the blog to see all the public posts"
+msgstr "Besøk bloggen for å se alle offentlige innlegg"
+
+#: [subscription]to
+msgid "You can see this contact status"
+msgstr "Du kan se denne kontaktstatusen"
+
+#: [subscription]to_button
+msgid "Share my status"
+msgstr "Del min status"
+
+#: [subscription]to_text
+msgid "But this contact cannot see yours"
+msgstr "Men denne kontakten kan ikke se dine"
+
+#: [subscription]from
+msgid "You are not subscribed to this contact"
+msgstr "Du abonnerer ikke på denne kontakten"
+
+#: [subscription]from_button
+msgid "Ask to subscribe"
+msgstr "Spør om å få abonnere"
+
+#: [subscription]from_text
+msgid "But this contact can still see if you are online"
+msgstr "Men denne kontakten kan fortsatt se at du er pålogget"
+
+#: [subscription]nil
+msgid "No subscriptions"
+msgstr "Ingen abonnement"
+
+#: [subscription]nil_button [button]invite
+msgid "Invite"
+msgstr "Inviter"
+
+#: [subscription]nil_text
+msgid "This contact is in your contact list but there is no subscription between the two accounts"
+msgstr ""
+
+#: [contactdatapublic]no_data
+msgid "No public data found"
+msgstr ""
+
+#: [draw]title
+msgid "Draw"
+msgstr ""
+
+#: [faq]title
+msgid "Frequently Asked Questions"
+msgstr "Ofte stilte spørsmål"
+
+#: [faq]permission_title
+msgid "What does the permission setting do?"
+msgstr ""
+
+#: [faq]permission_text
+msgid "By default the content is only available to your contacts. You can make your profile and publications public by enabling the related setting."
+msgstr ""
+
+#: [faq]permission_community_title
+msgid "How does it applies on Communities posts?"
+msgstr ""
+
+#: [faq]permission_community_text
+msgid "Similary to your blog publications except that, by default, the posts are only available to the members or subscribers of the Community (except if you explicitly open all the Community content)"
+msgstr ""
+
+#: [faq]chatrooms_title
+msgid "Where can I find a list of chatrooms?"
+msgstr ""
+
+#: [faq]find_contacts_title
+msgid "Where can I find my contacts?"
+msgstr ""
+
+#: [faq]find_contacts_text
+msgid "By opening the search panel."
+msgstr ""
+
+#: [apps]title
+msgid "Applications"
+msgstr ""
+
+#: [apps]install
+msgid "Movim App"
+msgstr ""
+
+#: [apps]install_text
+msgid "Install Movim on your device"
+msgstr ""
+
+#: [apps]recommend
+msgid "We also recommend"
+msgstr "Vi anbefaler også"
+
+#: [contact]title
+msgid "Administrators & Contact"
+msgstr "Administrasjon og kontakt"
+
+#: [chatroom]question
+msgid "Chat with the Movim team?"
+msgstr "Chat med Movim teamet"
+
+#: [chatroom]button
+msgid "Add the chatroom"
+msgstr "Legg til samtalerom"
+
+#: [error]username
+msgid "Wrong username"
+msgstr "Feil brukernavn"
+
+#: [error]jid
+msgid "Invalid JID"
+msgstr "Feil JID"
+
+#: [error]empty_challenge
+msgid "Empty Challenge from the server"
+msgstr "Tom 'challange' fra tjeneren"
+
+#: [error]dns
+msgid "XMPP Domain error, your account is not a correct Jabber ID"
+msgstr "XMPP-domenefeil: Jabber-IDen du oppgav er ikke korrekt formatert"
+
+#: [error]data_missings
+msgid "Some data are missing!"
+msgstr ""
+
+#: [error]wrong_password
+msgid "Wrong password"
+msgstr "Feil passord"
+
+#: [error]internal
+msgid "Internal server error"
+msgstr "Intern tjenerfeil"
+
+#: [error]session
+msgid "Session error"
+msgstr "Øktfeil"
+
+#: [error]account_created
+msgid "Account successfully created"
+msgstr "Kontoen ble opprettet"
+
+#: [error]timeout
+msgid "The server takes too much time to respond"
+msgstr "Tjeneren bruker for langt tid på å svare"
+
+#: [error]impossible
+msgid "Impossible login"
+msgstr "Umulig innlogging"
+
+#: [error]default
+msgid "Unknown error"
+msgstr "Ukjent feil"
+
+#: [error]login_format
+msgid "Invalid username format"
+msgstr "Uriktig format på brukernavn"
+
+#: [error]password_format
+msgid "Invalid password format"
+msgstr "Uriktig format brukt i passordet"
+
+#: [error]unauthorized
+msgid "Your XMPP server is unauthorized"
+msgstr "XMPP-tjeneren din er ikke autentisert"
+
+#: [error]wrong_account
+msgid "Movim failed to authenticate. You entered wrong data"
+msgstr "Movim klarte ikke å autentisere. Du har oppgitt feil informasjon."
+
+#: [error]mechanism
+msgid "Authentication mechanism not supported by Movim"
+msgstr "Autentiseringsmekanismen støttes ikke av Movim"
+
+#: [error]fail_auth
+msgid "The XMPP authentification failed"
+msgstr "XMPP-autentiseringen feilet"
+
+#: [connection]socket_connected
+msgid "Connected to the server"
+msgstr ""
+
+#: [connection]authenticated
+msgid "Authenticated to the server"
+msgstr ""
+
+#: [form]username
+msgid "My address"
+msgstr "Min adresse"
+
+#: [form]whitelist_info
+msgid "Login with accounts from these servers"
+msgstr ""
+
+#: [form]connect_info
+msgid "Login using any XMPP account or create a new one"
+msgstr ""
+
+#: [form]connected
+msgid "Connected"
+msgstr "Tilkoblet"
+
+#: [form]population
+msgid "Population"
+msgstr "Populasjon"
+
+#: [form]invite_chatroom
+msgid "%s invited you to join a chatroom"
+msgstr "%s inviterte deg til å ta del i et samtalerom"
+
+#: [form]pod_admins
+msgid "Administrated by"
+msgstr ""
+
+#: [login_anonymous]bad_username
+msgid "Bad nickname (between 4 and 40 characters)"
+msgstr "Ugyldig kallenavn (må være mellom 4 og 40 tegn)"
+
+#: [menu]empty_title
+msgid "No news yet…"
+msgstr "Ingen nyheter enda…"
+
+#: [menu]empty
+msgid "Welcome on your news feed, here you will see all the posts published by your contacts and in the communities you have subscribed."
+msgstr "Velkommen til nyhetsstrømmen din, her vil du se alle innlegg som publiserer av kontakter og samfunn du abonnerer på."
+
+#: [menu]all
+msgid "All"
+msgstr "Alle"
+
+#: [menu]mine
+msgid "My publications"
+msgstr "Mine innlegg"
+
+#: [menu]contacts [page]contacts
+msgid "Contacts"
+msgstr "Kontakter"
+
+#: [menu]add_post
+msgid "Write a new post…"
+msgstr "Skriv en ny melding…"
+
+#: [invitations]title
+msgid "Pending Invitations"
+msgstr "Ventende invitasjoner"
+
+#: [invitations]wants_to_talk
+msgid "%s wants to talk with you"
+msgstr "%s ønsker å prate med deg"
+
+#: [notifs]title [onboarding]notifications_title [room]notify_title
+msgid "Notifications"
+msgstr "Varsel"
+
+#: [notifs]empty
+msgid "No new notifications"
+msgstr "Ingen nye varsler"
+
+#: [onboarding]notifications_text
+msgid "Movim can notify you when a new post is published or if you receive messages"
+msgstr "Movim kan varsle deg når nye innlegg publiseres og når du mottar meldinger"
+
+#: [onboarding]notifications_text_second
+msgid "You can always disable them afterwards"
+msgstr "Du kan alltids skru dem av senere"
+
+#: [onboarding]public_title
+msgid "Public profile"
+msgstr "Offentlig profil"
+
+#: [onboarding]public_text
+msgid "Make your profile public and allow other users to find you and make new contacts more easily"
+msgstr "Gjør profilen din offentlig, slik at andre brukere lettere kan finne deg og ta kontakt"
+
+#: [onboarding]public_text_second
+msgid "You can always disable this in the configuration afterwards"
+msgstr "Du kan alltids skru dette av i oppsettet senere"
+
+#: [onboarding]popups_title
+msgid "Popups"
+msgstr "Oppsprettsvindu"
+
+#: [onboarding]popups_text
+msgid "Movim is using popups for the video-conference feature, they are sometime blocked by the browsers"
+msgstr "Movim bruker sprettoppvinduer for videokonferanser, men en del nettlesere blokkerer disse vinduene"
+
+#: [onboarding]popups_text_second
+msgid "Please be sure that they are enabled to use this feature properly"
+msgstr "Sørg for at Movim har tillatelse til å vise sprettoppvinduer, slik at denne funksjonen fungerer som den skal."
+
+#: [post]news_feed
+msgid "News Feed"
+msgstr "Nyhetsstrøm"
+
+#: [post]placeholder
+msgid "Discover and register to the groups you are interested in"
+msgstr "Oppdag og abonner på gruppene du liker"
+
+#: [post]content
+msgid "Content"
+msgstr "Innhold"
+
+#: [post]published
+msgid "Post published"
+msgstr "Innlegg publisert"
+
+#: [post]deleted
+msgid "Post deleted"
+msgstr "Innlegg slettet"
+
+#: [post]hot
+msgid "What’s Hot"
+msgstr "Hva er kåt"
+
+#: [post]hot_text
+msgid "Posts recently published in communities that you are not subscribed (yet)"
+msgstr "Siste innlegg fra samfunn du ikke abonnerer på (enda)"
+
+#: [post]new [publish]new [publishbrief]new
+msgid "New post"
+msgstr "Nytt innlegg"
+
+#: [post]repost
+msgid "This is a re-post from %s"
+msgstr "Dette er viderepostet fra %s"
+
+#: [post]repost_profile
+msgid "See %s profile"
+msgstr "Se profilen til %s"
+
+#: [post]blog_last
+msgid "Public posts from users"
+msgstr "Offentlige poster fra brukere"
+
+#: [post]read_time_singular
+msgid "%s minute"
+msgstr ""
+
+#: [post]read_time_plural
+msgid "%s minutes"
+msgstr ""
+
+#: [post]public
+msgid "Publish this post publicly?"
+msgstr "Publiser dette innlegget offentlig?"
+
+#: [post]public_yes
+msgid "This post is public"
+msgstr "Denne posten er offentlig"
+
+#: [post]public_no
+msgid "This post is private"
+msgstr "Dette innlegget er privat"
+
+#: [post]public_url
+msgid "Public URL of this post"
+msgstr "Dette innleggets offentlige nettadresse"
+
+#: [post]delete_title [post]delete
+msgid "Delete this post"
+msgstr "Slett innlegget"
+
+#: [post]delete_text
+msgid "You are going to delete this post, please confirm your action"
+msgstr "Du er i ferd med å slette innlegget, bekreft handlingen"
+
+#: [post]delete_comment
+msgid "Are you sure that you want to delete this comment?"
+msgstr "Er du sikker på at du ønsker å slette denne kommentaren?"
+
+#: [post]discover
+msgid "Discover more articles on the communities page"
+msgstr "Oppdag flere artikler fra samfunnssiden"
+
+#: [post]more
+msgid "Read more"
+msgstr "Les mer"
+
+#: [post]comments_disabled
+msgid "Comments disabled"
+msgstr "Kommentarer er avskrudd"
+
+#: [post]comment_published
+msgid "Comment published"
+msgstr "Kommentaren ble publisert"
+
+#: [post]comment_like_published
+msgid "Liked"
+msgstr ""
+
+#: [post]comment_publish_error
+msgid "The comment cannot be published"
+msgstr ""
+
+#: [post]comment_deleted
+msgid "Comment deleted"
+msgstr "Kommentaren ble slettet"
+
+#: [post]liked
+msgid "Liked your publication"
+msgstr ""
+
+#: [post]commented
+msgid "Commented"
+msgstr ""
+
+#: [hello]contact_post
+msgid "Contact post"
+msgstr "Kontaktpost"
+
+#: [hello]share_title
+msgid "Universal share button"
+msgstr "Universell delingsknapp"
+
+#: [hello]share_text
+msgid "Bookmark or drag and drop the following button in your toolbar and use it on all the pages you want to share on Movim"
+msgstr "Bokmerk eller dra-og-slipp følgende knapp til verktøyslinjen. Trykk på bokmerket når du besøker en side du ønsker å dele på Movim."
+
+#: [hello]share_button
+msgid "Share on Movim"
+msgstr "Del på Movim"
+
+#: [hello]enter_title
+msgid "Oh! Hello!"
+msgstr "Å, hei!"
+
+#: [hello]enter_paragraph
+msgid "It seems that you’re new there! Welcome on Movim!"
+msgstr ""
+
+#: [hello]menu_title
+msgid "Check the Menu"
+msgstr "Sjekk menyen"
+
+#: [hello]menu_paragraph
+msgid "All the main Movim features are accessible there. Don’t hesitate to navigate through the pages to discover more!"
+msgstr ""
+
+#: [hello]profile_title
+msgid "Looks like you didn’t complete your profile yet"
+msgstr ""
+
+#: [hello]profile_paragraph
+msgid "You can go in the Configuration page to describe yourself and put a nice picture"
+msgstr "Du kan gå til konfigurasjonssiden for å legge inn en beskrivelse av deg selv og laste opp et bilde"
+
+#: [status]disconnect
+msgid "Disconnect"
+msgstr "Koble fra"
+
+#: [status]presence
+msgid "Presence"
+msgstr "Tilstedeværelse"
+
+#: [status]logout_confirm
+msgid "Do you really want to log out?"
+msgstr ""
+
+#: [preview]link_copied
+msgid "Link copied to clipboard"
+msgstr ""
+
+#: [publish]placeholder [publishbrief]placeholder
+msgid "What’s new?"
+msgstr "Hva er nytt?"
+
+#: [publish]post [publishbrief]post
+msgid "Write a post"
+msgstr "Skriv en melding"
+
+#: [publish]add_link [publishbrief]add_link
+msgid "Add a link"
+msgstr "Legg til lenke"
+
+#: [publish]add_snap [publishbrief]add_snap
+msgid "Take a picture"
+msgstr ""
+
+#: [publish]no_title [publishbrief]no_title
+msgid "Please provide a title"
+msgstr "Lag en overskrift"
+
+#: [publish]preview [publishbrief]preview
+msgid "Preview"
+msgstr "Forhåndsvisning"
+
+#: [publish]attach [publishbrief]attach
+msgid "Add a file or a picture"
+msgstr "Legge til en fil eller et bilde"
+
+#: [publish]no_publication [publishbrief]no_publication
+msgid "You cannot publish a post here"
+msgstr "Du kan ikke publisere et innlegg her"
+
+#: [publish]no_content_preview [publishbrief]no_content_preview
+msgid "No content to preview"
+msgstr "Ingen innhold å forhåndsvise"
+
+#: [publish]title [publishbrief]title
+msgid "Post title"
+msgstr ""
+
+#: [publish]content [publishbrief]content
+msgid "Markdown content"
+msgstr ""
+
+#: [publish]valid_url [publishbrief]valid_url
+msgid "Please enter a valid URL"
+msgstr "Mate en gyldig lenke"
+
+#: [publish]content_text [publishbrief]content_text
+msgid "You can format your content using Markdown"
+msgstr "Du kan formatere tekst og innhold med Markdown-syntaks"
+
+#: [publish]draft_saved [publishbrief]draft_saved
+msgid "Draft saved"
+msgstr ""
+
+#: [publish]rich_editor [publishbrief]rich_editor
+msgid "Rich text editor"
+msgstr ""
+
+#: [publishhelp]title [page]help
+msgid "Help"
+msgstr "Hjelp"
+
+#: [publishhelp]more
+msgid "More help"
+msgstr "Mer hjelp"
+
+#: [publishhelp]manual
+msgid "Markdown syntax manual"
+msgstr "Bruksanvisning for tekstformatering"
+
+#: [rooms]create
+msgid "Create a chatroom"
+msgstr ""
+
+#: [rooms]edit
+msgid "Edit a chatroom"
+msgstr "Rediger et samtalerom"
+
+#: [rooms]join
+msgid "Join a chatroom"
+msgstr ""
+
+#: [rooms]join_custom
+msgid "Join a custom chatroom"
+msgstr ""
+
+#: [rooms]empty_text1
+msgid "You don’t have any chatrooms yet."
+msgstr ""
+
+#: [rooms]empty_text2
+msgid "Add one by clicking on the add button."
+msgstr "Legg til en ved å trykke på \"Legg til\"-knappen"
+
+#: [rooms]empty_synchronize_title
+msgid "You had some rooms previously listed?"
+msgstr ""
+
+#: [rooms]empty_synchronize_text
+msgid "Try to synchronize them to the new room bookmarking system"
+msgstr ""
+
+#: [rooms]empty_synchronize_button
+msgid "Synchronize"
+msgstr ""
+
+#: [rooms]type_room
+msgid "Type of room"
+msgstr ""
+
+#: [rooms]default_room
+msgid "Standard room"
+msgstr ""
+
+#: [rooms]gateway_room
+msgid "Gateway room"
+msgstr ""
+
+#: [rooms]show_all
+msgid "Show all rooms"
+msgstr ""
+
+#: [rooms]hide_disconnected
+msgid "Hide disconnected rooms"
+msgstr ""
+
+#: [rooms]destroy_title
+msgid "Destroy the room"
+msgstr ""
+
+#: [rooms]destroy_text
+msgid "Are you sure you want to permanently destroy the following room?"
+msgstr ""
+
+#: [rooms]owner
+msgctxt "[rooms]owner"
+msgid "Owner"
+msgstr ""
+
+#: [rooms]admin
+msgctxt "[rooms]admin"
+msgid "Admin"
+msgstr ""
+
+#: [rooms]visitor
+msgid "Visitor"
+msgstr ""
+
+#: [rooms]explore_placeholder
+msgid "Name or description"
+msgstr ""
+
+#: [chatrooms]title
+msgid "Chatrooms"
+msgstr "Samtalerom"
+
+#: [chatrooms]id
+msgid "Chatroom ID"
+msgstr ""
+
+#: [chatrooms]name_placeholder
+msgid "My Favorite Room"
+msgstr "Mine favorittrom"
+
+#: [chatrooms]bad_id
+msgid "Bad Chatroom ID"
+msgstr "Feil samtalerom-ID"
+
+#: [chatrooms]empty_name
+msgid "Empty name"
+msgstr "Tomt navn"
+
+#: [chatrooms]synchronized
+msgid "%s rooms synchronized"
+msgstr ""
+
+#: [chatrooms]not_synchronized
+msgid "No rooms to synchronize found"
+msgstr ""
+
+#: [chatrooms]users
+msgctxt "[chatrooms]users"
+msgid "Users"
+msgstr ""
+
+#: [chatrooms]members
+msgctxt "[chatrooms]members"
+msgid "Members"
+msgstr ""
+
+#: [chatrooms]banned
+msgid "Banned"
+msgstr ""
+
+#: [chatrooms]bad_nickname
+msgid "Please enter a correct nickname (2 to 40 characters)"
+msgstr "Oppgi et gyldig kallenavn (2 til 40 tegn)"
+
+#: [chatrooms]conflict
+msgid "Username already taken"
+msgstr "Brukernavnet er allerede tatt"
+
+#: [chatrooms]autojoin
+msgid "Join this chatroom on connect"
+msgstr "Bli med i dette samtalerommet ved oppkobling"
+
+#: [chatrooms]pinned
+msgid "Pin this chatroom"
+msgstr ""
+
+#: [chatrooms]destroyed
+msgid "Room destroyed"
+msgstr ""
+
+#: [chatrooms]registrationrequired
+msgid "Chatroom cannot be joined, registration required"
+msgstr "Kunne ikke bli med i samtalerommet, registrering er påkrevd."
+
+#: [chatrooms]itemnotfound
+msgid "The chatroom doesn’t exists"
+msgstr ""
+
+#: [chatrooms]notauthorized
+msgid "A password is required"
+msgstr ""
+
+#: [chatrooms]forbidden
+msgid "You are not allowed to join this chatroom"
+msgstr ""
+
+#: [chatrooms]jidmalformed
+msgid "Your nickname is not valid"
+msgstr ""
+
+#: [chatrooms]notacceptable
+msgid "Not acceptable"
+msgstr ""
+
+#: [chatrooms]serviceunavailable
+msgid "The chatroom occupant limit has been reached"
+msgstr ""
+
+#: [chatrooms]notallowed
+msgid "You are not allowed to create a chatroom there"
+msgstr ""
+
+#: [chatrooms]created
+msgid "Chatroom created"
+msgstr ""
+
+#: [bookmarks]updated
+msgid "Bookmarks updated"
+msgstr "Bokmerke oppdatert"
+
+#: [room]anonymous_title
+msgid "Public chatroom"
+msgstr "Offentlig samtalerom"
+
+#: [room]anonymous_text1
+msgid "You are currently logged as an anonymous user."
+msgstr ""
+
+#: [room]anonymous_text2
+msgid "You can join using your own account or create one on the login page by loging out using the cross in the top-right corner."
+msgstr "Du kan bli med ved å bruke din egen konto eller opprette en ny på pålogginssiden, ved å logge ut og trykke på krysset øverst i høyre hjørne."
+
+#: [room]anonymous_login
+msgid "Login on %s"
+msgstr "Logg inn på %s"
+
+#: [room]invite
+msgid "Invite a contact"
+msgstr "Inviter en kontakt"
+
+#: [room]invited
+msgid "Invitation sent"
+msgstr "Invitasjon er sendt"
+
+#: [room]invite_code
+msgid "Send this link to your contacts"
+msgstr "Send denne lenken til dine kontakter"
+
+#: [room]public_muc_text
+msgid "This chatroom is publicly discoverable"
+msgstr ""
+
+#: [room]nonanonymous_muc
+msgid "Public profiles"
+msgstr ""
+
+#: [room]nonanonymous_muc_text
+msgid "The participants of this chatroom can see each other's profile"
+msgstr ""
+
+#: [room]group_chat
+msgid "Group Chat"
+msgstr ""
+
+#: [room]group_chat_text
+msgid "Private group chat with invited members"
+msgstr ""
+
+#: [room]group_chat_add
+msgid "Add a new member"
+msgstr ""
+
+#: [room]group_chat_members
+msgctxt "[room]group_chat_members"
+msgid "Members"
+msgstr ""
+
+#: [room]banned_add
+msgid "Ban someone"
+msgstr ""
+
+#: [room]banned_remove
+msgid "Unban"
+msgstr ""
+
+#: [room]change_affiliation
+msgid "Change the user affiliation"
+msgstr ""
+
+#: [room]change_affiliation_unauthorized
+msgid "You are not authorized to change this affiliation"
+msgstr ""
+
+#: [room]affiliation
+msgid "Affiliation"
+msgstr ""
+
+#: [room]reason
+msgid "Reason"
+msgstr ""
+
+#: [room]channel
+msgid "Channel"
+msgstr ""
+
+#: [room]channel_users
+msgctxt "[room]channel_users"
+msgid "Users"
+msgstr ""
+
+#: [room]channel_text
+msgid "Public channel that can be publicly discoverable and joinable"
+msgstr ""
+
+#: [room]notify_never
+msgid "Never notify"
+msgstr ""
+
+#: [room]notify_quoted
+msgid "Notify when quoted"
+msgstr ""
+
+#: [room]notify_always
+msgid "Always notify"
+msgstr ""
+
+#: [room]pinned
+msgid "Pinned"
+msgstr ""
+
+#: [room]affiliation_owner
+msgctxt "[room]affiliation_owner"
+msgid "Owner"
+msgstr ""
+
+#: [room]affiliation_admin
+msgctxt "[room]affiliation_admin"
+msgid "Admin"
+msgstr ""
+
+#: [room]affiliation_member [affiliation]member
+msgid "Member"
+msgstr ""
+
+#: [room]affiliation_none [affiliation]no-aff
+msgid "No affiliation"
+msgstr ""
+
+#: [room]affiliation_owner_changed
+msgid "User granted as owner"
+msgstr ""
+
+#: [room]affiliation_admin_changed
+msgid "User granted as admin"
+msgstr ""
+
+#: [room]affiliation_member_changed
+msgid "User granted as member"
+msgstr ""
+
+#: [room]affiliation_outcast_changed
+msgid "User banned"
+msgstr ""
+
+#: [room]affiliation_none_changed
+msgid "Affiliation removed for the user"
+msgstr ""
+
+#: [roomsexplore]no_local
+msgid "No chatrooms found locally"
+msgstr ""
+
+#: [roomsexplore]global_title
+msgid "Global search"
+msgstr ""
+
+#: [roomsexplore]no_global
+msgid "No chatrooms found globally"
+msgstr ""
+
+#: [search]keyword
+msgid "What are you looking for?"
+msgstr "Hva leter du etter?"
+
+#: [search]subtitle
+msgid "Open me using Ctrl + M"
+msgstr "Åpne meg med Ctrl + M"
+
+#: [search]placeholder
+msgid "#cats, username@server.com, John…"
+msgstr ""
+
+#: [search]no_contacts_title
+msgid "No contacts yet?"
+msgstr ""
+
+#: [search]no_contacts_text
+msgid "Find one by searching for their name or id"
+msgstr ""
+
+#: [search]tags
+msgid "Tags"
+msgstr ""
+
+#: [search]show_complete_roster
+msgid "Show all the contacts"
+msgstr ""
+
+#: [sendto]attach
+msgid "Attach to a blog publication"
+msgstr ""
+
+#: [sendto]contact
+msgid "Send it to a contact"
+msgstr ""
+
+#: [sendto]chatroom
+msgid "Share it in a chatroom"
+msgstr ""
+
+#: [sendto]shared_with
+msgid "Post shared"
+msgstr ""
+
+#: [sendto]shared_contact
+msgid "Post shared with your contact"
+msgstr ""
+
+#: [sendto]shared_chatroom
+msgid "Post shared within the chatroom"
+msgstr ""
+
+#: [sendto]more_contacts
+msgid "More contacts"
+msgstr ""
+
+#: [statistics]title
+msgid "Statistics"
+msgstr "Statistikk"
+
+#: [sticker]title
+msgid "Stickers"
+msgstr ""
+
+#: [sticker]sent
+msgid "A sticker has been sent using Movim"
+msgstr "En klistrelapp har blitt sendt via Movim"
+
+#: [sticker]keyword
+msgid "Type a keyword"
+msgstr ""
+
+#: [sticker]gif_title
+msgid "Find a GIF"
+msgstr ""
+
+#: [sticker]gif_text
+msgid "Powered by Tenor"
+msgstr ""
+
+#: [subscribe]info
+msgid "Movim is a decentralized social network, before creating a new account you need to choose a server to register."
+msgstr "Movim er et desentralisert sosialt nettverk. Før du kan lage en ny konto, må du velge en tjener hvor kontoen skal opprettes."
+
+#: [subscribe]server_question
+msgid "Your server here?"
+msgstr "Tjeneren din her?"
+
+#: [subscribe]server_contact
+msgid "Contact us to add yours to the officially supported servers list"
+msgstr "Kontakt oss for å legge tjeneren din til listen over offisielt støttede tjenere"
+
+#: [feed]nope
+msgid "No public feed for this contact"
+msgstr "Denne kontakten har ingen offentlig strøm"
+
+#: [feed]nope_contact
+msgid "No contact specified"
+msgstr "Ingen kontakt spesifisert"
+
+#: [upload]title [button]upload
+msgid "Upload"
+msgstr "Last opp"
+
+#: [upload]choose
+msgid "Choose a file to upload"
+msgstr "Velg en fil å laste opp"
+
+#: [upload]info
+msgid "Large pictures will be resized and compressed"
+msgstr "Store bilder vil bli redusert og komprimert"
+
+#: [upload]error_filesize
+msgid "File too large"
+msgstr "Filen er for stor"
+
+#: [upload]error_failed
+msgid "Upload failed"
+msgstr "Opplastingen feilet"
+
+#: [upload]error_not_allowed
+msgid "You are not allowed to upload a file"
+msgstr ""
+
+#: [upload]error_resource_constraint
+msgid "You exceeded the quota"
+msgstr ""
+
+#: [upload]drag_drop
+msgid "Drag and drop your file in this area"
+msgstr ""
+
+#: [upload]max_size
+msgid "Max file size %s"
+msgstr ""
+
+#: [vcard]title [page]profile
+msgid "Profile"
+msgstr "Profil"
+
+#: [vcard]updated
+msgid "Profile Updated"
+msgstr "Profilen ble oppdatert"
+
+#: [vcard]not_updated
+msgid "Profile Not Updated"
+msgstr "Profilen ble ikke oppdatert"
+
+#: [vcard]public
+msgid "Your profile is now public"
+msgstr "Profilen din er nå offentlig"
+
+#: [vcard]restricted
+msgid "Your profile is now restricted"
+msgstr "Profilen har nå begrenset synlighet"
+
+#: [profile]info
+msgid "Configure your instance nickname"
+msgstr ""
+
+#: [profile]privacy_question
+msgid "Is this profile public?"
+msgstr "Er denne profilen offentlig?"
+
+#: [profile]privacy_info
+msgid "Please pay attention! By making your profile public, all the information listed below will be available for all the Movim users and on the whole Internet."
+msgstr ""
+
+#: [profile]nickname_info
+msgid "Set a local nickname to allow the other users of the instance to find you easily."
+msgstr ""
+
+#: [profile]nickname_set
+msgid "Your nickname is %s."
+msgstr ""
+
+#: [profile]nickname_placeholder
+msgid "John_Bob96"
+msgstr ""
+
+#: [profile]nickname_error
+msgid "Your nickname should only contains letters, numbers, - and _"
+msgstr ""
+
+#: [profile]nickname_conflict
+msgid "The nickname is already registered"
+msgstr ""
+
+#: [profile]nickname_saved
+msgid "Nickname saved"
+msgstr ""
+
+#: [save]submit [button]submit
+msgid "Submit"
+msgstr "Send inn"
+
+#: [save]reset [button]reset
+msgid "Reset"
+msgstr "Nullstill"
+
+#: [degraded]title
+msgid "Movim is currently working in degraded mode"
+msgstr "Movim operere nå i degradert modus"
+
+#: [degraded]text_1
+msgid "Your server doesn’t support XMPP Pubsub persistence or the social features (communities, news feed and profile) are disabled by the administrator."
+msgstr ""
+
+#: [degraded]text_2
+msgid "Please contact your server administrator to see if this feature can be enabled."
+msgstr "Kontakt administratoren av tjeneren for å sjekke om funksjonaliteten kan aktiveres."
+
+#: [visio]calling
+msgid "…is calling you"
+msgstr "…ringer deg"
+
+#: [visio]video_call
+msgid "Incoming video call"
+msgstr ""
+
+#: [visio]audio_call
+msgid "Incoming audio call"
+msgstr ""
+
+#: [visio]ringing
+msgid "…ringing"
+msgstr "…ringer"
+
+#: [visio]declined
+msgid "declined"
+msgstr ""
+
+#: [visio]in_call
+msgid "in call"
+msgstr "i en samtale"
+
+#: [visio]failed
+msgid "failed"
+msgstr "mislyktes"
+
+#: [visio]connecting
+msgid "…connecting"
+msgstr "…kobler til"
+
+#: [visio]ended
+msgid "call ended"
+msgstr ""
+
+#: [visioconfig]title
+msgid "Video & Voice"
+msgstr ""
+
+#: [visioconfig]help
+msgid "Configure the default devices used by Movim"
+msgstr ""
+
+#: [visioconfig]microphone
+msgid "Microphone"
+msgstr ""
+
+#: [visioconfig]microphone_label
+msgid "Default microphone"
+msgstr ""
+
+#: [visioconfig]camera
+msgid "Camera"
+msgstr ""
+
+#: [visioconfig]camera_label
+#, fuzzy
+msgid "Default camera"
+msgstr "Forvalgt språk"
+
+#: [visioconfig]default_microphone_changed
+msgid "Default microphone changed"
+msgstr ""
+
+#: [visioconfig]default_camera_changed
+#, fuzzy
+msgid "Default camera changed"
+msgstr "Forvalgt språk"
+
+#: [visioconfig]no_mic_sound
+msgid "No sound detected from your microphone"
+msgstr ""
+
+#: [visioconfig]no_mic_sound2
+msgid "Try to select another source or check your system settings"
+msgstr ""
+
+#: [global]no_js
+msgid "Movim requires Javascript to be enabled to work properly."
+msgstr ""
+
+#: [global]description
+msgid "Movim is a kickass distributed social networking platform that protect your privacy and comes with a set of awesome features."
+msgstr ""
+
+#: [global]loading
+msgid "Loading…"
+msgstr "Laster inn…"
+
+#: [global]or
+msgid "Or"
+msgstr "Eller"
+
+#: [global]change_pod
+msgid "Switch to another pod"
+msgstr ""
+
+#: [page]communities
+msgid "Communities"
+msgstr "Samfunn"
+
+#: [page]home
+msgid "Home"
+msgstr "Hjem"
+
+#: [page]explore
+msgid "Explore"
+msgstr "Utforsk"
+
+#: [page]account_creation
+msgid "Account Creation"
+msgstr "Opprettelse av konto"
+
+#: [page]news
+msgid "News"
+msgstr "Nyheter"
+
+#: [page]avatar
+msgid "Avatar"
+msgstr "Avatar"
+
+#: [page]chats
+msgid "Chats"
+msgstr "Samtaler"
+
+#: [page]publish
+msgid "Publish"
+msgstr "Publiser"
+
+#: [page]post
+msgid "Post"
+msgstr "Innlegg"
+
+#: [page]blog
+msgid "Blog"
+msgstr "Blogg"
+
+#: [page]about
+msgid "About"
+msgstr "Om"
+
+#: [page]login
+msgid "Login"
+msgstr "Logg inn"
+
+#: [page]not_found
+msgid "Not Found"
+msgstr ""
+
+#: [page]feed
+msgid "Feed"
+msgstr "Strøm"
+
+#: [page]posts
+msgid "Posts"
+msgstr "Innlegg"
+
+#: [page]gallery
+msgid "Gallery"
+msgstr "Galleri"
+
+#: [page]visio
+msgid "Visio-conference"
+msgstr "Visio-konferanse"
+
+#: [page]share
+msgctxt "[page]share"
+msgid "Share"
+msgstr "Del"
+
+#: [page]room
+msgid "Room"
+msgstr "Rom"
+
+#: [page]tag
+msgid "Tag"
+msgstr "Merkelapp"
+
+#: [error]error
+msgid "Error: %s"
+msgstr "Feil: %s"
+
+#: [error]cannot_load_file
+msgid "Cannot load file '%s'"
+msgstr "Kan ikke laste filen '%s'"
+
+#: [error]widget_load_error
+msgid "Requested widget '%s' doesn’t exist."
+msgstr ""
+
+#: [error]widget_call_error
+msgid "Requested event '%s' not registered."
+msgstr "Den etterspurte hendelsen '%s' finnes ikke."
+
+#: [error]whoops
+msgid "Whoops!"
+msgstr "Oida!"
+
+#: [error]websocket
+msgid "Movim cannot talk with the server, please try again later"
+msgstr "Movim får ikke kontakt med tjeneren, prøv igjen senere"
+
+#: [error]websocket_connect
+msgid "Reconnection to the server…"
+msgstr ""
+
+#: [error]oops
+msgid "Oops!"
+msgstr "Uffda!"
+
+#: [button]call
+msgid "Call"
+msgstr "Ring"
+
+#: [button]audio_call
+msgid "Audio Call"
+msgstr ""
+
+#: [button]video_call
+msgid "Video Call"
+msgstr ""
+
+#: [button]validate
+msgid "Validate"
+msgstr "Valider"
+
+#: [button]refresh
+msgid "Refresh"
+msgstr "Oppdater"
+
+#: [button]add
+msgid "Add"
+msgstr "Legg til"
+
+#: [button]delete
+msgid "Delete"
+msgstr "Slett"
+
+#: [button]destroy
+msgid "Destroy"
+msgstr ""
+
+#: [button]cancel
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: [button]close
+msgid "Close"
+msgstr "Lukk"
+
+#: [button]update
+msgid "Update"
+msgstr "Oppdater"
+
+#: [button]updating
+msgid "Updating"
+msgstr "Oppdaterer"
+
+#: [button]submitting
+msgid "Submitting"
+msgstr "Sender inn"
+
+#: [button]register
+msgid "Register"
+msgstr "Registrer"
+
+#: [button]reply
+msgid "Reply"
+msgstr "Svar"
+
+#: [button]unregister
+msgid "Unregister"
+msgstr "Avregistrer"
+
+#: [button]save
+msgid "Save"
+msgstr "Lagre"
+
+#: [button]clear
+msgid "Clear"
+msgstr "Tøm"
+
+#: [button]connecting
+msgid "Connecting"
+msgstr "Kobler til"
+
+#: [button]bool_yes
+msgid "Yes"
+msgstr "Ja"
+
+#: [button]bool_no
+msgid "No"
+msgstr "Nei"
+
+#: [button]return
+msgid "Return"
+msgstr "Tilbake"
+
+#: [button]accept
+msgid "Accept"
+msgstr "Aksepter"
+
+#: [button]refuse
+msgid "Refuse"
+msgstr "Avslå"
+
+#: [button]next
+msgid "Next"
+msgstr "Neste"
+
+#: [button]previous
+msgid "Previous"
+msgstr "Forrige"
+
+#: [button]search
+msgid "Search"
+msgstr "Søk"
+
+#: [button]share
+msgctxt "[button]share"
+msgid "Share"
+msgstr "Del"
+
+#: [button]discover
+msgid "Discover"
+msgstr "Oppdag"
+
+#: [button]like
+msgid "Like"
+msgstr "Lik"
+
+#: [button]not_now
+msgid "Not Now"
+msgstr "Ikke nå"
+
+#: [button]enable
+msgid "Enable"
+msgstr "Aktiver"
+
+#: [button]sign_up
+msgid "Sign Up"
+msgstr "Registrere"
+
+#: [button]send_to
+msgid "Send to"
+msgstr ""
+
+#: [button]more
+msgid "More"
+msgstr ""
+
+#: [button]copy_link
+msgid "Copy Link"
+msgstr ""
+
+#: [button]open
+msgid "Open"
+msgstr "Åpne"
+
+#: [input]optional
+msgid "Optional"
+msgstr ""
+
+#: [input]muc_pubsub_node
+msgid "Associated Community"
+msgstr ""
+
+#: [day]title
+msgid "Day"
+msgstr "Dag"
+
+#: [day]monday
+msgid "Monday"
+msgstr "Mandag"
+
+#: [day]tuesday
+msgid "Tuesday"
+msgstr "Tirsdag"
+
+#: [day]wednesday
+msgid "Wednesday"
+msgstr "Onsdag"
+
+#: [day]thursday
+msgid "Thursday"
+msgstr "Torsdag"
+
+#: [day]friday
+msgid "Friday"
+msgstr "Fredag"
+
+#: [day]saturday
+msgid "Saturday"
+msgstr "Lørdag"
+
+#: [day]sunday
+msgid "Sunday"
+msgstr "Søndag"
+
+#: [client]bot
+msgid "Bot"
+msgstr "Bot"
+
+#: [client]console
+msgid "Console"
+msgstr ""
+
+#: [client]desktop
+msgid "Desktop"
+msgstr "Skrivebord"
+
+#: [client]phone
+msgid "Phone"
+msgstr "Telefon"
+
+#: [client]web
+msgid "Web"
+msgstr "Nett"
+
+#: [client]registered
+msgid "Registered"
+msgstr "Registrert"
+
+#: [presence]online
+msgid "Online"
+msgstr "Pålogget"
+
+#: [presence]away
+msgid "Away"
+msgstr "Borte"
+
+#: [presence]dnd
+msgid "Do Not Disturb"
+msgstr "Ikke forstyrr"
+
+#: [presence]xa
+msgid "Extended Away"
+msgstr "Borte for en lengre periode"
+
+#: [presence]offline
+msgid "Offline"
+msgstr "Avlogget"
+
+#: [presence]error
+msgid "Error"
+msgstr "Feil"
+
+#: [mood]afraid
+msgid "afraid"
+msgstr "redd"
+
+#: [mood]amazed
+msgid "amazed"
+msgstr "overrasket"
+
+#: [mood]amorous
+msgid "amorous"
+msgstr "amorøs"
+
+#: [mood]angry
+msgid "angry"
+msgstr "sint"
+
+#: [mood]annoyed
+msgid "annoyed"
+msgstr "irritert"
+
+#: [mood]anxious
+msgid "anxious"
+msgstr "nervøs"
+
+#: [mood]aroused
+msgid "aroused"
+msgstr "opphisset"
+
+#: [mood]ashamed
+msgid "ashamed"
+msgstr "skamfull"
+
+#: [mood]bored
+msgid "bored"
+msgstr "lei"
+
+#: [mood]brave
+msgid "brave"
+msgstr "modig"
+
+#: [mood]calm
+msgid "calm"
+msgstr "rolig"
+
+#: [mood]cautious
+msgid "cautious"
+msgstr "forsiktig"
+
+#: [mood]cold
+msgid "cold"
+msgstr "kald"
+
+#: [mood]confident
+msgid "confident"
+msgstr "selvsikker"
+
+#: [mood]confused
+msgid "confused"
+msgstr "forvirret"
+
+#: [mood]contemplative
+msgid "contemplative"
+msgstr "ettertenksom"
+
+#: [mood]contented
+msgid "contented"
+msgstr "fornøyd"
+
+#: [mood]cranky
+msgid "cranky"
+msgstr "gretten"
+
+#: [mood]crazy
+msgid "crazy"
+msgstr "gal"
+
+#: [mood]creative
+msgid "creative"
+msgstr "kreativ"
+
+#: [mood]curious
+msgid "curious"
+msgstr "nyskjerrig"
+
+#: [mood]dejected
+msgid "dejected"
+msgstr "nedslått"
+
+#: [mood]depressed
+msgid "depressed"
+msgstr "deprimert"
+
+#: [mood]disappointed
+msgid "disappointed"
+msgstr "skuffet"
+
+#: [mood]disgusted
+msgid "disgusted"
+msgstr "forferdet"
+
+#: [mood]dismayed
+msgid "dismayed"
+msgstr "forskrekket"
+
+#: [mood]distracted
+msgid "distracted"
+msgstr "distrahert"
+
+#: [mood]embarrassed
+msgid "embarrassed"
+msgstr "flau"
+
+#: [mood]envious
+msgid "envious"
+msgstr "sjalu"
+
+#: [mood]excited
+msgid "excited"
+msgstr "opprømt"
+
+#: [mood]flirtatious
+msgid "flirtatious"
+msgstr "flørtende"
+
+#: [mood]frustrated
+msgid "frustrated"
+msgstr "frustrert"
+
+#: [mood]grateful
+msgid "grateful"
+msgstr "takknemlig"
+
+#: [mood]grieving
+msgid "grieving"
+msgstr "sørgende"
+
+#: [mood]grumpy
+msgid "grumpy"
+msgstr "gretten"
+
+#: [mood]guilty
+msgid "guilty"
+msgstr "skyldig"
+
+#: [mood]happy
+msgid "happy"
+msgstr "glad"
+
+#: [mood]hopeful
+msgid "hopeful"
+msgstr "håpefull"
+
+#: [mood]hot
+msgid "hot"
+msgstr "heit"
+
+#: [mood]humbled
+msgid "humbled"
+msgstr "ydmyk"
+
+#: [mood]humiliated
+msgid "humiliated"
+msgstr "ydmyket"
+
+#: [mood]hungry
+msgid "hungry"
+msgstr "sulten"
+
+#: [mood]hurt
+msgid "hurt"
+msgstr "såret"
+
+#: [mood]impressed
+msgid "impressed"
+msgstr "imponert"
+
+#: [mood]in_awe
+msgid "in awe"
+msgstr "satt ut"
+
+#: [mood]in_love
+msgid "in love"
+msgstr "forelsket"
+
+#: [mood]indignant
+msgid "indignant"
+msgstr "indignert"
+
+#: [mood]interested
+msgid "interested"
+msgstr "interessert"
+
+#: [mood]intoxicated
+msgid "intoxicated"
+msgstr "beruset"
+
+#: [mood]invincible
+msgid "invincible"
+msgstr "uovervinnelig"
+
+#: [mood]jealous
+msgid "jealous"
+msgstr "sjalu"
+
+#: [mood]lonely
+msgid "lonely"
+msgstr "ensom"
+
+#: [mood]lost
+msgid "lost"
+msgstr "fortapt"
+
+#: [mood]lucky
+msgid "lucky"
+msgstr "heldig"
+
+#: [mood]mean
+msgid "mean"
+msgstr "slem"
+
+#: [mood]moody
+msgid "moody"
+msgstr "humørsyk"
+
+#: [mood]nervous
+msgid "nervous"
+msgstr "nervøs"
+
+#: [mood]neutral
+msgid "neutral"
+msgstr "nøytral"
+
+#: [mood]offended
+msgid "offended"
+msgstr "fornærmet"
+
+#: [mood]outraged
+msgid "outraged"
+msgstr "rasende"
+
+#: [mood]playful
+msgid "playful"
+msgstr "leken"
+
+#: [mood]proud
+msgid "proud"
+msgstr "stolt"
+
+#: [mood]relaxed
+msgid "relaxed"
+msgstr "avslappet"
+
+#: [mood]relieved
+msgid "relieved"
+msgstr "lettet"
+
+#: [mood]restless
+msgid "restless"
+msgstr "rastløs"
+
+#: [mood]sad
+msgid "sad"
+msgstr "trist"
+
+#: [mood]sarcastic
+msgid "sarcastic"
+msgstr "sarkastisk"
+
+#: [mood]satisfied
+msgid "satisfied"
+msgstr "tilfreds"
+
+#: [mood]serious
+msgid "serious"
+msgstr "seriøs"
+
+#: [mood]shocked
+msgid "shocked"
+msgstr "sjokkert"
+
+#: [mood]shy
+msgid "shy"
+msgstr "sjenert"
+
+#: [mood]sick
+msgid "sick"
+msgstr "syk"
+
+#: [mood]sleepy
+msgid "sleepy"
+msgstr "søvnig"
+
+#: [mood]spontaneous
+msgid "spontaneous"
+msgstr "spontan"
+
+#: [mood]stressed
+msgid "stressed"
+msgstr "stresset"
+
+#: [mood]strong
+msgid "strong"
+msgstr "sterk"
+
+#: [mood]surprised
+msgid "surprised"
+msgstr "overrasket"
+
+#: [mood]thankful
+msgid "thankful"
+msgstr "takknemlig"
+
+#: [mood]thirsty
+msgid "thirsty"
+msgstr "tørst"
+
+#: [mood]tired
+msgid "tired"
+msgstr "trøtt"
+
+#: [mood]undefined
+msgid "undefined"
+msgstr "udefinert"
+
+#: [mood]weak
+msgid "weak"
+msgstr "svak"
+
+#: [mood]worried
+msgid "worried"
+msgstr "bekymret"
+
+#: [month]title
+msgid "Month"
+msgstr "Måned"
+
+#: [month]january
+msgid "January"
+msgstr "Januar"
+
+#: [month]february
+msgid "February"
+msgstr "Februar"
+
+#: [month]march
+msgid "March"
+msgstr "Mars"
+
+#: [month]april
+msgid "April"
+msgstr "April"
+
+#: [month]may
+msgid "May"
+msgstr "Mai"
+
+#: [month]june
+msgid "June"
+msgstr "Juni"
+
+#: [month]july
+msgid "July"
+msgstr "Juli"
+
+#: [month]august
+msgid "August"
+msgstr "August"
+
+#: [month]september
+msgid "September"
+msgstr "September"
+
+#: [month]october
+msgid "October"
+msgstr "Oktober"
+
+#: [month]november
+msgid "November"
+msgstr "November"
+
+#: [month]december
+msgid "December"
+msgstr "Desember"
+
+#: [year]title
+msgid "Year"
+msgstr "År"
+
+#: [date]today
+msgid "Today"
+msgstr "Idag"
+
+#: [date]tomorrow
+msgid "Tomorrow"
+msgstr "Imorgen"
+
+#: [date]yesterday
+msgid "Yesterday"
+msgstr "I går"
+
+#: [date]ago
+msgid "%d days ago"
+msgstr "For %d dager siden"
+
+#: [date]day
+msgid "day"
+msgstr "dag"
+
+#: [post]title
+msgid "Title"
+msgstr "Overskrift"
+
+#: [post]place
+msgid "Place"
+msgstr "Sted"
+
+#: [post]by
+msgid "by"
+msgstr "by"
+
+#: [post]geolocalisation
+msgid "Geolocalisation"
+msgstr "Plassering"
+
+#: [post]email
+msgid "email"
+msgstr "e-post"
+
+#: [post]empty
+msgid "No content"
+msgstr "Ingen innhold"
+
+#: [post]no_comments
+msgid "No comments yet"
+msgstr "Ingen kommentarer enda"
+
+#: [post]older
+msgid "Get older posts"
+msgstr "Hent eldre innlegg"
+
+#: [post]new_items
+msgid "%s new items"
+msgstr "%s nye innlegg"
+
+#: [post]comment_error
+msgid "Comment publication error"
+msgstr "Feil oppstod ved publisering av kommentar"
+
+#: [post]comments_get
+msgid "Get the comments"
+msgstr "Hent kommentarene"
+
+#: [post]comment_add
+msgid "Add a comment"
+msgstr "Legg til kommentar"
+
+#: [post]share
+msgid "Share with"
+msgstr "Del med"
+
+#: [post]share_everyone
+msgid "Everyone"
+msgstr "Alle"
+
+#: [post]updated
+msgid "Updated"
+msgstr "Oppdatert"
+
+#: [post]content_not_found
+msgid "Content not found"
+msgstr "Innholdet ble ikke funnet"
+
+#: [post]default_title
+msgid "Contact publication"
+msgstr "Kontakt publikasjon"
+
+#: [post]comments
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: [post]original_deleted
+msgid "Original post deleted"
+msgstr "Opprinnelig post slettet"
+
+#: [filesize]byte
+msgid "B"
+msgstr ""
+
+#: [filesize]kilobyte
+msgid "KB"
+msgstr ""
+
+#: [filesize]megabyte
+msgid "MB"
+msgstr ""
+
+#: [filesize]gigabyte
+msgid "GB"
+msgstr ""
+
+#: [filesize]terabyte
+msgid "TB"
+msgstr ""
+
+#: [affiliation]owner
+msgid "Owner"
+msgstr "Eier"
+
+#: [affiliation]publisher
+msgid "Publisher"
+msgstr "Utgiver"
+
+#: [affiliation]publish-only
+msgid "Publish only"
+msgstr ""
+
+#: [affiliation]outcast
+msgid "Outcast"
+msgstr ""
+
+#: [api]error
+msgid "The API is not reachable, try again later"
+msgstr "API-et kan ikke nås, prøv igjen senere"
+
+#: [field]type_here
+msgid "Type here"
+msgstr "Skriv her"
+
+#~ msgid "Status updated"
+#~ msgstr "Statusen er oppdatert"

@@ -1,0 +1,3402 @@
+#
+# Translators:
+# Aheahead <rmatumoto@gmail.com>, 2016
+# kubo suguru <sugurmarket@gmail.com>, 2017
+# Maxime Buquet <tidusx62@gmail.com>, 2015,2017
+# RACER, 2017
+# Rintan, 2020
+# Rintan, 2020-2021
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/About/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Account/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/AccountNext/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/AdHoc/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/AdminMain/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/AdminReported/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/AdminSessions/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/AdminTest/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Api/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Avatar/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Blocked/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Blog/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Chat/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/ChatOmemo/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Chats/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Communities/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/CommunitiesInteresting/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/CommunitiesServer/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/CommunitiesServers/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/CommunityAffiliations/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/CommunityConfig/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/CommunityData/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/CommunityHeader/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/CommunitySubscriptions/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Config/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Confirm/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/ContactActions/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/ContactData/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/ContactDataPublic/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Draw/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Help/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Login/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/LoginAnonymous/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Menu/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Notifications/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Onboarding/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Post/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Presence/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Preview/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Publish/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/PublishBrief/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/PublishHelp/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Rooms/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/RoomsExplore/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Search/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/SendTo/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Statistics/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Stickers/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Subscribe/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Syndication/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Upload/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Vcard4/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/Visio/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../app/widgets/VisioConfig/locales.ini
+#. #-#-#-#-#  locales.po (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ../locales/locales.ini
+msgid ""
+msgstr ""
+"Project-Id-Version: movim\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-07 14:14+0200\n"
+"PO-Revision-Date: 2022-02-17 07:57+0000\n"
+"Last-Translator: Jaussoin Timothée <edhelas@movim.eu>\n"
+"Language-Team: Japanese (http://www.transifex.com/movim/movim/language/ja/)\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Translate Toolkit 3.4.1\n"
+
+#: [about]thanks
+msgid "Thanks"
+msgstr "謝辞"
+
+#: [about]developers
+msgid "Developers"
+msgstr "開発者"
+
+#: [about]translators
+msgid "Translators"
+msgstr "翻訳者"
+
+#: [about]translators_text
+msgid "Thanks to all the translators"
+msgstr "全ての翻訳者に感謝します"
+
+#: [about]software
+msgid "Software"
+msgstr "ソフトウェア"
+
+#: [about]resources
+msgid "Resources"
+msgstr "リソース"
+
+#: [about]api [schema]api [api]title
+msgid "API"
+msgstr "API"
+
+#: [about]info
+msgid "Movim is an XMPP-based communication platform. All the project, except the following software and resources, is under"
+msgstr "MovimはXMPPベースのコミュニケーションプラットフォームです。これらのソフトウェアとリソースを除き、すべてのプロジェクトは"
+
+#: [account]title [page]account
+msgid "Account"
+msgstr "アカウント"
+
+#: [account]password_change_title
+msgid "Change my password"
+msgstr "パスワードを変更する"
+
+#: [account]password [credentials]password [form]password [input]password
+msgid "Password"
+msgstr "パスワード"
+
+#: [account]password_confirmation
+msgid "Password confirmation"
+msgstr "パスワードを再入力してください"
+
+#: [account]password_changed
+msgid "The password has been updated"
+msgstr "パスワードは更新されました"
+
+#: [account]password_not_valid
+msgid "Please provide a valid password (6 characters minimum)"
+msgstr "適正なパスワードを記入してください（最低６文字）"
+
+#: [account]password_not_same
+msgid "The provided passwords are not the same"
+msgstr "入力したパスワードが一致しません"
+
+#: [account]delete
+msgid "Delete your account"
+msgstr "アカウントを削除する"
+
+#: [account]delete_text
+msgid "You will delete your XMPP account and all the relative information linked to it (profile, contacts and publications)."
+msgstr "XMPP アカウントと全ての関連付けられた情報(プロフィール、連絡先、投稿)が削除されます。"
+
+#: [account]delete_text_confirm
+msgid "Type your full username"
+msgstr "フルユーザーネームを入力してください"
+
+#: [account]delete_text_error
+msgid "Please provide a valid username."
+msgstr "有効なユーザー名を入力してください"
+
+#: [account]gateway_title
+msgid "Gateways"
+msgstr "ゲートウェイ"
+
+#: [account]clear
+msgid "Leave this instance"
+msgstr "このインスタンスを離脱する"
+
+#: [account]clear_text
+msgid "You will delete all the relative information linked to your account on this Movim instance (profile, contacts and publications)."
+msgstr "このMovimインスタンス上のあなたのアカウントに関連付けられたすべての情報(プロフィール、連絡先、投稿)が削除されます。"
+
+#: [account]clear_text_confirm
+msgid "This action will not delete your account but will disconnect you from this instance."
+msgstr "この操作はあなたのアカウントを削除しませんが、このインスタンスからは切断されます。"
+
+#: [account]delete_bundle_title
+msgid "OMEMO Key deletion"
+msgstr ""
+
+#: [account]delete_bundle_text
+msgid "Your are going to destroy the following OMEMO key. Your contacts will not be able to encrypt messages using that key anymore. This action cannot be reverted. Are you sure?"
+msgstr ""
+
+#: [create]title [subscribe]title
+msgid "Create a new account"
+msgstr "新しいアカウントを作成する"
+
+#: [create]notfound
+msgid "No account creation form found on the server"
+msgstr "サーバー上にアカウント作成フォームが見つかりません"
+
+#: [create]server_on
+msgid "on"
+msgstr ""
+
+#: [create]successfull
+msgid "Your acccount has been successfully registered"
+msgstr "アカウントが正常に作成されました"
+
+#: [create]loading
+msgid "Loading"
+msgstr "読み込み中"
+
+#: [create]placeholder
+msgid "…and start playing"
+msgstr ""
+
+#: [error]not_acceptable
+msgid "Not Acceptable"
+msgstr "不正"
+
+#: [error]service_unavailable
+msgid "The registration system of this server is currently unavailable"
+msgstr "このサーバーの登録システムは現在利用できません"
+
+#: [error]forbidden
+msgid "Registration forbidden"
+msgstr "登録が禁止されています"
+
+#: [adhoc]title
+msgid "Actions"
+msgstr "アクション"
+
+#: [adhoc]completed
+msgid "Action completed"
+msgstr "操作が完了しました"
+
+#: [admin]general
+msgid "General Settings"
+msgstr "一般設定"
+
+#: [general]theme
+msgid "Theme"
+msgstr "テーマ"
+
+#: [general]language
+msgid "Default language"
+msgstr "標準の言語"
+
+#: [general]log_verbosity
+msgid "Log verbosity"
+msgstr "ログ"
+
+#: [restrictsuggestions]title
+msgid "Restrict suggestions"
+msgstr "サジェストを制限します"
+
+#: [restrictsuggestions]text
+msgid "Only suggest chatrooms, Communities and other contents that are available on the user XMPP server and related services"
+msgstr "ユーザーのXMPPサーバーまたは関連するサービス上のチャットルーム、コミュニティ、その他の連絡先のみがサジェストされます"
+
+#: [chatonly]title
+msgid "Chat only"
+msgstr "チャットのみ"
+
+#: [chatonly]text
+msgid "Disable all the social feature (Communities, Blog…) and keep only the chat ones"
+msgstr "全てのソーシャル機能(コミュニティ、ブログ…)を無効化し、チャットのみを利用します"
+
+#: [credentials]title
+msgid "Administration Credential"
+msgstr "管理者認証"
+
+#: [credentials]username [input]username
+msgid "Username"
+msgstr "ユーザ名"
+
+#: [credentials]re_password
+msgid "Retype password"
+msgstr "パスワードを再入力してください"
+
+#: [disableregistration]title
+msgid "Disable the XMPP registration feature"
+msgstr "XMPPでの登録機能を無効化"
+
+#: [disableregistration]text
+msgid "Remove the XMPP registration flow and buttons from the interface"
+msgstr "XMPPでの登録フローとボタンをUIから削除"
+
+#: [whitelist]title
+msgid "Whitelisted XMPP Servers"
+msgstr "ウィッシュリストに入っているXMPPサーバー"
+
+#: [whitelist]info1
+msgid "If you want to specify a list of authorized XMPP servers on your Movim pod and forbid the connection on all the others please put their domain name here, with comma (ex: movim.eu,jabber.fr)"
+msgstr "限られた信頼するXMPPサーバーのリストをMovimのポッドに設定し、他のサーバーの接続をブロックしたい場合、ここにドメインネームをコンマで区切って（例：movim.eu,jabber.fr）入力してください。"
+
+#: [whitelist]info2
+msgid "Leave this field blank if you allow the access to all the XMPP accounts."
+msgstr "空のままにするとアクセスできるXMPPアカウントが制限されません"
+
+#: [whitelist]label
+msgid "List of whitelisted XMPP servers"
+msgstr "信頼するXMPPサーバー"
+
+#: [information]title
+msgctxt "[information]title"
+msgid "Information Message"
+msgstr "情報メッセージ"
+
+#: [information]description [communityconfig]description
+msgid "Description"
+msgstr "説明"
+
+#: [information]description_placeholder
+msgid "General description of the instance"
+msgstr "このインスタンスの概要"
+
+#: [information]banner
+msgid "Main banner"
+msgstr ""
+
+#: [information]banner_info
+msgid "Ensure that the picture is not too large and can be reached from any webpages"
+msgstr ""
+
+#: [information]info1
+msgid "This message will be displayed on the login page. It can be used to link the Terms and Conditions of your Movim instance for example."
+msgstr "このメッセージはログインページに表示されます。例えば、あなたのMovimインスタンスの利用規約への関連付けに使用される場合があります。"
+
+#: [information]info2
+msgid "Leave this field blank if you don’t want to show any message."
+msgstr "メッセージを表示したくない場合は、空欄のままにしてください。"
+
+#: [information]label
+msgctxt "[information]label"
+msgid "Information Message"
+msgstr "情報メッセージ"
+
+#: [xmpp]title
+msgid "Default XMPP server"
+msgstr "デフォルトのXMPPサーバー"
+
+#: [xmpp]domain
+msgid "Main XMPP server domain"
+msgstr "メインXMPPサーバーのドメイン"
+
+#: [xmpp]description
+msgid "Main XMPP server description"
+msgstr "メインXMPPサーバーの説明"
+
+#: [xmpp]country
+msgid "Main XMPP server country"
+msgstr "メインXMPPサーバーの国"
+
+#: [xmpp]country_pick
+msgid "Pick a country in the list"
+msgstr "リストから国を選ぶ"
+
+#: [tenor]title
+msgid "Tenor integration"
+msgstr "Tenor連携"
+
+#: [tenor]label
+msgid "Your Tenor API Key"
+msgstr "TenorのAPIキー"
+
+#: [tenor]info1
+msgid "Movim integrates the Tenor API to allow GIF search and publication in Chat"
+msgstr "MovimをTenor APIと連携して、GIF画像の検索とチャットへの挿入ができます"
+
+#: [tenor]info2
+msgid "Access Tenor and get your API key"
+msgstr "Tenorにアクセスして、APIキーを入手"
+
+#: [twitter]title
+#, fuzzy
+msgid "Twitter integration"
+msgstr "Tenor連携"
+
+#: [twitter]label
+msgid "Your Twitter Token"
+msgstr ""
+
+#: [twitter]info1
+msgid "The Twitter integration allow Movim to embed and extract the Tweets shared on the instance"
+msgstr ""
+
+#: [twitter]info2
+msgid "Generate your Token on the Developer Twitter website"
+msgstr ""
+
+#: [log]empty
+msgid "Empty"
+msgstr "空"
+
+#: [log]syslog
+msgid "Syslog"
+msgstr "Syslog"
+
+#: [log]syslog_files
+msgid "Syslog and files"
+msgstr "システムログとファイル"
+
+#: [adminreported]reported_by
+#, fuzzy
+msgid "Reported by %s users"
+msgstr "不正行為を報告"
+
+#: [adminreported]info
+msgid "Those accounts were reported by some Movim users"
+msgstr ""
+
+#: [adminreported]info2
+msgid "You can choose to block them for all the other users"
+msgstr ""
+
+#: [adminsessions]title
+msgid "Sessions"
+msgstr "セッション"
+
+#: [adminsessions]text
+msgid "Currently connected users on the pod"
+msgstr ""
+
+#: [admin]compatibility
+msgid "General Overview"
+msgstr "概要"
+
+#: [compatibility]rights
+msgid "Read and write rights for the webserver in Movim’s %s directory"
+msgstr "Movimの%sディレクトリにあるウェブサーバーの読み書き権限"
+
+#: [compatibility]websocket
+msgid "WebSocket connection error, check if the Movim Daemon is running and is reachable"
+msgstr "WebSocketの接続でエラーが発生しました。Movimデーモンが起動していてアクセスできることを確認してください。"
+
+#: [schema]browser
+msgid "Browser"
+msgstr "ブラウザー"
+
+#: [schema]movim
+msgid "Movim Core"
+msgstr "Movim コア"
+
+#: [schema]daemon
+msgid "Movim Daemon"
+msgstr "Movim デーモン"
+
+#: [schema]database
+msgid "Database"
+msgstr "データベース"
+
+#: [schema]xmpp
+msgid "XMPP"
+msgstr "XMPP"
+
+#: [api]info
+msgid "Here you can register your pod on the official %sMovim API%s"
+msgstr "ポッドを登録できる公式の%sMovim API%s"
+
+#: [api]register
+msgid "Your pod is not registered on the API"
+msgstr "あなたのポッドはAPIに登録されていません"
+
+#: [api]registered
+msgid "Your pod is registered on the API"
+msgstr "あなたのポッドはAPIに登録されています"
+
+#: [api]wait
+msgid "Your pod is not yet validated"
+msgstr "あなたのポッドは認証されていません"
+
+#: [api]validated
+msgid "Your pod is validated"
+msgstr "あなたのポッドは認証されています"
+
+#: [api]unregister
+msgid "You asked to be removed from the API, this request will be processed in a couple of hours"
+msgstr "APIからの削除をリクエストしましたが、このリクエストの処理には数時間かかります"
+
+#: [api]conf_updated [config]updated
+msgid "Configuration updated"
+msgstr "設定が変更されました"
+
+#: [avatar]file
+msgid "File"
+msgstr "ファイル"
+
+#: [avatar]use_it
+msgid "Use it"
+msgstr "使用する"
+
+#: [avatar]webcam
+msgid "Webcam"
+msgstr "ウェブカメラ"
+
+#: [avatar]cheese
+msgid "Cheese!"
+msgstr "チーズ！"
+
+#: [avatar]snapshot
+msgid "Take a webcam snapshot"
+msgstr "ウェブカメラで写真を撮る"
+
+#: [avatar]updated
+msgid "Avatar Updated"
+msgstr "アバターがアップデートされました"
+
+#: [avatar]not_updated
+msgid "Avatar Not Updated"
+msgstr "アバターが更新されていません"
+
+#: [avatar]missing
+msgid "No avatar defined yet"
+msgstr "アバターが設定されていません"
+
+#: [avatar]change
+msgid "Change my avatar"
+msgstr ""
+
+#: [avatar]upload_new
+msgid "Upload a new picture"
+msgstr ""
+
+#: [blocked]title
+msgid "Blocked"
+msgstr ""
+
+#: [blocked]block_account
+#, fuzzy
+msgid "Block the account"
+msgstr "他のアカウント"
+
+#: [blocked]unblock_account
+#, fuzzy
+msgid "Unblock the account"
+msgstr "他のアカウント"
+
+#: [blocked]account_blocked
+#, fuzzy
+msgid "Account blocked"
+msgstr "アカウント"
+
+#: [blocked]account_unblocked
+msgid "Account unblocked"
+msgstr ""
+
+#: [blocked]placeholder
+msgid "You will find here the users you have blocked"
+msgstr ""
+
+#: [blocked]info
+msgid "The following users are blocked by Movim and cannot contact you anymore"
+msgstr ""
+
+#: [blocked]info2
+msgid "The administrator is also aware of this list and can therefore block those users system wide"
+msgstr ""
+
+#: [blog]title [feed]title
+msgid "%s’s feed"
+msgstr "%sのフィード"
+
+#: [blog]private
+msgid "This content is private, please login to see it"
+msgstr "この接続はプライベートです。表示するにはログインしてください。"
+
+#: [message]published
+msgid "Message Published"
+msgstr "メッセージが公開されました"
+
+#: [message]react
+msgid "Add a reaction"
+msgstr ""
+
+#: [message]retract
+msgid "Retract"
+msgstr "削除"
+
+#: [message]error
+msgid "Your message could not be sent, please try again later"
+msgstr "あなたのメッセージは送信できていないかもしれません、後ほどもう一度試してみてください"
+
+#: [message]encrypted [omemo]encrypted
+msgid "Encrypted message"
+msgstr "暗号化されたメッセージ"
+
+#: [message]retracted
+msgid "Retracted message"
+msgstr "メッセージを取り消し"
+
+#: [message]composing
+msgid "Composing…"
+msgstr "投稿中…"
+
+#: [message]invitation
+#, fuzzy
+msgid "Invitation"
+msgstr "招待を送信しました"
+
+#: [message]paused
+msgid "Paused…"
+msgstr "一時停止中…"
+
+#: [message]gone
+msgid "Contact gone"
+msgstr ""
+
+#: [message]history
+msgid "%s messages retrieved"
+msgstr "%s件のメッセージを受信しました"
+
+#: [message]edit_help
+msgid "↑ to edit your previous message"
+msgstr "↑で前のメッセージを編集します"
+
+#: [message]emoji_help
+msgid ":shortcut: to insert an emoji"
+msgstr ":shortcut: で絵文字を挿入します"
+
+#: [message]visitor_help
+msgid "You are not allowed to send messages in this conference"
+msgstr ""
+
+#: [chat]attention
+msgid "%s needs your attention"
+msgstr "%sはあなたの承認が必要です"
+
+#: [chat]placeholder
+msgid "Your message here…"
+msgstr "メッセージを入力してください…"
+
+#: [chat]smileys
+msgid "Smileys"
+msgstr "絵文字"
+
+#: [chat]frequent
+msgid "Frequent contacts"
+msgstr "よく使う連絡先"
+
+#: [chat]new_title
+msgid "Nothing here yet…"
+msgstr "まだ何もありません…"
+
+#: [chat]new_text
+msgid "Don’t be shy, send a first message to start the discussion"
+msgstr "恥ずかしがらないでください、ディスカッションを始める最初のメッセージを送信しましょう"
+
+#: [chat]invitation
+msgid "You received an invitation to join a chatroom"
+msgstr "チャットルームに招待されました"
+
+#: [chat]invitation_self
+#, fuzzy
+msgid "You sent an invitation to join a chatroom"
+msgstr "チャットルームに招待されました"
+
+#: [chat]invitation_join
+msgid "Join %s"
+msgstr "%sに参加する"
+
+#: [chat]profile
+msgid "See the profile"
+msgstr "プロフィールを見る"
+
+#: [chat]clear
+msgctxt "[chat]clear"
+msgid "Clear the history"
+msgstr "履歴を消去"
+
+#: [chat]edit_previous
+msgid "Edit last message"
+msgstr "最後のメッセージを訂正する"
+
+#: [chat]report_abuse
+msgid "Report abuse"
+msgstr "不正行為を報告"
+
+#: [chat]jingle_start
+msgid "Call started"
+msgstr "通話を開始"
+
+#: [chat]jingle_end
+msgid "Call ended"
+msgstr "通話を終了"
+
+#: [chat]publish_error
+msgid "An error occured when sending the message"
+msgstr "メッセージの送信中にエラーが発生しました"
+
+#: [chat]mam_retrieval
+msgid "Synchronizing the history, please wait…"
+msgstr "履歴を同期しています、しばらくお待ちください…"
+
+#: [chat]clear_history
+msgctxt "[chat]clear_history"
+msgid "Clear the history"
+msgstr "履歴を消去"
+
+#: [chat]clear_history_text
+msgid "You are going to delete %s messages, are you sure?"
+msgstr "%s件のメッセージを削除しようとしています、実行しますか？"
+
+#: [chat]action_impossible_encrypted
+msgid "Action impossible in encrypted chats"
+msgstr ""
+
+#: [chatroom]members
+msgid "Members"
+msgstr "メンバー"
+
+#: [chatroom]connected [chatrooms]connected
+msgid "Connected to the chatroom"
+msgstr "チャットルームに参加しました"
+
+#: [chatroom]disconnected [chatrooms]disconnected
+msgid "Disconnected from the chatroom"
+msgstr "チャットルームから切断しました"
+
+#: [chatroom]config [communityaffiliation]configuration [page]configuration
+msgid "Configuration"
+msgstr "設定"
+
+#: [chatroom]config_saved [communityaffiliation]config_saved
+msgid "Configuration saved"
+msgstr "設定が保存されました。"
+
+#: [chatroom]subject
+msgid "Subject"
+msgstr "トピック"
+
+#: [chatroom]subject_changed
+msgid "Subject changed"
+msgstr "トピックが更新されました"
+
+#: [chatroom]administration [page]administration
+msgid "Administration"
+msgstr "システム管理"
+
+#: [omemo]fingerprints_title
+msgid "Fingerprints"
+msgstr ""
+
+#: [omemo]fingerprints
+msgid "OMEMO Fingerprints"
+msgstr ""
+
+#: [omemo]generating_bundle
+msgid "Generating the encryption keys, please wait…"
+msgstr ""
+
+#: [omemo]generated_bundle
+msgid "Encryption keys generated"
+msgstr ""
+
+#: [omemo]resolving_devices
+msgid "Resolving OMEMO devices"
+msgstr ""
+
+#: [omemo]building_sessions
+msgid "Building encryption sessions"
+msgstr ""
+
+#: [omemo]building_own_sessions
+msgid "Building own encryption sessions"
+msgstr ""
+
+#: [omemo]encrypted_disabled
+msgid "Encryption disabled"
+msgstr ""
+
+#: [omemo]encrypted_loading
+msgid "Send a message to build the encrypted session"
+msgstr ""
+
+#: [omemo]enable_contact
+msgid "Enabling encryption for the contact"
+msgstr ""
+
+#: [omemo]disable_contact
+msgid "Disabling encryption for the contact"
+msgstr ""
+
+#: [omemo]last_activity
+msgid "Last activity"
+msgstr ""
+
+#: [omemo]sessions_built
+msgid "%s sessions built"
+msgstr ""
+
+#: [chats]empty_title
+msgid "No chats yet…"
+msgstr "まだチャットはありません…"
+
+#: [chats]empty
+msgid "Start a new conversation by clicking on the %s button."
+msgstr "%sボタンを押して新しい会話を始める"
+
+#: [chats]add
+msgid "Chat with a contact"
+msgstr "誰かとチャットする"
+
+#: [chats]me
+msgid "Me"
+msgstr "自分"
+
+#: [chats]picture
+msgid "Picture"
+msgstr "画像"
+
+#: [chats]video
+msgid "Video"
+msgstr ""
+
+#: [button]chat
+msgid "Chat"
+msgstr "チャット"
+
+#: [button]new
+msgid "New conversation"
+msgstr "新しい会話"
+
+#: [communities]empty_text
+msgid "Discover, follow and share"
+msgstr "探索、フォロー、共有"
+
+#: [communities]counter
+msgid "%s communities"
+msgstr "%s コミュニティー"
+
+#: [communities]search_server
+msgid "Search for a new server"
+msgstr "新しいサーバーを探す"
+
+#: [communities]servers
+msgid "Communities servers"
+msgstr "コミュニティサーバー"
+
+#: [communities]servers_text
+msgid "Discover the Communities by servers"
+msgstr ""
+
+#: [communities]disco
+msgid "Communities server discovered"
+msgstr "コミュニティサーバーを見つけました"
+
+#: [communities]disco_error
+msgid "This server doesn’t exists"
+msgstr "このサーバーは存在しません"
+
+#: [communitiesinteresting]about
+msgid "Communities you might like"
+msgstr ""
+
+#: [communitiesserver]created
+msgid "Community created successfully"
+msgstr "コミュニティを作成しました"
+
+#: [communitiesserver]empty_server
+msgid "There is no Communities yet on this server."
+msgstr "このサーバーにはコミュニティがありません。"
+
+#: [communitiesserver]add
+msgid "Create a new community on %s"
+msgstr "%sにコミュニティを作成"
+
+#: [communitiesserver]name
+msgid "Community name"
+msgstr "コミュニティ名"
+
+#: [communitiesserver]name_example
+msgid "My Little Pony - Fan Club"
+msgstr "ママチャリ部活"
+
+#: [communitiesserver]name_error
+msgid "Please provide a valid community name (4 characters minimum)"
+msgstr "有効なコミュニティ名を入力してください(最小4文字)"
+
+#: [communitiesserver]no_creation
+msgid "You cannot create a new community on this server"
+msgstr "あなたはこのサーバーではコミュニティを作成できません"
+
+#: [communitiesservers]empty_title
+msgid "No Communities Servers yet…"
+msgstr "まだコミュニティサーバーはありません…"
+
+#: [communitiesservers]empty_text
+msgid "It seems that we can't find any communities for the moment"
+msgstr "現時点ではコミュニティは無いようです"
+
+#: [communityaffiliation]subscriptions
+msgid "Subscriptions"
+msgstr ""
+
+#: [communityaffiliation]public_subscriptions
+msgid "Public subscriptions"
+msgstr ""
+
+#: [communityaffiliation]subscriptions_text
+msgid "My Communities subscriptions"
+msgstr ""
+
+#: [communityaffiliation]deleted
+msgid "Community deleted successfully"
+msgstr "コミュニティを削除しました"
+
+#: [communityaffiliation]delete_title
+msgid "Delete the community"
+msgstr "コミュニティを削除"
+
+#: [communityaffiliation]delete_text
+msgid "You are going to delete the following community. Please confirm your action."
+msgstr "次のコミュニティを削除しようとしています。この操作に間違いがないか確認してください。"
+
+#: [communityaffiliation]delete_clean_text
+msgid "It seems that this community doesn’t exists anymore. Do you want to remove it from your subscriptions?"
+msgstr "すでにこのコミュニティは存在しないようです。購読から外しますか？"
+
+#: [communityaffiliation]config_error
+msgid "Error during the application of the node configuration"
+msgstr "ノードの設定を適用中にエラーが発生しました"
+
+#: [communityaffiliation]owners
+msgid "Owners"
+msgstr "オーナー"
+
+#: [communityaffiliation]publishers
+#: [communityconfig]publish_model_publishers_title
+msgid "Publishers"
+msgstr "投稿者"
+
+#: [communityaffiliation]roles
+msgid "Roles"
+msgstr "役割"
+
+#: [communityaffiliation]role_set
+msgid "Role correctly set"
+msgstr "役割が設定されました"
+
+#: [communityconfig]publication
+msgid "Publication"
+msgstr "投稿"
+
+#: [communityconfig]publish_model_open_title [room]public_muc
+msgid "Public"
+msgstr "公開"
+
+#: [communityconfig]publish_model_open_text
+msgid "Everyone can publish"
+msgstr "誰でも投稿できます"
+
+#: [communityconfig]publish_model_publishers_text
+msgid "The publishers can publish"
+msgstr "投稿者が投稿できます"
+
+#: [communityconfig]publish_model_subscribers_title
+msgid "Subscribers"
+msgstr "購読者"
+
+#: [communityconfig]publish_model_subscribers_text
+msgid "The subscribers can publish"
+msgstr "購読者が投稿できます"
+
+#: [communitydata]sub
+msgid "%s subscribers"
+msgstr "%s人の購読者"
+
+#: [communitydata]num
+msgid "%s posts"
+msgstr "%s 投稿"
+
+#: [communitydata]public
+msgid "Public page"
+msgstr "投稿ページ"
+
+#: [communitydata]publishmodel_publishers
+msgid "Only publishers can publish"
+msgstr "投稿者のみが投稿できます"
+
+#: [communitydata]publishmodel_subscribers
+msgid "Only subscribers can publish"
+msgstr "購読者のみが投稿できます"
+
+#: [communityheader]subscribe
+msgid "Subscribe"
+msgstr "購読"
+
+#: [communityheader]unsubscribe
+msgid "Unsubscribe"
+msgstr "購読解除"
+
+#: [communityheader]subscribed
+msgid "Subscribed"
+msgstr "購読中"
+
+#: [communityheader]unsubscribed
+msgid "Unsubscribed"
+msgstr "購読解除"
+
+#: [communityheader]subscription_unsupported
+msgid "The subscriptions are disabled for this community"
+msgstr "このコミュニティでは購読が無効化されています"
+
+#: [communityheader]label_label
+msgid "Give a label for this community"
+msgstr "コミュニティにラベルを付ける"
+
+#: [communityheader]label_placeholder
+msgid "My Community Name"
+msgstr "自分のコミュニティ名"
+
+#: [communityheader]share_subscription
+msgid "Share this subscription publicly"
+msgstr "この投稿を公開する"
+
+#: [communityheader]share_subscription_text
+msgid "It will appear on your profile"
+msgstr "あなたのプロフィールに表示されます"
+
+#: [communityheader]unsubscribe_text
+msgid "You are going to unsubscribe from this community"
+msgstr "このコミュニティの購読を解除しようとしています"
+
+#: [communityheader]sure [delete]title
+msgid "Are you sure?"
+msgstr "よろしいですか"
+
+#: [communitysubscriptions]subscriptions
+msgid "My Subscriptions"
+msgstr "自分の購読"
+
+#: [communitysubscriptions]empty_title
+msgid "Hello"
+msgstr "こんにちは"
+
+#: [communitysubscriptions]empty_text1
+msgid "Here you will be able to manage all your subscriptions."
+msgstr "全ての購読を管理できます"
+
+#: [communitysubscriptions]empty_text2
+msgid "You don’t have any community subscriptions yet."
+msgstr ""
+
+#: [config]general
+msgid "General"
+msgstr "一般"
+
+#: [config]language
+msgid "Language"
+msgstr "言語"
+
+#: [config]roster
+msgid "Roster display"
+msgstr ""
+
+#: [config]roster_show
+msgid "Show the offline contacts"
+msgstr "オフラインの知り合いを表示"
+
+#: [config]roster_hide
+msgid "Hide the offline contacts"
+msgstr "オフラインの知り合いを非表示"
+
+#: [config]appearence
+msgid "Appearence"
+msgstr "表示"
+
+#: [config]not_valid
+msgid "Configuration invalid"
+msgstr "設定が無効です"
+
+#: [config]advanced
+msgid "Advanced Configuration"
+msgstr "高度な設定"
+
+#: [config]nsfw
+msgid "Display adult content"
+msgstr "アダルトコンテンツを表示"
+
+#: [config]nsfw_text
+msgid "Will allow you to read the posts tagged with the #nsfw tag"
+msgstr "#nsfwタグの付いた投稿を読めるようにします"
+
+#: [config]night_mode
+msgid "Night Mode"
+msgstr "ナイトモード"
+
+#: [config]night_mode_text
+msgid "Use dark colors to rest your eyes"
+msgstr "目の保護のために暗い色を使用します"
+
+#: [config]chatmain
+msgid "Main chat page"
+msgstr "メインチャットページ"
+
+#: [config]chatmain_text
+msgid "Make the chat page as the default one"
+msgstr "チャットページをデフォルトに設定します"
+
+#: [config]mam
+msgid "Archiving preferences"
+msgstr "設定をアーカイブ"
+
+#: [config]mam_text
+msgid "Server-side archiving preferences"
+msgstr "サーバーサイドで設定をアーカイブします"
+
+#: [config]mam_always
+msgid "Always"
+msgstr "常に"
+
+#: [config]mam_never
+msgid "Never"
+msgstr "オフ"
+
+#: [config]mam_saved
+msgid "Archiving preferences saved"
+msgstr "アーカイブ設定が保存されました"
+
+#: [config]notification_title
+msgid "Audio notifications"
+msgstr ""
+
+#: [config]notification_call
+msgid "Incoming call"
+msgstr "着信"
+
+#: [config]notification_chat
+msgid "Incoming message"
+msgstr "新規メッセージ"
+
+#: [confirm]title
+msgid "Confirmation of authentication"
+msgstr "認証の確認"
+
+#: [confirm]description
+msgid "The following platform would like your confirmation to authentify this account"
+msgstr "次のプラットフォームがこのアカウントの認証の確認を求めています"
+
+#: [confirm]code
+msgid "Authentication code"
+msgstr "認証コード"
+
+#: [roster]add_title
+msgid "Add a contact"
+msgstr "連絡先を追加"
+
+#: [roster]add_contact_info1
+msgid "Enter the Jabber ID of your contact."
+msgstr "連絡先のJabber IDを入力"
+
+#: [roster]add_contact_info2
+msgid "Press enter to validate."
+msgstr "Enterキーを押して認証します。"
+
+#: [roster]added
+msgid "Contact added"
+msgstr "コンタクトが追加されました"
+
+#: [roster]updated
+msgid "Contact updated"
+msgstr "コンタクトが更新されました"
+
+#: [roster]deleted
+msgid "Contact deleted"
+msgstr "コンタクトが削除されました"
+
+#: [general]legend
+msgid "General Information"
+msgstr "概要"
+
+#: [general]name [chatrooms]name
+msgid "Name"
+msgstr "名前"
+
+#: [general]nickname [chatrooms]nickname
+msgid "Nickname"
+msgstr "ニックネーム"
+
+#: [general]date_of_birth
+msgid "Date of Birth"
+msgstr "生年月日"
+
+#: [general]gender
+msgid "Gender"
+msgstr "性別"
+
+#: [general]marital
+msgid "Marital Status"
+msgstr "婚姻区分"
+
+#: [general]email
+msgid "Email"
+msgstr "メールアドレス"
+
+#: [general]website
+msgid "Website"
+msgstr "ホームページ"
+
+#: [general]about
+msgid "About Me"
+msgstr "個人情報"
+
+#: [general]accounts
+msgid "Other Accounts"
+msgstr "他のアカウント"
+
+#: [general]tune
+msgid "Is Listening"
+msgstr ""
+
+#: [general]pictures
+msgid "Pictures"
+msgstr "画像"
+
+#: [general]links
+msgid "Links"
+msgstr ""
+
+#: [position]legend
+msgid "Geographic Position"
+msgstr "位置情報"
+
+#: [position]locality
+msgid "Locality"
+msgstr "現在地"
+
+#: [position]country
+msgid "Country"
+msgstr "国"
+
+#: [mood]title
+msgid "Mood"
+msgstr "機嫌"
+
+#: [mood]im
+msgid "I’m "
+msgstr ""
+
+#: [listen]title
+msgid "Listening"
+msgstr ""
+
+#: [last]title
+msgid "Last seen"
+msgstr "最終オンライン"
+
+#: [clients]title
+msgid "Clients"
+msgstr ""
+
+#: [clients]title_full
+msgid "Clients information"
+msgstr "クライアント情報"
+
+#: [explore]last_registered
+msgid "Last registered"
+msgstr "最終登録"
+
+#: [explore]explore
+msgid "Find some new contacts"
+msgstr ""
+
+#: [edit]title [button]edit
+msgid "Edit"
+msgstr "編集"
+
+#: [edit]alias
+msgid "Alias"
+msgstr "アリアス"
+
+#: [edit]group
+msgid "Group"
+msgstr "グループ"
+
+#: [delete]text
+msgid "You are going to delete one of your contacts, please confirm your action"
+msgstr "コンタクトを削除しますが、よろしいですか"
+
+#: [age]years
+msgid "%s years"
+msgstr "%s 歳"
+
+#: [blog]last
+msgid "Last public post"
+msgstr "最終公開投稿"
+
+#: [blog]visit
+msgid "Visit the blog to see all the public posts"
+msgstr "全ての公開投稿を表示するにはブログへアクセスしてください"
+
+#: [subscription]to
+msgid "You can see this contact status"
+msgstr "この連絡先の状態を表示できます"
+
+#: [subscription]to_button
+msgid "Share my status"
+msgstr "ステータスを共有する"
+
+#: [subscription]to_text
+msgid "But this contact cannot see yours"
+msgstr "しかし、この連絡先からあなたの状態は見えません"
+
+#: [subscription]from
+msgid "You are not subscribed to this contact"
+msgstr "この連絡先に購読されていません"
+
+#: [subscription]from_button
+msgid "Ask to subscribe"
+msgstr "購読を申し込む"
+
+#: [subscription]from_text
+msgid "But this contact can still see if you are online"
+msgstr "しかし、まだこの連絡先からはあなたのオンライン状態が見えます"
+
+#: [subscription]nil
+msgid "No subscriptions"
+msgstr "購読はありません"
+
+#: [subscription]nil_button [button]invite
+msgid "Invite"
+msgstr "招待"
+
+#: [subscription]nil_text
+msgid "This contact is in your contact list but there is no subscription between the two accounts"
+msgstr "この連絡先はあなたの連絡先リストに登録されていますが、これらのアカウントの間で購読はしていません"
+
+#: [contactdatapublic]no_data
+msgid "No public data found"
+msgstr ""
+
+#: [draw]title
+msgid "Draw"
+msgstr "お絵描き"
+
+#: [faq]title
+msgid "Frequently Asked Questions"
+msgstr "よくある質問"
+
+#: [faq]permission_title
+msgid "What does the permission setting do?"
+msgstr "権限の設定とは何ですか？"
+
+#: [faq]permission_text
+msgid "By default the content is only available to your contacts. You can make your profile and publications public by enabling the related setting."
+msgstr "デフォルトではコンテンツはあなたの連絡先の人のみが表示できます。プロフィールと投稿の公開は関連する設定から有効にできます。"
+
+#: [faq]permission_community_title
+msgid "How does it applies on Communities posts?"
+msgstr "コミュニティの投稿にはどのように適用されますか？"
+
+#: [faq]permission_community_text
+msgid "Similary to your blog publications except that, by default, the posts are only available to the members or subscribers of the Community (except if you explicitly open all the Community content)"
+msgstr "デフォルトでは投稿はメンバーとコミュニティの購読者のみが投稿できるという点を除いて、ブログの投稿と同じです(明示的にコミュニティのすべてのコンテンツをオープンにしている場合を除く)"
+
+#: [faq]chatrooms_title
+msgid "Where can I find a list of chatrooms?"
+msgstr "チャットルームのリストはどこにありますか？"
+
+#: [faq]find_contacts_title
+msgid "Where can I find my contacts?"
+msgstr "連絡先はどこですか？"
+
+#: [faq]find_contacts_text
+msgid "By opening the search panel."
+msgstr "検索パネルを開いてください。"
+
+#: [apps]title
+msgid "Applications"
+msgstr ""
+
+#: [apps]install
+msgid "Movim App"
+msgstr ""
+
+#: [apps]install_text
+msgid "Install Movim on your device"
+msgstr ""
+
+#: [apps]recommend
+msgid "We also recommend"
+msgstr "他のおすすめ"
+
+#: [contact]title
+msgid "Administrators & Contact"
+msgstr "管理者＆連絡先"
+
+#: [chatroom]question
+msgid "Chat with the Movim team?"
+msgstr "Movimチームとチャットしますか？"
+
+#: [chatroom]button
+msgid "Add the chatroom"
+msgstr "チャットルームを追加する"
+
+#: [error]username
+msgid "Wrong username"
+msgstr "ユーザ名が正しくありません"
+
+#: [error]jid
+msgid "Invalid JID"
+msgstr "JID が正しくありません"
+
+#: [error]empty_challenge
+msgid "Empty Challenge from the server"
+msgstr "サーバーからの空の試行"
+
+#: [error]dns
+msgid "XMPP Domain error, your account is not a correct Jabber ID"
+msgstr "XMPPドメインエラーが発生しました。使われているアカウントは不可なJabberIDです。"
+
+#: [error]data_missings
+msgid "Some data are missing!"
+msgstr "データが欠損しています！"
+
+#: [error]wrong_password
+msgid "Wrong password"
+msgstr "パスワードが違います"
+
+#: [error]internal
+msgid "Internal server error"
+msgstr "内部エラー"
+
+#: [error]session
+msgid "Session error"
+msgstr "セッションエラー"
+
+#: [error]account_created
+msgid "Account successfully created"
+msgstr "アカウントが正常に作成されました"
+
+#: [error]timeout
+msgid "The server takes too much time to respond"
+msgstr "このサーバは重すぎます"
+
+#: [error]impossible
+msgid "Impossible login"
+msgstr "ログイン不可"
+
+#: [error]default
+msgid "Unknown error"
+msgstr "原因不明のエラー"
+
+#: [error]login_format
+msgid "Invalid username format"
+msgstr "ユーザー名の形式が無効です"
+
+#: [error]password_format
+msgid "Invalid password format"
+msgstr "パスワードの形式が無効です"
+
+#: [error]unauthorized
+msgid "Your XMPP server is unauthorized"
+msgstr "あなたのXMPPサーバーは認証されていません"
+
+#: [error]wrong_account
+msgid "Movim failed to authenticate. You entered wrong data"
+msgstr "認識が失敗しました。入力した情報を確認してください"
+
+#: [error]mechanism
+msgid "Authentication mechanism not supported by Movim"
+msgstr "認識方法が対応されていません"
+
+#: [error]fail_auth
+msgid "The XMPP authentification failed"
+msgstr "XMPP認証に失敗しました"
+
+#: [connection]socket_connected
+msgid "Connected to the server"
+msgstr ""
+
+#: [connection]authenticated
+msgid "Authenticated to the server"
+msgstr ""
+
+#: [form]username
+msgid "My address"
+msgstr "マイアドレス"
+
+#: [form]whitelist_info
+msgid "Login with accounts from these servers"
+msgstr ""
+
+#: [form]connect_info
+msgid "Login using any XMPP account or create a new one"
+msgstr ""
+
+#: [form]connected
+msgid "Connected"
+msgstr "オンライン"
+
+#: [form]population
+msgid "Population"
+msgstr "人口"
+
+#: [form]invite_chatroom
+msgid "%s invited you to join a chatroom"
+msgstr "%sがあなたをチャットルームに招待しています"
+
+#: [form]pod_admins
+msgid "Administrated by"
+msgstr ""
+
+#: [login_anonymous]bad_username
+msgid "Bad nickname (between 4 and 40 characters)"
+msgstr "無効なニックネーム(4文字以上40文字以下)"
+
+#: [menu]empty_title
+msgid "No news yet…"
+msgstr "まだニュースはありません…"
+
+#: [menu]empty
+msgid "Welcome on your news feed, here you will see all the posts published by your contacts and in the communities you have subscribed."
+msgstr "ニュースフィードへようこそ。ここではあなたの連絡先のユーザーの投稿と購読しているコミュニティの投稿が表示されています。"
+
+#: [menu]all
+msgid "All"
+msgstr "全て"
+
+#: [menu]mine
+msgid "My publications"
+msgstr "自分の投稿"
+
+#: [menu]contacts [page]contacts
+msgid "Contacts"
+msgstr "知り合い"
+
+#: [menu]add_post
+msgid "Write a new post…"
+msgstr "新しく投稿する…"
+
+#: [invitations]title
+msgid "Pending Invitations"
+msgstr "保留中の招待"
+
+#: [invitations]wants_to_talk
+msgid "%s wants to talk with you"
+msgstr "%sがあなたとの会話を申請しています"
+
+#: [notifs]title [onboarding]notifications_title [room]notify_title
+msgid "Notifications"
+msgstr "通知"
+
+#: [notifs]empty
+msgid "No new notifications"
+msgstr "新しい通知はありません"
+
+#: [onboarding]notifications_text
+msgid "Movim can notify you when a new post is published or if you receive messages"
+msgstr "Movimは新しい投稿があるときやメッセージを受信したときに通知できます"
+
+#: [onboarding]notifications_text_second
+msgid "You can always disable them afterwards"
+msgstr "後からいつでも無効にできます"
+
+#: [onboarding]public_title
+msgid "Public profile"
+msgstr "公開プロフィール"
+
+#: [onboarding]public_text
+msgid "Make your profile public and allow other users to find you and make new contacts more easily"
+msgstr "プロフィールを公開して、他のユーザーがあなたを見つけ、簡単に連絡が取れるようになります"
+
+#: [onboarding]public_text_second
+msgid "You can always disable this in the configuration afterwards"
+msgstr "後からいつでも設定で無効にできます"
+
+#: [onboarding]popups_title
+msgid "Popups"
+msgstr "ポップアップ"
+
+#: [onboarding]popups_text
+msgid "Movim is using popups for the video-conference feature, they are sometime blocked by the browsers"
+msgstr "Movimはビデオ会議の機能でポップアップを使用していますが、ブラウザにブロックされることがあります"
+
+#: [onboarding]popups_text_second
+msgid "Please be sure that they are enabled to use this feature properly"
+msgstr "この機能がきちんと動作することを確認してください"
+
+#: [post]news_feed
+msgid "News Feed"
+msgstr "新着情報"
+
+#: [post]placeholder
+msgid "Discover and register to the groups you are interested in"
+msgstr "興味のあるグループを見つけて登録する"
+
+#: [post]content
+msgid "Content"
+msgstr "コンテンツ"
+
+#: [post]published
+msgid "Post published"
+msgstr "投稿しました"
+
+#: [post]deleted
+msgid "Post deleted"
+msgstr "投稿を削除しました"
+
+#: [post]hot
+msgid "What’s Hot"
+msgstr "トレンド"
+
+#: [post]hot_text
+msgid "Posts recently published in communities that you are not subscribed (yet)"
+msgstr "未購読のコミュニティの最近の投稿"
+
+#: [post]new [publish]new [publishbrief]new
+msgid "New post"
+msgstr "新しい投稿"
+
+#: [post]repost
+msgid "This is a re-post from %s"
+msgstr "%sからの再共有"
+
+#: [post]repost_profile
+msgid "See %s profile"
+msgstr "%sのプロフィールを見る"
+
+#: [post]blog_last
+msgid "Public posts from users"
+msgstr "ユーザーからの公開投稿"
+
+#: [post]read_time_singular
+msgid "%s minute"
+msgstr "%s分"
+
+#: [post]read_time_plural
+msgid "%s minutes"
+msgstr "%s分"
+
+#: [post]public
+msgid "Publish this post publicly?"
+msgstr "この投稿を公開しますか？"
+
+#: [post]public_yes
+msgid "This post is public"
+msgstr "この投稿は公開されています"
+
+#: [post]public_no
+msgid "This post is private"
+msgstr "この投稿はプライベートです"
+
+#: [post]public_url
+msgid "Public URL of this post"
+msgstr "この投稿の公開URL"
+
+#: [post]delete_title [post]delete
+msgid "Delete this post"
+msgstr "この投稿を削除する"
+
+#: [post]delete_text
+msgid "You are going to delete this post, please confirm your action"
+msgstr "この投稿が削除されますが、よろしいですか"
+
+#: [post]delete_comment
+msgid "Are you sure that you want to delete this comment?"
+msgstr "このコメントを削除しますか？"
+
+#: [post]discover
+msgid "Discover more articles on the communities page"
+msgstr "コミュニティページで記事を見つける"
+
+#: [post]more
+msgid "Read more"
+msgstr "もっと見る"
+
+#: [post]comments_disabled
+msgid "Comments disabled"
+msgstr "コメントは無効になっています"
+
+#: [post]comment_published
+msgid "Comment published"
+msgstr "コメントが投稿されました"
+
+#: [post]comment_like_published
+msgid "Liked"
+msgstr "いいねされました"
+
+#: [post]comment_publish_error
+msgid "The comment cannot be published"
+msgstr "コメントが投稿できません"
+
+#: [post]comment_deleted
+msgid "Comment deleted"
+msgstr "コメントを削除しました"
+
+#: [post]liked
+msgid "Liked your publication"
+msgstr "あなたの投稿がいいねされました"
+
+#: [post]commented
+msgid "Commented"
+msgstr "コメントされました"
+
+#: [hello]contact_post
+msgid "Contact post"
+msgstr "コンタクトの投稿"
+
+#: [hello]share_title
+msgid "Universal share button"
+msgstr "全体共有ボタン"
+
+#: [hello]share_text
+msgid "Bookmark or drag and drop the following button in your toolbar and use it on all the pages you want to share on Movim"
+msgstr "ブックマークするか次のボタンをツールバーにドラッグアンドドロップして、Movimで共有したいページに使用してください"
+
+#: [hello]share_button
+msgid "Share on Movim"
+msgstr "Movimで共有する"
+
+#: [hello]enter_title
+msgid "Oh! Hello!"
+msgstr "こんにちは！"
+
+#: [hello]enter_paragraph
+msgid "It seems that you’re new there! Welcome on Movim!"
+msgstr "新規さんですね。Movimへようこそ！"
+
+#: [hello]menu_title
+msgid "Check the Menu"
+msgstr "メニューをチェックする"
+
+#: [hello]menu_paragraph
+msgid "All the main Movim features are accessible there. Don’t hesitate to navigate through the pages to discover more!"
+msgstr "全ての主要なMovimの機能はここからアクセスできます。探索のためにどんどんページを移動してください！"
+
+#: [hello]profile_title
+msgid "Looks like you didn’t complete your profile yet"
+msgstr "まだプロフィールを埋めていないようです"
+
+#: [hello]profile_paragraph
+msgid "You can go in the Configuration page to describe yourself and put a nice picture"
+msgstr "設定ページで自己紹介と写真を追加できます"
+
+#: [status]disconnect
+msgid "Disconnect"
+msgstr "切断する"
+
+#: [status]presence
+msgid "Presence"
+msgstr ""
+
+#: [status]logout_confirm
+msgid "Do you really want to log out?"
+msgstr "ログアウトしますか？"
+
+#: [preview]link_copied
+msgid "Link copied to clipboard"
+msgstr ""
+
+#: [publish]placeholder [publishbrief]placeholder
+msgid "What’s new?"
+msgstr "新着情報"
+
+#: [publish]post [publishbrief]post
+msgid "Write a post"
+msgstr "投稿する"
+
+#: [publish]add_link [publishbrief]add_link
+msgid "Add a link"
+msgstr "リンクを追加"
+
+#: [publish]add_snap [publishbrief]add_snap
+msgid "Take a picture"
+msgstr "写真を撮る"
+
+#: [publish]no_title [publishbrief]no_title
+msgid "Please provide a title"
+msgstr "タイトルを入力して下さい"
+
+#: [publish]preview [publishbrief]preview
+msgid "Preview"
+msgstr "プレビュー"
+
+#: [publish]attach [publishbrief]attach
+msgid "Add a file or a picture"
+msgstr "ファイルや写真を追加する"
+
+#: [publish]no_publication [publishbrief]no_publication
+msgid "You cannot publish a post here"
+msgstr "ここには投稿できません"
+
+#: [publish]no_content_preview [publishbrief]no_content_preview
+msgid "No content to preview"
+msgstr "プレビューするコンテンツがありません"
+
+#: [publish]title [publishbrief]title
+msgid "Post title"
+msgstr "投稿のタイトル"
+
+#: [publish]content [publishbrief]content
+msgid "Markdown content"
+msgstr "マークダウンの内容"
+
+#: [publish]valid_url [publishbrief]valid_url
+msgid "Please enter a valid URL"
+msgstr "有効なURLを入力してください"
+
+#: [publish]content_text [publishbrief]content_text
+msgid "You can format your content using Markdown"
+msgstr "Markdownを使用してコンテンツを入力できます"
+
+#: [publish]draft_saved [publishbrief]draft_saved
+msgid "Draft saved"
+msgstr "下書きを保存しました"
+
+#: [publish]rich_editor [publishbrief]rich_editor
+msgid "Rich text editor"
+msgstr "リッチテキストエディタ"
+
+#: [publishhelp]title [page]help
+msgid "Help"
+msgstr "ヘルプ"
+
+#: [publishhelp]more
+msgid "More help"
+msgstr "詳細なヘルプ"
+
+#: [publishhelp]manual
+msgid "Markdown syntax manual"
+msgstr "Markdown記法マニュアル"
+
+#: [rooms]create
+msgid "Create a chatroom"
+msgstr "チャットルームを作成"
+
+#: [rooms]edit
+msgid "Edit a chatroom"
+msgstr "チャットルームを編集"
+
+#: [rooms]join
+msgid "Join a chatroom"
+msgstr "チャットルームに参加"
+
+#: [rooms]join_custom
+msgid "Join a custom chatroom"
+msgstr "カスタムチャットルームに参加"
+
+#: [rooms]empty_text1
+msgid "You don’t have any chatrooms yet."
+msgstr ""
+
+#: [rooms]empty_text2
+msgid "Add one by clicking on the add button."
+msgstr "追加ボタンを押してチャットルームを追加します。"
+
+#: [rooms]empty_synchronize_title
+msgid "You had some rooms previously listed?"
+msgstr "以前もリストに載っていたルームがありましたか？"
+
+#: [rooms]empty_synchronize_text
+msgid "Try to synchronize them to the new room bookmarking system"
+msgstr "それらを新しいルームブックマークシステムに同期しようとしています"
+
+#: [rooms]empty_synchronize_button
+msgid "Synchronize"
+msgstr "同期"
+
+#: [rooms]type_room
+msgid "Type of room"
+msgstr "ルームの種類"
+
+#: [rooms]default_room
+msgid "Standard room"
+msgstr "スタンダードルーム"
+
+#: [rooms]gateway_room
+msgid "Gateway room"
+msgstr "ゲートウェイルーム"
+
+#: [rooms]show_all
+msgid "Show all rooms"
+msgstr ""
+
+#: [rooms]hide_disconnected
+msgid "Hide disconnected rooms"
+msgstr "切断されたルームを非表示にする"
+
+#: [rooms]destroy_title
+msgid "Destroy the room"
+msgstr "ルームを削除する"
+
+#: [rooms]destroy_text
+msgid "Are you sure you want to permanently destroy the following room?"
+msgstr ""
+
+#: [rooms]owner
+msgctxt "[rooms]owner"
+msgid "Owner"
+msgstr ""
+
+#: [rooms]admin
+msgctxt "[rooms]admin"
+msgid "Admin"
+msgstr ""
+
+#: [rooms]visitor
+msgid "Visitor"
+msgstr "登録者"
+
+#: [rooms]explore_placeholder
+msgid "Name or description"
+msgstr "名前または説明"
+
+#: [chatrooms]title
+msgid "Chatrooms"
+msgstr "チャットルーム"
+
+#: [chatrooms]id
+msgid "Chatroom ID"
+msgstr ""
+
+#: [chatrooms]name_placeholder
+msgid "My Favorite Room"
+msgstr "お気に入りのルーム"
+
+#: [chatrooms]bad_id
+msgid "Bad Chatroom ID"
+msgstr "不正チャットルームID"
+
+#: [chatrooms]empty_name
+msgid "Empty name"
+msgstr "名前が空です"
+
+#: [chatrooms]synchronized
+msgid "%s rooms synchronized"
+msgstr "%s個のルームが同期されました"
+
+#: [chatrooms]not_synchronized
+msgid "No rooms to synchronize found"
+msgstr ""
+
+#: [chatrooms]users
+msgctxt "[chatrooms]users"
+msgid "Users"
+msgstr "ユーザー"
+
+#: [chatrooms]members
+msgctxt "[chatrooms]members"
+msgid "Members"
+msgstr "メンバー"
+
+#: [chatrooms]banned
+msgid "Banned"
+msgstr ""
+
+#: [chatrooms]bad_nickname
+msgid "Please enter a correct nickname (2 to 40 characters)"
+msgstr "有効なニックネームを入力してください(2文字以上40文字以下)"
+
+#: [chatrooms]conflict
+msgid "Username already taken"
+msgstr "そのユーザー名は既に使われています"
+
+#: [chatrooms]autojoin
+msgid "Join this chatroom on connect"
+msgstr "接続時にこのチャットルームに接続する"
+
+#: [chatrooms]pinned
+msgid "Pin this chatroom"
+msgstr ""
+
+#: [chatrooms]destroyed
+msgid "Room destroyed"
+msgstr "ルームが削除されました"
+
+#: [chatrooms]registrationrequired
+msgid "Chatroom cannot be joined, registration required"
+msgstr "チャットルームに参加できません。登録が必須です。"
+
+#: [chatrooms]itemnotfound
+msgid "The chatroom doesn’t exists"
+msgstr "そのチャットルームは存在しません"
+
+#: [chatrooms]notauthorized
+msgid "A password is required"
+msgstr "パスワードが必須です"
+
+#: [chatrooms]forbidden
+msgid "You are not allowed to join this chatroom"
+msgstr ""
+
+#: [chatrooms]jidmalformed
+msgid "Your nickname is not valid"
+msgstr ""
+
+#: [chatrooms]notacceptable
+msgid "Not acceptable"
+msgstr ""
+
+#: [chatrooms]serviceunavailable
+msgid "The chatroom occupant limit has been reached"
+msgstr ""
+
+#: [chatrooms]notallowed
+msgid "You are not allowed to create a chatroom there"
+msgstr ""
+
+#: [chatrooms]created
+msgid "Chatroom created"
+msgstr ""
+
+#: [bookmarks]updated
+msgid "Bookmarks updated"
+msgstr "ブックマークを更新しました"
+
+#: [room]anonymous_title
+msgid "Public chatroom"
+msgstr "公開チャットルーム"
+
+#: [room]anonymous_text1
+msgid "You are currently logged as an anonymous user."
+msgstr "現在匿名ユーザーでログインしています。"
+
+#: [room]anonymous_text2
+msgid "You can join using your own account or create one on the login page by loging out using the cross in the top-right corner."
+msgstr "自分のアカウントを使用するか、右上隅のボタンからログアウトしてログインページで新しくアカウントを作成することで参加できます。"
+
+#: [room]anonymous_login
+msgid "Login on %s"
+msgstr "%sにログインする"
+
+#: [room]invite
+msgid "Invite a contact"
+msgstr "誰かに招待を送る"
+
+#: [room]invited
+msgid "Invitation sent"
+msgstr "招待を送信しました"
+
+#: [room]invite_code
+msgid "Send this link to your contacts"
+msgstr "このリンクを連絡先に送信する"
+
+#: [room]public_muc_text
+msgid "This chatroom is publicly discoverable"
+msgstr "このチャットルームは公開されており、誰でも見つけることができます"
+
+#: [room]nonanonymous_muc
+msgid "Public profiles"
+msgstr "公開プロフィール"
+
+#: [room]nonanonymous_muc_text
+msgid "The participants of this chatroom can see each other's profile"
+msgstr "このチャットルームの参加者はお互いのプロフィールを見ることができます"
+
+#: [room]group_chat
+msgid "Group Chat"
+msgstr "グループチャット"
+
+#: [room]group_chat_text
+msgid "Private group chat with invited members"
+msgstr "招待されたメンバーとチャットするプライベートグループ"
+
+#: [room]group_chat_add
+msgid "Add a new member"
+msgstr "新しいメンバーを追加"
+
+#: [room]group_chat_members
+msgctxt "[room]group_chat_members"
+msgid "Members"
+msgstr "メンバー"
+
+#: [room]banned_add
+msgid "Ban someone"
+msgstr ""
+
+#: [room]banned_remove
+msgid "Unban"
+msgstr ""
+
+#: [room]change_affiliation
+msgid "Change the user affiliation"
+msgstr ""
+
+#: [room]change_affiliation_unauthorized
+msgid "You are not authorized to change this affiliation"
+msgstr ""
+
+#: [room]affiliation
+msgid "Affiliation"
+msgstr ""
+
+#: [room]reason
+msgid "Reason"
+msgstr ""
+
+#: [room]channel
+msgid "Channel"
+msgstr "チャンネル"
+
+#: [room]channel_users
+msgctxt "[room]channel_users"
+msgid "Users"
+msgstr "ユーザー"
+
+#: [room]channel_text
+msgid "Public channel that can be publicly discoverable and joinable"
+msgstr ""
+
+#: [room]notify_never
+msgid "Never notify"
+msgstr "通知しない"
+
+#: [room]notify_quoted
+msgid "Notify when quoted"
+msgstr "引用されたときに通知する"
+
+#: [room]notify_always
+msgid "Always notify"
+msgstr "常に通知する"
+
+#: [room]pinned
+msgid "Pinned"
+msgstr ""
+
+#: [room]affiliation_owner
+msgctxt "[room]affiliation_owner"
+msgid "Owner"
+msgstr ""
+
+#: [room]affiliation_admin
+msgctxt "[room]affiliation_admin"
+msgid "Admin"
+msgstr ""
+
+#: [room]affiliation_member [affiliation]member
+msgid "Member"
+msgstr "メンバー"
+
+#: [room]affiliation_none [affiliation]no-aff
+msgid "No affiliation"
+msgstr "無所属"
+
+#: [room]affiliation_owner_changed
+msgid "User granted as owner"
+msgstr ""
+
+#: [room]affiliation_admin_changed
+msgid "User granted as admin"
+msgstr ""
+
+#: [room]affiliation_member_changed
+msgid "User granted as member"
+msgstr ""
+
+#: [room]affiliation_outcast_changed
+msgid "User banned"
+msgstr ""
+
+#: [room]affiliation_none_changed
+msgid "Affiliation removed for the user"
+msgstr ""
+
+#: [roomsexplore]no_local
+msgid "No chatrooms found locally"
+msgstr ""
+
+#: [roomsexplore]global_title
+msgid "Global search"
+msgstr "グローバル検索"
+
+#: [roomsexplore]no_global
+msgid "No chatrooms found globally"
+msgstr ""
+
+#: [search]keyword
+msgid "What are you looking for?"
+msgstr "何をお探しですか？"
+
+#: [search]subtitle
+msgid "Open me using Ctrl + M"
+msgstr "Ctrl + Mで開けます"
+
+#: [search]placeholder
+msgid "#cats, username@server.com, John…"
+msgstr "#猫, ユーザー名@server.com, ジョン…"
+
+#: [search]no_contacts_title
+msgid "No contacts yet?"
+msgstr "まだ連絡先がありませんか？"
+
+#: [search]no_contacts_text
+msgid "Find one by searching for their name or id"
+msgstr ""
+
+#: [search]tags
+msgid "Tags"
+msgstr "タグ"
+
+#: [search]show_complete_roster
+msgid "Show all the contacts"
+msgstr "全ての連絡先を表示"
+
+#: [sendto]attach
+msgid "Attach to a blog publication"
+msgstr "ブログの投稿に貼り付ける"
+
+#: [sendto]contact
+msgid "Send it to a contact"
+msgstr "連絡先に送信する"
+
+#: [sendto]chatroom
+msgid "Share it in a chatroom"
+msgstr "チャットルームに共有する"
+
+#: [sendto]shared_with
+msgid "Post shared"
+msgstr "投稿が共有されました"
+
+#: [sendto]shared_contact
+msgid "Post shared with your contact"
+msgstr "あなたの連絡先に投稿が共有されました"
+
+#: [sendto]shared_chatroom
+msgid "Post shared within the chatroom"
+msgstr "チャットルームに投稿が共有されました"
+
+#: [sendto]more_contacts
+msgid "More contacts"
+msgstr "連絡先をさらに表示"
+
+#: [statistics]title
+msgid "Statistics"
+msgstr "統計"
+
+#: [sticker]title
+msgid "Stickers"
+msgstr "ステッカー"
+
+#: [sticker]sent
+msgid "A sticker has been sent using Movim"
+msgstr "Movimを使用してステッカーが送信されました"
+
+#: [sticker]keyword
+msgid "Type a keyword"
+msgstr ""
+
+#: [sticker]gif_title
+msgid "Find a GIF"
+msgstr ""
+
+#: [sticker]gif_text
+msgid "Powered by Tenor"
+msgstr ""
+
+#: [subscribe]info
+msgid "Movim is a decentralized social network, before creating a new account you need to choose a server to register."
+msgstr ""
+
+#: [subscribe]server_question
+msgid "Your server here?"
+msgstr "あなたのサーバーはここにありますか？"
+
+#: [subscribe]server_contact
+msgid "Contact us to add yours to the officially supported servers list"
+msgstr "あなたのサーバーを公式サポートサーバーリストに追加するには私たちにご連絡ください"
+
+#: [feed]nope
+msgid "No public feed for this contact"
+msgstr "この連絡先には公開フィードがありません"
+
+#: [feed]nope_contact
+msgid "No contact specified"
+msgstr ""
+
+#: [upload]title [button]upload
+msgid "Upload"
+msgstr "アップロード"
+
+#: [upload]choose
+msgid "Choose a file to upload"
+msgstr "ファイルを選択する"
+
+#: [upload]info
+msgid "Large pictures will be resized and compressed"
+msgstr "大きいサイズの写真はリサイズされて圧縮されます"
+
+#: [upload]error_filesize
+msgid "File too large"
+msgstr "ファイルが大きすぎます"
+
+#: [upload]error_failed
+msgid "Upload failed"
+msgstr "アップロードに失敗しました"
+
+#: [upload]error_not_allowed
+msgid "You are not allowed to upload a file"
+msgstr "ファイルのアップロードが許可されていません"
+
+#: [upload]error_resource_constraint
+msgid "You exceeded the quota"
+msgstr "割り当て容量を超過しました"
+
+#: [upload]drag_drop
+msgid "Drag and drop your file in this area"
+msgstr "ここにファイルをドラッグアンドドロップ"
+
+#: [upload]max_size
+msgid "Max file size %s"
+msgstr ""
+
+#: [vcard]title [page]profile
+msgid "Profile"
+msgstr "プロフィール"
+
+#: [vcard]updated
+msgid "Profile Updated"
+msgstr "プロフィールを更新しました"
+
+#: [vcard]not_updated
+msgid "Profile Not Updated"
+msgstr "プロファイルは更新されませんでした"
+
+#: [vcard]public
+msgid "Your profile is now public"
+msgstr "あなたのプロファイルは公開されました"
+
+#: [vcard]restricted
+msgid "Your profile is now restricted"
+msgstr "あなたのプロファイルは非公開されました"
+
+#: [profile]info
+msgid "Configure your instance nickname"
+msgstr "インスタンスのニックネームを設定"
+
+#: [profile]privacy_question
+msgid "Is this profile public?"
+msgstr "このプロフィールは公開用ですか？"
+
+#: [profile]privacy_info
+msgid "Please pay attention! By making your profile public, all the information listed below will be available for all the Movim users and on the whole Internet."
+msgstr "注意！プロフィールを公開すると、下に並んでいるすべての情報がすべてのMovimユーザーとインターネット上の人が閲覧できるようになります。"
+
+#: [profile]nickname_info
+msgid "Set a local nickname to allow the other users of the instance to find you easily."
+msgstr "このインスタンス上の他のユーザーが見つけやすいように、ローカルニックネームを設定してください。"
+
+#: [profile]nickname_set
+msgid "Your nickname is %s."
+msgstr "あなたのニックネームは%sです。"
+
+#: [profile]nickname_placeholder
+msgid "John_Bob96"
+msgstr "John_Bob96"
+
+#: [profile]nickname_error
+msgid "Your nickname should only contains letters, numbers, - and _"
+msgstr "ニックネームに使用できるのはは文字、数字、-(ハイフン)、_(アンダーバー)のみです"
+
+#: [profile]nickname_conflict
+msgid "The nickname is already registered"
+msgstr "そのニックネームはすでに登録されています"
+
+#: [profile]nickname_saved
+msgid "Nickname saved"
+msgstr "ニックネームを保存しました"
+
+#: [save]submit [button]submit
+msgid "Submit"
+msgstr "送信"
+
+#: [save]reset [button]reset
+msgid "Reset"
+msgstr "リセット"
+
+#: [degraded]title
+msgid "Movim is currently working in degraded mode"
+msgstr "Movimは現在、劣化版で実行中です"
+
+#: [degraded]text_1
+msgid "Your server doesn’t support XMPP Pubsub persistence or the social features (communities, news feed and profile) are disabled by the administrator."
+msgstr "あなたのサーバーはXMPP Pubsubの永続性をサポートしていないか、ソーシャル機能(コミュニティ、ニュースフィード、プロフィール)が管理者によって無効化されています"
+
+#: [degraded]text_2
+msgid "Please contact your server administrator to see if this feature can be enabled."
+msgstr "サーバーの管理者にこの機能を有効化できないか問い合わせてください。"
+
+#: [visio]calling
+msgid "…is calling you"
+msgstr "あなたを呼び出し中…"
+
+#: [visio]video_call
+msgid "Incoming video call"
+msgstr ""
+
+#: [visio]audio_call
+msgid "Incoming audio call"
+msgstr ""
+
+#: [visio]ringing
+msgid "…ringing"
+msgstr "着信中…"
+
+#: [visio]declined
+msgid "declined"
+msgstr "拒否されました"
+
+#: [visio]in_call
+msgid "in call"
+msgstr "通話中"
+
+#: [visio]failed
+msgid "failed"
+msgstr "失敗"
+
+#: [visio]connecting
+msgid "…connecting"
+msgstr "接続中…"
+
+#: [visio]ended
+msgid "call ended"
+msgstr "通話終了"
+
+#: [visioconfig]title
+msgid "Video & Voice"
+msgstr ""
+
+#: [visioconfig]help
+msgid "Configure the default devices used by Movim"
+msgstr ""
+
+#: [visioconfig]microphone
+msgid "Microphone"
+msgstr ""
+
+#: [visioconfig]microphone_label
+msgid "Default microphone"
+msgstr ""
+
+#: [visioconfig]camera
+msgid "Camera"
+msgstr ""
+
+#: [visioconfig]camera_label
+#, fuzzy
+msgid "Default camera"
+msgstr "標準の言語"
+
+#: [visioconfig]default_microphone_changed
+msgid "Default microphone changed"
+msgstr ""
+
+#: [visioconfig]default_camera_changed
+#, fuzzy
+msgid "Default camera changed"
+msgstr "標準の言語"
+
+#: [visioconfig]no_mic_sound
+msgid "No sound detected from your microphone"
+msgstr ""
+
+#: [visioconfig]no_mic_sound2
+msgid "Try to select another source or check your system settings"
+msgstr ""
+
+#: [global]no_js
+msgid "Movim requires Javascript to be enabled to work properly."
+msgstr "Movimが正常に動作するにはJavascriptの有効化が必要です。"
+
+#: [global]description
+msgid "Movim is a kickass distributed social networking platform that protect your privacy and comes with a set of awesome features."
+msgstr "Movimはあなたのプライバシーを保護する、素晴らしい機能を備えた、強力な分散型ソーシャルネットワークプラットフォームです。"
+
+#: [global]loading
+msgid "Loading…"
+msgstr "読み込み中…"
+
+#: [global]or
+msgid "Or"
+msgstr "または"
+
+#: [global]change_pod
+msgid "Switch to another pod"
+msgstr "他のポッドに切り替える"
+
+#: [page]communities
+msgid "Communities"
+msgstr "コミュニティ"
+
+#: [page]home
+msgid "Home"
+msgstr "ホーム"
+
+#: [page]explore
+msgid "Explore"
+msgstr "探索"
+
+#: [page]account_creation
+msgid "Account Creation"
+msgstr "アカウント作成"
+
+#: [page]news
+msgid "News"
+msgstr "新着情報"
+
+#: [page]avatar
+msgid "Avatar"
+msgstr "アバター"
+
+#: [page]chats
+msgid "Chats"
+msgstr "チャット"
+
+#: [page]publish
+msgid "Publish"
+msgstr "投稿"
+
+#: [page]post
+msgid "Post"
+msgstr "投稿"
+
+#: [page]blog
+msgid "Blog"
+msgstr "ブログ"
+
+#: [page]about
+msgid "About"
+msgstr "Movimについて"
+
+#: [page]login
+msgid "Login"
+msgstr "ログイン"
+
+#: [page]not_found
+msgid "Not Found"
+msgstr "見つかりません"
+
+#: [page]feed
+msgid "Feed"
+msgstr "フィード"
+
+#: [page]posts
+msgid "Posts"
+msgstr "投稿"
+
+#: [page]gallery
+msgid "Gallery"
+msgstr "ギャラリー"
+
+#: [page]visio
+msgid "Visio-conference"
+msgstr "ビデオ会議"
+
+#: [page]share
+msgctxt "[page]share"
+msgid "Share"
+msgstr "共有"
+
+#: [page]room
+msgid "Room"
+msgstr "ルーム"
+
+#: [page]tag
+msgid "Tag"
+msgstr "タグ"
+
+#: [error]error
+msgid "Error: %s"
+msgstr "エラーが発生しました。%s"
+
+#: [error]cannot_load_file
+msgid "Cannot load file '%s'"
+msgstr "「%s」というファイルをロードできません。"
+
+#: [error]widget_load_error
+msgid "Requested widget '%s' doesn’t exist."
+msgstr "要求されたウィジェット「%s」は存在しません。"
+
+#: [error]widget_call_error
+msgid "Requested event '%s' not registered."
+msgstr "要求されたイベント「%s」は登録されていません。"
+
+#: [error]whoops
+msgid "Whoops!"
+msgstr "しまった！"
+
+#: [error]websocket
+msgid "Movim cannot talk with the server, please try again later"
+msgstr "Movimはサーバーと通信できません、後ほど再試行してください"
+
+#: [error]websocket_connect
+msgid "Reconnection to the server…"
+msgstr "サーバーに再接続中…"
+
+#: [error]oops
+msgid "Oops!"
+msgstr "おっとぉ!"
+
+#: [button]call
+msgid "Call"
+msgstr "通話"
+
+#: [button]audio_call
+msgid "Audio Call"
+msgstr ""
+
+#: [button]video_call
+msgid "Video Call"
+msgstr ""
+
+#: [button]validate
+msgid "Validate"
+msgstr "確認"
+
+#: [button]refresh
+msgid "Refresh"
+msgstr "再読込"
+
+#: [button]add
+msgid "Add"
+msgstr "追加"
+
+#: [button]delete
+msgid "Delete"
+msgstr "削除"
+
+#: [button]destroy
+msgid "Destroy"
+msgstr "削除"
+
+#: [button]cancel
+msgid "Cancel"
+msgstr "取り消し"
+
+#: [button]close
+msgid "Close"
+msgstr "閉じる"
+
+#: [button]update
+msgid "Update"
+msgstr "更新"
+
+#: [button]updating
+msgid "Updating"
+msgstr "更新中"
+
+#: [button]submitting
+msgid "Submitting"
+msgstr "投稿中"
+
+#: [button]register
+msgid "Register"
+msgstr "登録"
+
+#: [button]reply
+msgid "Reply"
+msgstr "返信"
+
+#: [button]unregister
+msgid "Unregister"
+msgstr "登録解除"
+
+#: [button]save
+msgid "Save"
+msgstr "保存"
+
+#: [button]clear
+msgid "Clear"
+msgstr "消去"
+
+#: [button]connecting
+msgid "Connecting"
+msgstr "接続中"
+
+#: [button]bool_yes
+msgid "Yes"
+msgstr "はい"
+
+#: [button]bool_no
+msgid "No"
+msgstr "いいえ"
+
+#: [button]return
+msgid "Return"
+msgstr "折り返し"
+
+#: [button]accept
+msgid "Accept"
+msgstr "承知する"
+
+#: [button]refuse
+msgid "Refuse"
+msgstr "拒否"
+
+#: [button]next
+msgid "Next"
+msgstr "次へ"
+
+#: [button]previous
+msgid "Previous"
+msgstr "前へ"
+
+#: [button]search
+msgid "Search"
+msgstr "検索"
+
+#: [button]share
+msgctxt "[button]share"
+msgid "Share"
+msgstr "共有"
+
+#: [button]discover
+msgid "Discover"
+msgstr "探索"
+
+#: [button]like
+msgid "Like"
+msgstr "いいね"
+
+#: [button]not_now
+msgid "Not Now"
+msgstr "後で"
+
+#: [button]enable
+msgid "Enable"
+msgstr "有効"
+
+#: [button]sign_up
+msgid "Sign Up"
+msgstr "登録"
+
+#: [button]send_to
+msgid "Send to"
+msgstr ""
+
+#: [button]more
+msgid "More"
+msgstr ""
+
+#: [button]copy_link
+msgid "Copy Link"
+msgstr ""
+
+#: [button]open
+msgid "Open"
+msgstr "開く"
+
+#: [input]optional
+msgid "Optional"
+msgstr ""
+
+#: [input]muc_pubsub_node
+msgid "Associated Community"
+msgstr ""
+
+#: [day]title
+msgid "Day"
+msgstr "日"
+
+#: [day]monday
+msgid "Monday"
+msgstr "月曜日"
+
+#: [day]tuesday
+msgid "Tuesday"
+msgstr "火曜日"
+
+#: [day]wednesday
+msgid "Wednesday"
+msgstr "水曜日"
+
+#: [day]thursday
+msgid "Thursday"
+msgstr "木曜日"
+
+#: [day]friday
+msgid "Friday"
+msgstr "金曜日"
+
+#: [day]saturday
+msgid "Saturday"
+msgstr "土曜日"
+
+#: [day]sunday
+msgid "Sunday"
+msgstr "日曜日"
+
+#: [client]bot
+msgid "Bot"
+msgstr "ボット"
+
+#: [client]console
+msgid "Console"
+msgstr "コンソール"
+
+#: [client]desktop
+msgid "Desktop"
+msgstr "デスクトップ"
+
+#: [client]phone
+msgid "Phone"
+msgstr "電話"
+
+#: [client]web
+msgid "Web"
+msgstr "ウェブ"
+
+#: [client]registered
+msgid "Registered"
+msgstr "登録済み"
+
+#: [presence]online
+msgid "Online"
+msgstr "オンライン"
+
+#: [presence]away
+msgid "Away"
+msgstr "離席中"
+
+#: [presence]dnd
+msgid "Do Not Disturb"
+msgstr "取り込み中"
+
+#: [presence]xa
+msgid "Extended Away"
+msgstr "長時間の不在"
+
+#: [presence]offline
+msgid "Offline"
+msgstr "オフライン"
+
+#: [presence]error
+msgid "Error"
+msgstr "エラー"
+
+#: [mood]afraid
+msgid "afraid"
+msgstr "恐怖"
+
+#: [mood]amazed
+msgid "amazed"
+msgstr "驚き"
+
+#: [mood]amorous
+msgid "amorous"
+msgstr "目がハート"
+
+#: [mood]angry
+msgid "angry"
+msgstr "怒り"
+
+#: [mood]annoyed
+msgid "annoyed"
+msgstr "面白くない"
+
+#: [mood]anxious
+msgid "anxious"
+msgstr "心配"
+
+#: [mood]aroused
+msgid "aroused"
+msgstr ""
+
+#: [mood]ashamed
+msgid "ashamed"
+msgstr "恥ずかしい"
+
+#: [mood]bored
+msgid "bored"
+msgstr "退屈"
+
+#: [mood]brave
+msgid "brave"
+msgstr ""
+
+#: [mood]calm
+msgid "calm"
+msgstr ""
+
+#: [mood]cautious
+msgid "cautious"
+msgstr ""
+
+#: [mood]cold
+msgid "cold"
+msgstr ""
+
+#: [mood]confident
+msgid "confident"
+msgstr ""
+
+#: [mood]confused
+msgid "confused"
+msgstr ""
+
+#: [mood]contemplative
+msgid "contemplative"
+msgstr ""
+
+#: [mood]contented
+msgid "contented"
+msgstr ""
+
+#: [mood]cranky
+msgid "cranky"
+msgstr ""
+
+#: [mood]crazy
+msgid "crazy"
+msgstr ""
+
+#: [mood]creative
+msgid "creative"
+msgstr ""
+
+#: [mood]curious
+msgid "curious"
+msgstr ""
+
+#: [mood]dejected
+msgid "dejected"
+msgstr ""
+
+#: [mood]depressed
+msgid "depressed"
+msgstr ""
+
+#: [mood]disappointed
+msgid "disappointed"
+msgstr ""
+
+#: [mood]disgusted
+msgid "disgusted"
+msgstr ""
+
+#: [mood]dismayed
+msgid "dismayed"
+msgstr ""
+
+#: [mood]distracted
+msgid "distracted"
+msgstr ""
+
+#: [mood]embarrassed
+msgid "embarrassed"
+msgstr ""
+
+#: [mood]envious
+msgid "envious"
+msgstr ""
+
+#: [mood]excited
+msgid "excited"
+msgstr ""
+
+#: [mood]flirtatious
+msgid "flirtatious"
+msgstr ""
+
+#: [mood]frustrated
+msgid "frustrated"
+msgstr ""
+
+#: [mood]grateful
+msgid "grateful"
+msgstr ""
+
+#: [mood]grieving
+msgid "grieving"
+msgstr ""
+
+#: [mood]grumpy
+msgid "grumpy"
+msgstr ""
+
+#: [mood]guilty
+msgid "guilty"
+msgstr ""
+
+#: [mood]happy
+msgid "happy"
+msgstr ""
+
+#: [mood]hopeful
+msgid "hopeful"
+msgstr ""
+
+#: [mood]hot
+msgid "hot"
+msgstr ""
+
+#: [mood]humbled
+msgid "humbled"
+msgstr ""
+
+#: [mood]humiliated
+msgid "humiliated"
+msgstr ""
+
+#: [mood]hungry
+msgid "hungry"
+msgstr ""
+
+#: [mood]hurt
+msgid "hurt"
+msgstr ""
+
+#: [mood]impressed
+msgid "impressed"
+msgstr ""
+
+#: [mood]in_awe
+msgid "in awe"
+msgstr ""
+
+#: [mood]in_love
+msgid "in love"
+msgstr ""
+
+#: [mood]indignant
+msgid "indignant"
+msgstr ""
+
+#: [mood]interested
+msgid "interested"
+msgstr ""
+
+#: [mood]intoxicated
+msgid "intoxicated"
+msgstr ""
+
+#: [mood]invincible
+msgid "invincible"
+msgstr ""
+
+#: [mood]jealous
+msgid "jealous"
+msgstr ""
+
+#: [mood]lonely
+msgid "lonely"
+msgstr ""
+
+#: [mood]lost
+msgid "lost"
+msgstr ""
+
+#: [mood]lucky
+msgid "lucky"
+msgstr ""
+
+#: [mood]mean
+msgid "mean"
+msgstr ""
+
+#: [mood]moody
+msgid "moody"
+msgstr ""
+
+#: [mood]nervous
+msgid "nervous"
+msgstr ""
+
+#: [mood]neutral
+msgid "neutral"
+msgstr ""
+
+#: [mood]offended
+msgid "offended"
+msgstr ""
+
+#: [mood]outraged
+msgid "outraged"
+msgstr ""
+
+#: [mood]playful
+msgid "playful"
+msgstr ""
+
+#: [mood]proud
+msgid "proud"
+msgstr ""
+
+#: [mood]relaxed
+msgid "relaxed"
+msgstr ""
+
+#: [mood]relieved
+msgid "relieved"
+msgstr ""
+
+#: [mood]restless
+msgid "restless"
+msgstr ""
+
+#: [mood]sad
+msgid "sad"
+msgstr ""
+
+#: [mood]sarcastic
+msgid "sarcastic"
+msgstr ""
+
+#: [mood]satisfied
+msgid "satisfied"
+msgstr ""
+
+#: [mood]serious
+msgid "serious"
+msgstr ""
+
+#: [mood]shocked
+msgid "shocked"
+msgstr ""
+
+#: [mood]shy
+msgid "shy"
+msgstr ""
+
+#: [mood]sick
+msgid "sick"
+msgstr ""
+
+#: [mood]sleepy
+msgid "sleepy"
+msgstr ""
+
+#: [mood]spontaneous
+msgid "spontaneous"
+msgstr ""
+
+#: [mood]stressed
+msgid "stressed"
+msgstr ""
+
+#: [mood]strong
+msgid "strong"
+msgstr ""
+
+#: [mood]surprised
+msgid "surprised"
+msgstr ""
+
+#: [mood]thankful
+msgid "thankful"
+msgstr ""
+
+#: [mood]thirsty
+msgid "thirsty"
+msgstr ""
+
+#: [mood]tired
+msgid "tired"
+msgstr ""
+
+#: [mood]undefined
+msgid "undefined"
+msgstr "不明"
+
+#: [mood]weak
+msgid "weak"
+msgstr ""
+
+#: [mood]worried
+msgid "worried"
+msgstr ""
+
+#: [month]title
+msgid "Month"
+msgstr "月"
+
+#: [month]january
+msgid "January"
+msgstr "１月"
+
+#: [month]february
+msgid "February"
+msgstr "２月"
+
+#: [month]march
+msgid "March"
+msgstr "３月"
+
+#: [month]april
+msgid "April"
+msgstr "４月"
+
+#: [month]may
+msgid "May"
+msgstr "５月"
+
+#: [month]june
+msgid "June"
+msgstr "６月"
+
+#: [month]july
+msgid "July"
+msgstr "７月"
+
+#: [month]august
+msgid "August"
+msgstr "８月"
+
+#: [month]september
+msgid "September"
+msgstr "９月"
+
+#: [month]october
+msgid "October"
+msgstr "１０月"
+
+#: [month]november
+msgid "November"
+msgstr "１１月"
+
+#: [month]december
+msgid "December"
+msgstr "１２月"
+
+#: [year]title
+msgid "Year"
+msgstr "年"
+
+#: [date]today
+msgid "Today"
+msgstr "今日"
+
+#: [date]tomorrow
+msgid "Tomorrow"
+msgstr "明日"
+
+#: [date]yesterday
+msgid "Yesterday"
+msgstr "昨日"
+
+#: [date]ago
+msgid "%d days ago"
+msgstr "%d日前"
+
+#: [date]day
+msgid "day"
+msgstr "日"
+
+#: [post]title
+msgid "Title"
+msgstr "件名"
+
+#: [post]place
+msgid "Place"
+msgstr "場所"
+
+#: [post]by
+msgid "by"
+msgstr ""
+
+#: [post]geolocalisation
+msgid "Geolocalisation"
+msgstr "地理情報"
+
+#: [post]email
+msgid "email"
+msgstr "メール"
+
+#: [post]empty
+msgid "No content"
+msgstr "コンテンツがありません"
+
+#: [post]no_comments
+msgid "No comments yet"
+msgstr "まだコメントはありません"
+
+#: [post]older
+msgid "Get older posts"
+msgstr "前の投稿を見る"
+
+#: [post]new_items
+msgid "%s new items"
+msgstr "%s件の新しいアイテム"
+
+#: [post]comment_error
+msgid "Comment publication error"
+msgstr "コメントの投稿エラー"
+
+#: [post]comments_get
+msgid "Get the comments"
+msgstr "コメントを見る"
+
+#: [post]comment_add
+msgid "Add a comment"
+msgstr "コメントを投稿する"
+
+#: [post]share
+msgid "Share with"
+msgstr "次と共有:"
+
+#: [post]share_everyone
+msgid "Everyone"
+msgstr "全て"
+
+#: [post]updated
+msgid "Updated"
+msgstr "更新されました"
+
+#: [post]content_not_found
+msgid "Content not found"
+msgstr "コンタクトが見つかりませんでした"
+
+#: [post]default_title
+msgid "Contact publication"
+msgstr ""
+
+#: [post]comments
+msgid "Comments"
+msgstr "コメント"
+
+#: [post]original_deleted
+msgid "Original post deleted"
+msgstr "元の投稿が削除されました"
+
+#: [filesize]byte
+msgid "B"
+msgstr ""
+
+#: [filesize]kilobyte
+msgid "KB"
+msgstr ""
+
+#: [filesize]megabyte
+msgid "MB"
+msgstr ""
+
+#: [filesize]gigabyte
+msgid "GB"
+msgstr ""
+
+#: [filesize]terabyte
+msgid "TB"
+msgstr ""
+
+#: [affiliation]owner
+msgid "Owner"
+msgstr "オーナー"
+
+#: [affiliation]publisher
+msgid "Publisher"
+msgstr "投稿者"
+
+#: [affiliation]publish-only
+msgid "Publish only"
+msgstr "投稿のみ"
+
+#: [affiliation]outcast
+msgid "Outcast"
+msgstr "追放"
+
+#: [api]error
+msgid "The API is not reachable, try again later"
+msgstr "APIにアクセスできません、後ほど再試行してください"
+
+#: [field]type_here
+msgid "Type here"
+msgstr "ここに入力してください"
+
+#~ msgid "Firebase Integration"
+#~ msgstr "Firebase連携"
+
+#~ msgid "Status updated"
+#~ msgstr "ステータスを更新しました"
