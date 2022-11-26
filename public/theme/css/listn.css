@@ -1,3 +1,7 @@
+span.resource {
+    font-weight: bold;
+}
+
 ul.list > * > li,
 ul.list > li {
     clear: both;

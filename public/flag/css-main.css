@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'PlainCred';
+    src: url('/PLAINCRED.ttf');
+/*    font-weight: normal;
+    font-style: normal;*/
+}
+
+body {
+  background-image: url('/flag/images/layout/bgtiles.png');
+  background-repeat:repeat;
+  background-attachment: fixed;
+  font-family: 'PlainCred';
+  color: #fcfcdd;
+}
+
+/*.bannerlink {
+  font-family: 'PlainCred';
+}
+.bannerlink:hover {
+  background-color: white;
+  color: darkred;
+}*/
+
+img {
+  opacity:0.81;
+}
+
+h1 {
+  color: #1EC6FF;
+  font-size: 21pt;
+}
+h2 {
+  color: #2c4772;
+  font-size: 16pt;
+}
+a {
+  border-bottom: 1px dashed #fcfcdd;
+  color:#cdcdcd;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  background-color: white;
+  color: darkred;
+  text-decoration: underline;
+  text-decoration-color: green;
+  text-decoration-style: dotted;
+}
+
+main-images {
+  width: 100%;
+  opacity:0.85;
+}

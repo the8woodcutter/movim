@@ -29,6 +29,8 @@ main:not(.enabled) #chat_widget {
 }
 
 #chat_widget .contained {
+    background-image: url("/theme/img/contained.muc.png");
+    background-repeat: repeat;
     overflow-y: scroll;
     height: 100%;
 }

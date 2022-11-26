@@ -54,6 +54,18 @@ a, a:link, a:visited {
     font-style: oblique;
 }
 
+/*a:hover {
+    font-weight: bolder;
+    background-color: #DDFFED;
+    line-height: 2rem;
+    margin-right: 13px;
+    padding: 2px;
+    padding-right: 4px;
+    padding-left: 7px;
+    border-radius: 0.75rem;
+    border: 1px solid #97999A;
+}*/
+
 /* Navigation bar */
 
 body > nav {

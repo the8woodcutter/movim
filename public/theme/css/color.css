@@ -5,7 +5,7 @@ body {
     --movim-accent: 90, 70, 27;/*147, 51, 6;*/
     --movim-background-main: 254, 254, 254;
     --movim-background: 204, 197, 189;
-    --movim-gray: 90, 70, 27;/*147, 51, 6;*/
+    --movim-gray: 114, 128, 56;/*124, 143, 40;/*90, 70, 27;/*147, 51, 6;*/
     --movim-font: 4, 4, 4;
     --movim-element-action: 130, 211, 23; /*68, 63, 176;*/
     scrollbar-color: rgba(var(--movim-font), 1) transparent;
@@ -71,6 +71,7 @@ table tr th {
 .color.dark hr {
     border-color: rgba(255, 255, 255, 0.05);
 }
+
 /*
 body > nav > ul.list.active li.active:before {
     background-color: rgba(var(--movim-element-action), 0.08);
