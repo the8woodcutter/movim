@@ -168,6 +168,7 @@
                 </ul>
             {/if}
 
+{*
             <ul class="list middle hide" id="pwa">
                 <li class="block active">
                     <span class="primary icon bubble gray">
@@ -182,6 +183,8 @@
                     </div>
                 </li>
             </ul>
+*}
+
         </section>
     </div>
 
