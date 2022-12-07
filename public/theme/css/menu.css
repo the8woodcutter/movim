@@ -6,7 +6,8 @@ body > nav > ul:not(:first-child) li p:first-of-type {
 }
 
 body > nav > ul.list li {
-    padding-left: 0.5rem;
+    padding-left: 0rem;
+    padding-right: 1rem;
 }
 
 body > nav.color.dark > ul a {

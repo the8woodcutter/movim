@@ -48,28 +48,34 @@ body > script {
     display: none;
 }
 
-a, a:link, a:visited {
-    text-decoration: none;
-    font-weight: bold;
-    font-style: oblique;
+body .nightmode.contained {
+    background-image: url("/theme/img/contained.muc.dark.2.png");
+    background-repeat: repeat;
+    overflow-y: scroll;
+    height: 100%;
 }
 
-/*a:hover {
+a, a:link, a:visited {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: #82D317;
+    font-weight: bold;
+    font-style: normal;
+}
+
+a:hover {
+    text-decoration: none;
     font-weight: bolder;
+    /*font-style: oblique;*/
     background-color: #DDFFED;
-    line-height: 2rem;
-    margin-right: 13px;
-    padding: 2px;
-    padding-right: 4px;
-    padding-left: 7px;
-    border-radius: 0.75rem;
-    border: 1px solid #97999A;
-}*/
+    border-bottom: 1px solid #63C52B;
+    border-bottom-left-radius: 4px;
+}
 
 /* Navigation bar */
 
 body > nav {
-    width: 7rem;
+    width: 6.3rem;
     max-width: 95%;
     z-index: 2;
     position: absolute;
@@ -161,7 +167,10 @@ main {
 
 nav ~ main {
     width: calc(100% - 7rem);
-    border-radius: 1rem 0 0 1rem;
+    border-radius: 0;/*1rem 0 0 1rem;*/
+    border-top: 3px black solid;
+    border-bottom: 3px black solid;
+    border-right: 3px black solid;
 }
 
 main > div {
