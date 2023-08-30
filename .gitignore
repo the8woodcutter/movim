@@ -8,3 +8,4 @@
 /composer.phar
 /set-permissions.sh
 /public/files/upload.php
+/public/xmpp.php
